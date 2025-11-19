@@ -6,11 +6,13 @@ Serene is a warm, earth-toned theme family created based on optometry research a
 
 ## Preview
 
-![Serene Theme Preview](previews/preview.jpg)
+### Serene Night (Dark Mode)
 
-### Side-by-Side Comparison
+![Serene Night Preview](previews/preview-dark.svg)
 
-![Dark vs Light Comparison](previews/comparison.jpg)
+### Serene Day (Light Mode)
+
+![Serene Day Preview](previews/preview-day.svg)
 
 ---
 
@@ -51,6 +53,7 @@ Based on assessment by Dr. Claude (Vision Science Specialist Agent):
 ✓ Minimal blue light exposure  
 ✓ Optimal color accommodation stress reduction  
 ✓ Beautiful and practical for sustained use  
+✓ Available for 4 editors: Wezterm, Helix, VS Code, and Zed  
 
 ---
 
@@ -71,6 +74,14 @@ Based on assessment by Dr. Claude (Vision Science Specialist Agent):
 ---
 
 ## 📦 Installation
+
+**Serene Theme is available for:**
+- ✅ Wezterm
+- ✅ Helix
+- ✅ VS Code
+- ✅ Zed
+
+Choose your editor below:
 
 ### Wezterm
 
@@ -115,6 +126,28 @@ Or switch themes on-the-fly in Helix:
 ```
 :theme serene-night
 :theme serene-day
+```
+
+### VS Code
+
+It's currently not possible to install the theme from the marketplace, so you'll have to manually replace one of your existing themes. Marketplace theme is coming in the near future.
+
+### Zed
+
+1. Copy the theme file to your Zed themes directory:
+```bash
+cp serene-theme.json ~/.config/zed/themes/
+```
+
+2. Open Zed and go to Settings (Zed > Settings or Cmd/Ctrl + ,)
+3. Search for "theme" and add:
+```json
+{
+  "ui": {
+    "theme": "Serene Night"
+    // or "Serene Day" for light mode
+  }
+}
 ```
 
 ---
@@ -182,9 +215,6 @@ end
 config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 ```
 
-### Automatic Switching (Helix)
-Use system-level dark mode switching or create scripts to update your config based on time of day.
-
 ---
 
 ## 🌟 Features
@@ -231,7 +261,8 @@ Use system-level dark mode switching or create scripts to update your config bas
 Found an issue or have a suggestion? Contributions are welcome!
 
 ### Areas for Enhancement
-- Additional editor support (VS Code, Vim, Emacs, etc.)
+- VS Code Marketplace theme
+- Additional editor support (Vim, Emacs, Sublime Text, IntelliJ IDEs, etc.)
 - Extra warm variant for extreme low-light conditions
 - High contrast variant for accessibility needs
 - Colorblind-friendly variants

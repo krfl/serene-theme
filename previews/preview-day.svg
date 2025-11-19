@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap');
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+      .title { font-size: 56px; font-weight: 700; letter-spacing: -2px; }
+      .subtitle { font-size: 20px; font-weight: 400; letter-spacing: -0.5px; }
+      .label { font-size: 13px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; }
+      .hex { font-family: 'SF Mono', Monaco, 'Courier New', monospace; font-size: 12px; font-weight: 400; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f5f2ed"/>
+
+  <!-- Title -->
+  <text x="80" y="100" class="sans title" fill="#3d3a33">SERENE DAY</text>
+  <text x="80" y="135" class="sans subtitle" fill="#857d6d">Eye-friendly light theme with warm earth tones</text>
+
+  <!-- Color Palette Grid -->
+  <g transform="translate(80, 200)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="90" height="90" rx="8" fill="#f5f2ed" stroke="#857d6d" stroke-width="1.5"/>
+    <text x="45" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Background</text>
+    <text x="45" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#f5f2ed</text>
+
+    <rect x="120" y="0" width="90" height="90" rx="8" fill="#3d3a33"/>
+    <text x="165" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Foreground</text>
+    <text x="165" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#3d3a33</text>
+
+    <rect x="240" y="0" width="90" height="90" rx="8" fill="#5a7a4a"/>
+    <text x="285" y="115" class="sans label" fill="#857d6d" text-anchor="middle">String</text>
+    <text x="285" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#5a7a4a</text>
+
+    <rect x="360" y="0" width="90" height="90" rx="8" fill="#657047"/>
+    <text x="405" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Keyword</text>
+    <text x="405" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#657047</text>
+
+    <rect x="480" y="0" width="90" height="90" rx="8" fill="#9a6c3a"/>
+    <text x="525" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Function</text>
+    <text x="525" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#9a6c3a</text>
+
+    <rect x="600" y="0" width="90" height="90" rx="8" fill="#8b6f47"/>
+    <text x="645" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Type</text>
+    <text x="645" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#8b6f47</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="180" width="90" height="90" rx="8" fill="#a5563f"/>
+    <text x="45" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Number</text>
+    <text x="45" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#a5563f</text>
+
+    <rect x="120" y="180" width="90" height="90" rx="8" fill="#6d6555"/>
+    <text x="165" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Operator</text>
+    <text x="165" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#6d6555</text>
+
+    <rect x="240" y="180" width="90" height="90" rx="8" fill="#857d6d"/>
+    <text x="285" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Comment</text>
+    <text x="285" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#857d6d</text>
+
+    <rect x="360" y="180" width="90" height="90" rx="8" fill="#ab5940"/>
+    <text x="405" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Error</text>
+    <text x="405" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#ab5940</text>
+
+    <rect x="480" y="180" width="90" height="90" rx="8" fill="#e3d5b8"/>
+    <text x="525" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Selection</text>
+    <text x="525" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#e3d5b8</text>
+  </g>
+
+  <!-- Features -->
+  <g transform="translate(820, 200)">
+    <text y="30" class="sans label" fill="#857d6d">KEY FEATURES</text>
+
+    <text y="70" class="sans" fill="#3d3a33" font-size="16" font-weight="400">
+      <tspan x="0" dy="0">✓ Reduces glare</tspan>
+      <tspan x="0" dy="35">✓ ~3200K color temperature</tspan>
+      <tspan x="0" dy="35">✓ 11:1 contrast ratio</tspan>
+      <tspan x="0" dy="35">✓ Reduces eye strain</tspan>
+      <tspan x="0" dy="35">✓ Warm earth tones</tspan>
+      <tspan x="0" dy="35">✓ Perfect for daytime</tspan>
+    </text>
+  </g>
+
+  <!-- Footer -->
+  <text x="80" y="600" class="sans" fill="#857d6d" font-size="14" opacity="0.7">Available for Wezterm, Helix, VS Code, and Zed</text>
+</svg>

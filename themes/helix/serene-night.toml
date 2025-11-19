@@ -96,12 +96,12 @@
 "ui.cursor.primary.normal" = { fg = "background", bg = "foreground" }
 "ui.cursor.primary.insert" = { fg = "background", bg = "sage" }
 "ui.cursor.primary.select" = { fg = "background", bg = "olive" }
-"ui.cursorline.primary" = { bg = "selection" }
-"ui.cursorline.secondary" = { bg = "selection" }
-"ui.cursorcolumn.primary" = { bg = "selection" }
-"ui.cursorcolumn.secondary" = { bg = "selection" }
+"ui.cursorline.primary" = { bg = "cursorline" }
+"ui.cursorline.secondary" = { bg = "cursorline" }
+"ui.cursorcolumn.primary" = { bg = "cursorline" }
+"ui.cursorcolumn.secondary" = { bg = "cursorline" }
 "ui.linenr" = "line_number"
-"ui.linenr.selected" = { fg = "line_number_active", bg = "selection" }
+"ui.linenr.selected" = { fg = "line_number_active", bg = "cursorline" }
 "ui.statusline" = { fg = "status_fg", bg = "status_bg" }
 "ui.statusline.inactive" = { fg = "comment", bg = "border" }
 "ui.statusline.normal" = { fg = "status_fg", bg = "status_bg" }
@@ -120,9 +120,9 @@
 "ui.virtual.ruler" = { bg = "border" }
 "ui.virtual.whitespace" = "comment"
 "ui.virtual.indent-guide" = "line_number"
-"ui.virtual.inlay-hint" = { fg = "comment", bg = "selection" }
-"ui.virtual.inlay-hint.parameter" = { fg = "comment", bg = "selection" }
-"ui.virtual.inlay-hint.type" = { fg = "comment", bg = "selection" }
+"ui.virtual.inlay-hint" = { fg = "comment", bg = "cursorline" }
+"ui.virtual.inlay-hint.parameter" = { fg = "comment", bg = "cursorline" }
+"ui.virtual.inlay-hint.type" = { fg = "comment", bg = "cursorline" }
 "ui.virtual.wrap" = "comment"
 "ui.virtual.jump-label" = { fg = "background", bg = "sand", modifiers = ["bold"] }
 "ui.menu" = { fg = "foreground", bg = "border" }
@@ -135,7 +135,7 @@
 "ui.debug.breakpoint" = { fg = "error", bg = "background" }
 "ui.debug.active" = { fg = "sand", bg = "background" }
 "ui.gutter" = { bg = "background" }
-"ui.gutter.selected" = { bg = "selection" }
+"ui.gutter.selected" = { bg = "cursorline" }
 "ui.picker.header" = { fg = "olive", modifiers = ["bold"] }
 "ui.picker.header.column" = "foreground"
 "ui.picker.header.column.active" = { fg = "olive", modifiers = ["bold"] }
@@ -165,7 +165,8 @@
 # Base colors
 background = "#1e1d1a"
 foreground = "#d4cfc4"
-selection = "#2d2b26"
+selection = "#3d3420"        # Warm amber-brown (improved visibility)
+cursorline = "#2a2826"       # Subtle current line highlight
 border = "#3d3a33"
 
 # UI colors
@@ -174,7 +175,7 @@ line_number_active = "#7a7565"
 status_bg = "#2a2826"
 status_fg = "#b8ab95"
 
-# Syntax colors - warm earth tones
+# Syntax colors - rich earth tones
 comment = "#857a6d"
 sage = "#8fae7a"
 olive = "#9fa883"
@@ -182,7 +183,7 @@ sand = "#d4a574"
 tan = "#b8956d"
 stone = "#a89984"
 beige = "#c8baa8"
-brown = "#ba9c7e"
+brown = "#857a6d"
 terracotta = "#c99976"
 
 # Special colors (expert-refined)
