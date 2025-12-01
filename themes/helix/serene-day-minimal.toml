@@ -141,10 +141,10 @@
 "ui.picker.header.column.active" = { fg = "olive", modifiers = ["bold"] }
 
 # Diagnostics
-"warning" = { fg = "warning", modifiers = ["bold"] }
-"error" = { fg = "error", modifiers = ["bold"] }
-"info" = { fg = "info", modifiers = ["bold"] }
-"hint" = { fg = "hint", modifiers = ["bold"] }
+"warning" = { fg = "error", bg = "error_bg", modifiers = ["bold"] }
+"error" = { fg = "error", bg = "error_bg", modifiers = ["bold"] }
+"info" = { fg = "error", bg = "error_bg", modifiers = ["bold"] }
+"hint" = { fg = "error", bg = "error_bg", modifiers = ["bold"] }
 "diagnostic" = { modifiers = ["underlined"] }
 "diagnostic.hint" = { underline = { color = "hint", style = "curl" } }
 "diagnostic.info" = { underline = { color = "info", style = "curl" } }
@@ -188,6 +188,7 @@ keyword_bg = "#edecd4"       # Light olive/yellow-green for keywords
 comment_bg = "#ebe8e0"       # Warm gray for comments
 constant_bg = "#f7ead8"      # Light warm peach for constants/parameters
 namespace_bg = "#e4e8ed"     # Light blue-gray for namespaces and links
+error_bg = "#f7ebe6"         # Warm peachy-beige for error diagnostics
 
 # Special colors (expert-refined)
 error = "#ab5940"

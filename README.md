@@ -216,7 +216,10 @@ Choose **Minimal** if you prefer less visual noise and maximum focus.
 - **Status lines**: Subtle but informative
 - **Line numbers**: Visible without being distracting
 - **Selections**: Clear indication without harsh contrast
-- **Diagnostics**: Color-coded with appropriate urgency (errors, warnings, info, hints)
+- **Diagnostics**: Enhanced visibility with bold error-colored text
+  - All diagnostic messages (error/warning/info/hint) use prominent error color for immediate attention
+  - Clarity & Minimal variants add subtle warm backgrounds for extra distinction
+  - Underlines maintain original severity-based color coding
 
 ### Accessibility
 - **WCAG AAA compliant**: Exceeds 7:1 contrast ratio for all text

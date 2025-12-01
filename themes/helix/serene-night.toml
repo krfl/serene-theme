@@ -141,10 +141,10 @@
 "ui.picker.header.column.active" = { fg = "olive", modifiers = ["bold"] }
 
 # Diagnostics
-"warning" = { fg = "warning", modifiers = ["bold"] }
+"warning" = { fg = "error", modifiers = ["bold"] }
 "error" = { fg = "error", modifiers = ["bold"] }
-"info" = { fg = "info", modifiers = ["bold"] }
-"hint" = { fg = "hint", modifiers = ["bold"] }
+"info" = { fg = "error", modifiers = ["bold"] }
+"hint" = { fg = "error", modifiers = ["bold"] }
 "diagnostic" = { modifiers = ["underlined"] }
 "diagnostic.hint" = { underline = { color = "hint", style = "curl" } }
 "diagnostic.info" = { underline = { color = "info", style = "curl" } }
