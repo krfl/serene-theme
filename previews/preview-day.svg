@@ -58,9 +58,9 @@
     <text x="285" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Comment</text>
     <text x="285" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#857d6d</text>
 
-    <rect x="360" y="180" width="90" height="90" rx="8" fill="#ab5940"/>
+    <rect x="360" y="180" width="90" height="90" rx="8" fill="#c93d28"/>
     <text x="405" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Error</text>
-    <text x="405" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#ab5940</text>
+    <text x="405" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#c93d28</text>
 
     <rect x="480" y="180" width="90" height="90" rx="8" fill="#e3d5b8"/>
     <text x="525" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Selection</text>
