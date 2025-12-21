@@ -141,10 +141,10 @@
 "ui.picker.header.column.active" = { fg = "olive", modifiers = ["bold"] }
 
 # Diagnostics
-"warning" = { fg = "error", bg = "error_bg", modifiers = ["bold"] }
+"warning" = { fg = "warning", bg = "warning_bg", modifiers = ["bold"] }
 "error" = { fg = "error", bg = "error_bg", modifiers = ["bold"] }
-"info" = { fg = "error", bg = "error_bg", modifiers = ["bold"] }
-"hint" = { fg = "error", bg = "error_bg", modifiers = ["bold"] }
+"info" = { fg = "info", bg = "info_bg", modifiers = ["bold"] }
+"hint" = { fg = "hint", bg = "hint_bg", modifiers = ["bold"] }
 "diagnostic" = { modifiers = ["underlined"] }
 "diagnostic.hint" = { underline = { color = "hint", style = "curl" } }
 "diagnostic.info" = { underline = { color = "info", style = "curl" } }
@@ -195,9 +195,12 @@ caramel_bg = "#f2ebe0"       # Light tan for types
 namespace_bg = "#e4e8ed"     # Light blue-gray for namespaces
 param_bg = "#ebe6db"         # Very subtle beige for parameters
 error_bg = "#f7ebe6"         # Warm peachy-beige for error diagnostics
+warning_bg = "#f5ead8"       # Warm sandy-beige for warning diagnostics
+info_bg = "#e6ede3"          # Subtle green tint for info diagnostics
+hint_bg = "#ede9e0"          # Subtle gray-brown for hint diagnostics
 
 # Special colors (expert-refined)
-error = "#ab5940"
-warning = "#9a6c3a"
-info = "#5c7554"
-hint = "#6d6555"
+error = "#c93d28"
+warning = "#c68a2e"
+info = "#4a7a68"
+hint = "#8a826f"

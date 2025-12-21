@@ -141,10 +141,10 @@
 "ui.picker.header.column.active" = { fg = "olive", modifiers = ["bold"] }
 
 # Diagnostics
-"warning" = { fg = "error", modifiers = ["bold"] }
+"warning" = { fg = "warning", modifiers = ["bold"] }
 "error" = { fg = "error", modifiers = ["bold"] }
-"info" = { fg = "error", modifiers = ["bold"] }
-"hint" = { fg = "error", modifiers = ["bold"] }
+"info" = { fg = "info", modifiers = ["bold"] }
+"hint" = { fg = "hint", modifiers = ["bold"] }
 "diagnostic" = { modifiers = ["underlined"] }
 "diagnostic.hint" = { underline = { color = "hint", style = "curl" } }
 "diagnostic.info" = { underline = { color = "info", style = "curl" } }
@@ -187,7 +187,7 @@ chocolate = "#8b6340"
 clay = "#a5563f"
 
 # Special colors (expert-refined)
-error = "#ab5940"
-warning = "#9a6c3a"
-info = "#5c7554"
-hint = "#6d6555"
+error = "#c93d28"
+warning = "#c68a2e"
+info = "#4a7a68"
+hint = "#8a826f"
