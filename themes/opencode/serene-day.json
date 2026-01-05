@@ -15,6 +15,7 @@
     "caramel": "#8b6f47",
     "charcoal": "#6d6555",
     "taupe": "#4a4538",
+    "muted_punctuation": "#6a6350",
     "chocolate": "#8b6340",
     "clay": "#a5563f",
     "error": "#8b4a38",
@@ -72,6 +73,6 @@
     "syntaxNumber": "clay",
     "syntaxType": "caramel",
     "syntaxOperator": "charcoal",
-    "syntaxPunctuation": "foreground"
+    "syntaxPunctuation": "muted_punctuation"
   }
 }

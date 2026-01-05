@@ -16,6 +16,7 @@
     "stone": "#a89984",
     "beige": "#c8baa8",
     "brown": "#857a6d",
+    "muted_punctuation": "#9a8f81",
     "terracotta": "#c99976",
     "error": "#b87860",
     "warning": "#d4a574",
@@ -72,6 +73,6 @@
     "syntaxNumber": "terracotta",
     "syntaxType": "tan",
     "syntaxOperator": "stone",
-    "syntaxPunctuation": "foreground"
+    "syntaxPunctuation": "muted_punctuation"
   }
 }

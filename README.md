@@ -16,7 +16,7 @@ Serene is a warm, earth-toned theme family created based on optometry research a
 
 ---
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 ### Core Principles
 1. **Reduced Blue Light**: Colors are shifted toward warmer wavelengths (reds, oranges, yellows, greens)
@@ -33,18 +33,11 @@ Serene is a warm, earth-toned theme family created based on optometry research a
 
 ---
 
-## 🔬 Eye Health & Variants
+## Eye Health & Variants
 
 ### Expert Assessment by Dr. Claude (Vision Science Specialist)
 
 All Serene variants share the same eye-friendly foundation: warm earth tones, reduced blue light (~20-30% vs 40-50% in standard themes), and optimal 10-11:1 contrast ratios (WCAG AAA compliant). Expected benefits include **30-40% reduction in digital eye strain**, reduced ciliary muscle fatigue, less iris adjustment stress, and better sleep quality when used in evening hours.
-
-### Variant Comparison
-
-| Variant | Availability | Eye Health Score | Best For | Key Features |
-|---------|-------------|------------------|----------|--------------|
-| **Classic** | All editors | **8.5/10** | Extended sessions (6+ hours), light sensitivity | Pure eye comfort, lowest visual complexity, universal compatibility |
-| **Clarity** | Helix & VSCode | **8.5/10** | Frequent code scanning, nested structures | Subtle syntax backgrounds reduce cognitive load while maintaining eye comfort |
 
 **Expert Notes:**
 - Both Classic and Clarity score equally high (8.5/10) due to similar contrast levels and minimal visual stress
@@ -59,29 +52,7 @@ All Serene variants share the same eye-friendly foundation: warm earth tones, re
 
 ---
 
-## 📄 License
-
-MIT License - Free to use, modify, and distribute
-
----
-
-## 📊 Comparison with Other Themes
-
-| Feature | Serene Classic | Serene Clarity | Solarized | Gruvbox | Nord | Flatwhite |
-|---------|---------------|----------------|-----------|---------|------|-----------|
-| Blue Light | Very Low | Very Low | Low | Medium | High | Low |
-| Contrast | 10-11:1 | 10-11:1 | 9:1 | 8:1 | 12:1 | 10:1 |
-| Warmth | High | High | Medium | High | Cold | Medium |
-| Saturation | Low | Low | Medium | Medium | High | Low |
-| Backgrounds | None | Subtle | None | None | None | Subtle |
-| Bold Styling | Minimal | Minimal | Minimal | Minimal | Minimal | Some |
-| Eye Strain Reduction | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★★ |
-| Code Scanning | ★★★☆☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
-| Visual Clarity | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ |
-
----
-
-## ❓ FAQ
+## FAQ
 
 **Q: Why does the light mode look slightly yellow?**  
 A: The warm off-white background (#f5f2ed) mimics aged paper and reduces glare. It's scientifically proven to be easier on the eyes than pure white.
@@ -111,18 +82,16 @@ A: Clarity uses syntax background colors, which aren't supported by terminal emu
 
 ---
 
-## 🤝 Contributing
+## Contact and contributions
 
-Found an issue or have a suggestion? Contributions are welcome!
+For questions, suggestions, or to share your experience with Serene, feel free to reach out! Contributions are welcome!
 
 ---
 
-## 📮 Contact
+## License
 
-For questions, suggestions, or to share your experience with Serene, feel free to reach out!
+MIT License - Free to use, modify, and distribute
+
+---
 
 **Remember**: The best theme is one that makes your eyes comfortable. If Serene doesn't work for you, that's okay - everyone's eyes are different!
-
----
-
-*Designed with care for your eye health* 👁️✨

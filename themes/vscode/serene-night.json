@@ -186,6 +186,13 @@
       }
     },
     {
+      "name": "Punctuation",
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#9a8f81"
+      }
+    },
+    {
       "name": "Storage",
       "scope": ["storage", "storage.type", "storage.modifier"],
       "settings": {
