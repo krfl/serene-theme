@@ -45,13 +45,11 @@ All Serene variants share the same eye-friendly foundation: warm earth tones, re
 |---------|-------------|------------------|----------|--------------|
 | **Classic** | All editors | **8.5/10** | Extended sessions (6+ hours), light sensitivity | Pure eye comfort, lowest visual complexity, universal compatibility |
 | **Clarity** | Helix & VSCode | **8.5/10** | Frequent code scanning, nested structures | Subtle syntax backgrounds reduce cognitive load while maintaining eye comfort |
-| **Focus** | Helix & VSCode | **8.3/10** | Complex codebases, short focused sessions | High contrast with prominent backgrounds and bold styling for maximum visual distinction |
 
 **Expert Notes:**
-- Classic and Clarity score equally high due to similar contrast levels and minimal visual stress
-- Focus scores slightly lower (8.3/10) due to higher contrast and more prominent backgrounds, which may increase eye strain during extended sessions (4+ hours)
+- Both Classic and Clarity score equally high (8.5/10) due to similar contrast levels and minimal visual stress
 - All variants meet WCAG AAA standards and significantly outperform standard high-contrast themes
-- Choose based on coding style: Classic for comfort, Clarity for scanning, Focus for intensive debugging
+- Choose based on coding style: Classic for comfort and universal compatibility, Clarity for enhanced code scanning
 
 ### Usage Tips
 - **Match your environment**: Serene Day for well-lit spaces, Serene Night for dim lighting
@@ -69,17 +67,17 @@ MIT License - Free to use, modify, and distribute
 
 ## 📊 Comparison with Other Themes
 
-| Feature | Serene Classic | Serene Clarity | Serene Focus | Solarized | Gruvbox | Nord | Flatwhite |
-|---------|---------------|----------------|--------------|-----------|---------|------|-----------|
-| Blue Light | Very Low | Very Low | Very Low | Low | Medium | High | Low |
-| Contrast | 10-11:1 | 10-11:1 | 11-12:1 | 9:1 | 8:1 | 12:1 | 10:1 |
-| Warmth | High | High | High | Medium | High | Cold | Medium |
-| Saturation | Low | Low | Medium | Medium | Medium | High | Low |
-| Backgrounds | None | Subtle | Prominent | None | None | None | Subtle |
-| Bold Styling | Minimal | Minimal | Extensive | Minimal | Minimal | Minimal | Some |
-| Eye Strain Reduction | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★★ |
-| Code Scanning | ★★★☆☆ | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
-| Visual Clarity | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ |
+| Feature | Serene Classic | Serene Clarity | Solarized | Gruvbox | Nord | Flatwhite |
+|---------|---------------|----------------|-----------|---------|------|-----------|
+| Blue Light | Very Low | Very Low | Low | Medium | High | Low |
+| Contrast | 10-11:1 | 10-11:1 | 9:1 | 8:1 | 12:1 | 10:1 |
+| Warmth | High | High | Medium | High | Cold | Medium |
+| Saturation | Low | Low | Medium | Medium | High | Low |
+| Backgrounds | None | Subtle | None | None | None | Subtle |
+| Bold Styling | Minimal | Minimal | Minimal | Minimal | Minimal | Some |
+| Eye Strain Reduction | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★★ |
+| Code Scanning | ★★★☆☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| Visual Clarity | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ |
 
 ---
 
@@ -101,16 +99,15 @@ A: The theme maintains good contrast and doesn't rely solely on color for distin
 A: Muted, lower-saturation colors reduce cone cell overstimulation, which is a primary cause of eye fatigue during extended screen time. The warm earth tones are carefully chosen to balance aesthetics with eye health.
 
 **Q: What's the difference between the variants?**
-A: All 6 variants share the same warm, eye-friendly background and foreground colors:
+A: Both variants share the same warm, eye-friendly background and foreground colors:
 - **Classic** (Night/Day): Standard syntax highlighting - available in all editors
 - **Clarity** (Night/Day): Adds subtle syntax backgrounds for visual anchors - Helix & VSCode only
-- **Focus** (Night/Day): High contrast with prominent backgrounds for maximum distinction - Helix & VSCode only
 
 **Q: Which variant should I choose?**
-A: Choose **Classic** for universal compatibility and pure eye comfort. Choose **Clarity** if you scan code frequently. Choose **Focus** if you want maximum visual distinction and high contrast. All share the same eye-friendly foundation.
+A: Choose **Classic** for universal compatibility and pure eye comfort. Choose **Clarity** if you scan code frequently or work with nested structures. Both share the same eye-friendly foundation.
 
-**Q: Why are Clarity and Focus only available for Helix and VSCode?**
-A: These variants use syntax background colors, which aren't supported by terminal emulators (Wezterm), Zed's theme system, or fuzzy finders (FZF).
+**Q: Why is Clarity only available for Helix and VSCode?**
+A: Clarity uses syntax background colors, which aren't supported by terminal emulators (Wezterm), Zed's theme system, or fuzzy finders (FZF).
 
 ---
 

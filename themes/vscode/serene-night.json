@@ -32,12 +32,12 @@
     "statusBar.background": "#2a2826",
     "statusBar.foreground": "#857a6d",
     "statusBar.noFolderBackground": "#2a2826",
-    "statusBar.debuggingBackground": "#ca8264",
+    "statusBar.debuggingBackground": "#b87860",
     "statusBar.debuggingForeground": "#1e1d1a",
     "activityBar.background": "#1e1d1a",
     "activityBar.foreground": "#d4cfc4",
     "activityBar.inactiveForeground": "#5a5549",
-    "activityBarBadge.background": "#9fa883",
+    "activityBarBadge.background": "#a8a378",
     "activityBarBadge.foreground": "#1e1d1a",
     "sideBar.background": "#1e1d1a",
     "sideBar.foreground": "#d4cfc4",
@@ -57,16 +57,16 @@
     "tab.inactiveForeground": "#857a6d",
     "tab.border": "#3d3a33",
     "tab.activeBorder": "#00000000",
-    "tab.activeBorderTop": "#9fa883",
+    "tab.activeBorderTop": "#a8a378",
     "panel.background": "#1e1d1a",
     "panel.border": "#3d3a33",
-    "panelTitle.activeBorder": "#9fa883",
+    "panelTitle.activeBorder": "#a8a378",
     "panelTitle.activeForeground": "#d4cfc4",
     "panelTitle.inactiveForeground": "#857a6d",
     "terminal.background": "#1e1d1a",
     "terminal.foreground": "#d4cfc4",
     "terminal.ansiBlack": "#1e1d1a",
-    "terminal.ansiRed": "#ca8264",
+    "terminal.ansiRed": "#b87860",
     "terminal.ansiGreen": "#8fae7a",
     "terminal.ansiYellow": "#d4a574",
     "terminal.ansiBlue": "#9aaa82",
@@ -74,7 +74,7 @@
     "terminal.ansiCyan": "#a89984",
     "terminal.ansiWhite": "#c8baa8",
     "terminal.ansiBrightBlack": "#3d3a33",
-    "terminal.ansiBrightRed": "#ca8264",
+    "terminal.ansiBrightRed": "#b87860",
     "terminal.ansiBrightGreen": "#9fa883",
     "terminal.ansiBrightYellow": "#d4a574",
     "terminal.ansiBrightBlue": "#9aaa82",
@@ -82,7 +82,7 @@
     "terminal.ansiBrightCyan": "#a89984",
     "terminal.ansiBrightWhite": "#d4cfc4",
     "gitDecoration.modifiedResourceForeground": "#d4a574",
-    "gitDecoration.deletedResourceForeground": "#ca8264",
+    "gitDecoration.deletedResourceForeground": "#b87860",
     "gitDecoration.untrackedResourceForeground": "#8fae7a",
     "gitDecoration.ignoredResourceForeground": "#5a5549",
     "gitDecoration.conflictingResourceForeground": "#c99976",
@@ -90,27 +90,27 @@
     "notificationCenterHeader.background": "#2a2826",
     "notifications.background": "#2a2826",
     "notifications.border": "#3d3a33",
-    "notificationsErrorIcon.foreground": "#ca8264",
+    "notificationsErrorIcon.foreground": "#b87860",
     "notificationsWarningIcon.foreground": "#d4a574",
     "notificationsInfoIcon.foreground": "#9aaa82",
     "input.background": "#2a2826",
     "input.border": "#3d3a33",
     "input.foreground": "#d4cfc4",
     "input.placeholderForeground": "#5a5549",
-    "inputOption.activeBorder": "#9fa883",
-    "inputValidation.errorBackground": "#ca826433",
-    "inputValidation.errorBorder": "#ca8264",
+    "inputOption.activeBorder": "#a8a378",
+    "inputValidation.errorBackground": "#b8786033",
+    "inputValidation.errorBorder": "#b87860",
     "inputValidation.warningBackground": "#d4a57433",
     "inputValidation.warningBorder": "#d4a574",
-    "button.background": "#9fa883",
+    "button.background": "#a8a378",
     "button.foreground": "#1e1d1a",
     "button.hoverBackground": "#a89984",
     "scrollbarSlider.background": "#3d3a3366",
     "scrollbarSlider.hoverBackground": "#5a554966",
     "scrollbarSlider.activeBackground": "#7a756599",
-    "badge.background": "#9fa883",
+    "badge.background": "#a8a378",
     "badge.foreground": "#1e1d1a",
-    "progressBar.background": "#9fa883",
+    "progressBar.background": "#a8a378",
     "titleBar.activeBackground": "#1e1d1a",
     "titleBar.activeForeground": "#d4cfc4",
     "titleBar.inactiveBackground": "#2a2826",
@@ -120,12 +120,12 @@
     "breadcrumb.focusForeground": "#d4cfc4",
     "breadcrumb.activeSelectionForeground": "#d4cfc4",
     "breadcrumbPicker.background": "#2a2826",
-    "editorError.foreground": "#d86853",
+    "editorError.foreground": "#b87860",
     "editorWarning.foreground": "#e8b55d",
     "editorInfo.foreground": "#7b9e8c",
     "editorHint.foreground": "#8d8575",
     "diffEditor.insertedTextBackground": "#8fae7a22",
-    "diffEditor.removedTextBackground": "#ca826422"
+    "diffEditor.removedTextBackground": "#b8786022"
   },
   "tokenColors": [
     {
@@ -154,28 +154,56 @@
       "name": "Constants",
       "scope": ["constant.language", "constant.character", "constant.other"],
       "settings": {
-        "foreground": "#ba9c7e"
+        "foreground": "#c99976"
+      }
+    },
+    {
+      "name": "Enum Constants",
+      "scope": ["constant.other.enum"],
+      "settings": {
+        "foreground": "#b87860"
       }
     },
     {
       "name": "Keyword",
       "scope": ["keyword", "keyword.control", "keyword.operator.new"],
       "settings": {
-        "foreground": "#9fa883"
+        "foreground": "#a8a378"
+      }
+    },
+    {
+      "name": "Flow Control Keywords",
+      "scope": ["keyword.control.return", "keyword.control.flow"],
+      "settings": {
+        "foreground": "#b87860"
       }
     },
     {
       "name": "Operator",
       "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#a89984"
+        "foreground": "#b5a899"
       }
     },
     {
       "name": "Storage",
       "scope": ["storage", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#9fa883"
+        "foreground": "#a8a378"
+      }
+    },
+    {
+      "name": "Annotations",
+      "scope": ["storage.type.annotation", "punctuation.definition.annotation"],
+      "settings": {
+        "foreground": "#b87860"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": ["entity.name.namespace"],
+      "settings": {
+        "foreground": "#b87860"
       }
     },
     {
@@ -230,7 +258,7 @@
       "name": "Tag",
       "scope": ["entity.name.tag", "meta.tag"],
       "settings": {
-        "foreground": "#9fa883"
+        "foreground": "#a8a378"
       }
     },
     {
@@ -241,10 +269,17 @@
       }
     },
     {
+      "name": "CSS Pseudo-class",
+      "scope": ["entity.other.attribute-name.pseudo-class"],
+      "settings": {
+        "foreground": "#b87860"
+      }
+    },
+    {
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#ca8264"
+        "foreground": "#b87860"
       }
     },
     {
@@ -304,7 +339,7 @@
       "name": "Diff Deleted",
       "scope": ["markup.deleted", "diff.deleted"],
       "settings": {
-        "foreground": "#ca8264"
+        "foreground": "#b87860"
       }
     },
     {
