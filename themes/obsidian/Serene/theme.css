@@ -1,0 +1,511 @@
+/* Serene - An eye-friendly theme for Obsidian (Light & Dark modes) */
+
+/* ============================================
+   LIGHT MODE
+   ============================================ */
+
+.theme-light {
+  /* Base Colors */
+  --background-primary: #f5f2ed;
+  --background-primary-alt: #ebe6db;
+  --background-secondary: #ebe6db;
+  --background-secondary-alt: #e3d5b8;
+  --background-modifier-border: #d4cfc4;
+  --background-modifier-form-field: #ebe6db;
+  --background-modifier-form-field-highlighted: #e3d5b8;
+  --background-modifier-box-shadow: rgba(61, 58, 51, 0.1);
+  --background-modifier-success: #5a7a4a;
+  --background-modifier-error: #8b4a38;
+  --background-modifier-error-rgb: 139, 74, 56;
+  --background-modifier-error-hover: #8b4a38;
+  --background-modifier-cover: rgba(61, 58, 51, 0.5);
+
+  /* Text Colors */
+  --text-normal: #3d3a33;
+  --text-muted: #857d6d;
+  --text-faint: #b5ad9a;
+  --text-on-accent: #f5f2ed;
+  --text-error: #8b4a38;
+  --text-accent: #6d7340;
+  --text-accent-hover: #5c7554;
+  --text-selection: #e3d5b8;
+
+  /* Interactive Elements */
+  --interactive-normal: #d4cfc4;
+  --interactive-hover: #e3d5b8;
+  --interactive-accent: #6d7340;
+  --interactive-accent-rgb: 109, 115, 64;
+  --interactive-accent-hover: #5c7554;
+  --interactive-success: #5a7a4a;
+
+  /* Scrollbars */
+  --scrollbar-bg: #f5f2ed;
+  --scrollbar-thumb-bg: rgba(212, 207, 196, 0.4);
+  --scrollbar-active-thumb-bg: rgba(133, 125, 109, 0.6);
+
+  /* Code Blocks */
+  --code-normal: #3d3a33;
+  --code-background: #ebe6db;
+  --code-size: 0.95em;
+
+  /* Headings */
+  --h1-color: #9a6c3a;
+  --h2-color: #9a6c3a;
+  --h3-color: #9a6c3a;
+  --h4-color: #8b6f47;
+  --h5-color: #8b6f47;
+  --h6-color: #8b6f47;
+
+  /* Links */
+  --link-color: #657047;
+  --link-color-hover: #5c7554;
+  --link-external-color: #657047;
+  --link-unresolved-color: #857d6d;
+
+  /* Tags */
+  --tag-color: #6d7340;
+  --tag-background: #edecd4;
+
+  /* Inline Code */
+  --inline-code: #5a7a4a;
+  --inline-code-background: #e8ede0;
+
+  /* Lists */
+  --list-marker-color: #5a5240;
+
+  /* Blockquotes */
+  --blockquote-border-color: #d4cfc4;
+  --blockquote-background-color: #ebe6db;
+
+  /* Tables */
+  --table-header-background: #e3d5b8;
+  --table-row-even-background: #ebe6db;
+  --table-row-odd-background: #f5f2ed;
+  --table-border-color: #d4cfc4;
+}
+
+/* ============================================
+   DARK MODE
+   ============================================ */
+
+.theme-dark {
+  /* Base Colors */
+  --background-primary: #1e1d1a;
+  --background-primary-alt: #2a2826;
+  --background-secondary: #2a2826;
+  --background-secondary-alt: #3d3420;
+  --background-modifier-border: #3d3a33;
+  --background-modifier-form-field: #2a2826;
+  --background-modifier-form-field-highlighted: #3d3420;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #8fae7a;
+  --background-modifier-error: #b87860;
+  --background-modifier-error-rgb: 184, 120, 96;
+  --background-modifier-error-hover: #c99976;
+  --background-modifier-cover: rgba(0, 0, 0, 0.5);
+
+  /* Text Colors */
+  --text-normal: #d4cfc4;
+  --text-muted: #857a6d;
+  --text-faint: #5a5549;
+  --text-on-accent: #1e1d1a;
+  --text-error: #b87860;
+  --text-accent: #a8a378;
+  --text-accent-hover: #9aaa82;
+  --text-selection: #3d3420;
+
+  /* Interactive Elements */
+  --interactive-normal: #3d3a33;
+  --interactive-hover: #3d3420;
+  --interactive-accent: #a8a378;
+  --interactive-accent-rgb: 168, 163, 120;
+  --interactive-accent-hover: #9aaa82;
+  --interactive-success: #8fae7a;
+
+  /* Scrollbars */
+  --scrollbar-bg: #1e1d1a;
+  --scrollbar-thumb-bg: rgba(61, 58, 51, 0.4);
+  --scrollbar-active-thumb-bg: rgba(122, 117, 101, 0.6);
+
+  /* Code Blocks */
+  --code-normal: #d4cfc4;
+  --code-background: #2a2826;
+  --code-size: 0.95em;
+
+  /* Headings */
+  --h1-color: #d4a574;
+  --h2-color: #d4a574;
+  --h3-color: #d4a574;
+  --h4-color: #b8956d;
+  --h5-color: #b8956d;
+  --h6-color: #b8956d;
+
+  /* Links */
+  --link-color: #9fa883;
+  --link-color-hover: #9aaa82;
+  --link-external-color: #9fa883;
+  --link-unresolved-color: #857a6d;
+
+  /* Tags */
+  --tag-color: #a8a378;
+  --tag-background: #2a2826;
+
+  /* Inline Code */
+  --inline-code: #8fae7a;
+  --inline-code-background: #2a2826;
+
+  /* Lists */
+  --list-marker-color: #b5a899;
+
+  /* Blockquotes */
+  --blockquote-border-color: #3d3a33;
+  --blockquote-background-color: #2a2826;
+
+  /* Tables */
+  --table-header-background: #3d3420;
+  --table-row-even-background: #2a2826;
+  --table-row-odd-background: #1e1d1a;
+  --table-border-color: #3d3a33;
+}
+
+/* ============================================
+   SHARED STYLES (Both Light & Dark)
+   ============================================ */
+
+/* Inline Code */
+.theme-light code,
+.theme-dark code {
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: var(--code-size);
+}
+
+.theme-light code {
+  color: var(--inline-code);
+  background-color: var(--inline-code-background);
+}
+
+.theme-dark code {
+  color: var(--inline-code);
+  background-color: var(--inline-code-background);
+}
+
+/* Code Blocks */
+.theme-light pre code,
+.theme-dark pre code {
+  color: var(--code-normal);
+  background-color: var(--code-background);
+}
+
+/* ============================================
+   PRISMJS SYNTAX HIGHLIGHTING - LIGHT MODE
+   ============================================ */
+
+.theme-light .token.comment,
+.theme-light .token.prolog,
+.theme-light .token.doctype,
+.theme-light .token.cdata {
+  color: #857d6d;
+  font-style: italic;
+}
+
+.theme-light .token.punctuation {
+  color: #6a6350;
+}
+
+.theme-light .token.property,
+.theme-light .token.tag,
+.theme-light .token.boolean,
+.theme-light .token.constant,
+.theme-light .token.symbol,
+.theme-light .token.deleted {
+  color: #6d7340;
+}
+
+.theme-light .token.number {
+  color: #a5563f;
+}
+
+.theme-light .token.selector,
+.theme-light .token.attr-name,
+.theme-light .token.string,
+.theme-light .token.char,
+.theme-light .token.builtin,
+.theme-light .token.inserted {
+  color: #5a7a4a;
+}
+
+.theme-light .token.operator,
+.theme-light .token.entity,
+.theme-light .token.url,
+.theme-light .language-css .token.string,
+.theme-light .style .token.string {
+  color: #5a5240;
+}
+
+.theme-light .token.atrule,
+.theme-light .token.attr-value,
+.theme-light .token.keyword {
+  color: #6d7340;
+}
+
+.theme-light .token.function,
+.theme-light .token.class-name {
+  color: #9a6c3a;
+}
+
+.theme-light .token.regex,
+.theme-light .token.important,
+.theme-light .token.variable {
+  color: #6a6350;
+}
+
+.theme-light .token.important,
+.theme-light .token.bold {
+  font-weight: bold;
+}
+
+.theme-light .token.italic {
+  font-style: italic;
+}
+
+/* ============================================
+   PRISMJS SYNTAX HIGHLIGHTING - DARK MODE
+   ============================================ */
+
+.theme-dark .token.comment,
+.theme-dark .token.prolog,
+.theme-dark .token.doctype,
+.theme-dark .token.cdata {
+  color: #857a6d;
+  font-style: italic;
+}
+
+.theme-dark .token.punctuation {
+  color: #9a8f81;
+}
+
+.theme-dark .token.property,
+.theme-dark .token.tag,
+.theme-dark .token.boolean,
+.theme-dark .token.constant,
+.theme-dark .token.symbol,
+.theme-dark .token.deleted {
+  color: #a8a378;
+}
+
+.theme-dark .token.number {
+  color: #c99976;
+}
+
+.theme-dark .token.selector,
+.theme-dark .token.attr-name,
+.theme-dark .token.string,
+.theme-dark .token.char,
+.theme-dark .token.builtin,
+.theme-dark .token.inserted {
+  color: #8fae7a;
+}
+
+.theme-dark .token.operator,
+.theme-dark .token.entity,
+.theme-dark .token.url,
+.theme-dark .language-css .token.string,
+.theme-dark .style .token.string {
+  color: #b5a899;
+}
+
+.theme-dark .token.atrule,
+.theme-dark .token.attr-value,
+.theme-dark .token.keyword {
+  color: #a8a378;
+}
+
+.theme-dark .token.function,
+.theme-dark .token.class-name {
+  color: #d4a574;
+}
+
+.theme-dark .token.regex,
+.theme-dark .token.important,
+.theme-dark .token.variable {
+  color: #c8baa8;
+}
+
+.theme-dark .token.important,
+.theme-dark .token.bold {
+  font-weight: bold;
+}
+
+.theme-dark .token.italic {
+  font-style: italic;
+}
+
+/* ============================================
+   MARKDOWN SYNTAX HIGHLIGHTING - LIGHT MODE
+   ============================================ */
+
+.theme-light .cm-header {
+  color: var(--h1-color);
+  font-weight: bold;
+}
+
+.theme-light .cm-strong {
+  color: #8b6f47;
+  font-weight: bold;
+}
+
+.theme-light .cm-em {
+  color: #8b6f47;
+  font-style: italic;
+}
+
+.theme-light .cm-link {
+  color: var(--link-color);
+}
+
+.theme-light .cm-url {
+  color: var(--link-color);
+}
+
+.theme-light .cm-quote {
+  color: #857d6d;
+  font-style: italic;
+}
+
+.theme-light .cm-tag {
+  color: var(--tag-color);
+}
+
+.theme-light .cm-string {
+  color: #5a7a4a;
+}
+
+.theme-light .cm-comment {
+  color: #857d6d;
+  font-style: italic;
+}
+
+/* ============================================
+   MARKDOWN SYNTAX HIGHLIGHTING - DARK MODE
+   ============================================ */
+
+.theme-dark .cm-header {
+  color: var(--h1-color);
+  font-weight: bold;
+}
+
+.theme-dark .cm-strong {
+  color: #b8956d;
+  font-weight: bold;
+}
+
+.theme-dark .cm-em {
+  color: #b8956d;
+  font-style: italic;
+}
+
+.theme-dark .cm-link {
+  color: var(--link-color);
+}
+
+.theme-dark .cm-url {
+  color: var(--link-color);
+}
+
+.theme-dark .cm-quote {
+  color: #857a6d;
+  font-style: italic;
+}
+
+.theme-dark .cm-tag {
+  color: var(--tag-color);
+}
+
+.theme-dark .cm-string {
+  color: #8fae7a;
+}
+
+.theme-dark .cm-comment {
+  color: #857a6d;
+  font-style: italic;
+}
+
+/* ============================================
+   GENERAL ELEMENTS - LIGHT MODE
+   ============================================ */
+
+.theme-light a {
+  color: var(--link-color);
+}
+
+.theme-light a:hover {
+  color: var(--link-color-hover);
+}
+
+.theme-light blockquote {
+  border-left: 3px solid var(--blockquote-border-color);
+  background-color: var(--blockquote-background-color);
+  color: #857d6d;
+  font-style: italic;
+}
+
+.theme-light .list-bullet::after,
+.theme-light .list-collapse-indicator {
+  color: var(--list-marker-color);
+}
+
+.theme-light .tag {
+  color: var(--tag-color);
+  background-color: var(--tag-background);
+}
+
+.theme-light table {
+  border-color: var(--table-border-color);
+}
+
+.theme-light th {
+  background-color: var(--table-header-background);
+  color: var(--text-normal);
+  font-weight: bold;
+}
+
+/* ============================================
+   GENERAL ELEMENTS - DARK MODE
+   ============================================ */
+
+.theme-dark a {
+  color: var(--link-color);
+}
+
+.theme-dark a:hover {
+  color: var(--link-color-hover);
+}
+
+.theme-dark blockquote {
+  border-left: 3px solid var(--blockquote-border-color);
+  background-color: var(--blockquote-background-color);
+  color: #857a6d;
+  font-style: italic;
+}
+
+.theme-dark .list-bullet::after,
+.theme-dark .list-collapse-indicator {
+  color: var(--list-marker-color);
+}
+
+.theme-dark .tag {
+  color: var(--tag-color);
+  background-color: var(--tag-background);
+  border: 1px solid #3d3a33;
+}
+
+.theme-dark table {
+  border-color: var(--table-border-color);
+}
+
+.theme-dark th {
+  background-color: var(--table-header-background);
+  color: var(--text-normal);
+  font-weight: bold;
+}
