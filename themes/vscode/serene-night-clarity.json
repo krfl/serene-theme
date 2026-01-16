@@ -140,8 +140,7 @@
       ],
       "settings": {
         "foreground": "#857a6d",
-        "fontStyle": "italic",
-        "background": "#252422"
+        "fontStyle": "italic"
       }
     },
     {
@@ -293,8 +292,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#c8baa8",
-        "background": "#2a2826"
+        "foreground": "#c8baa8"
       }
     },
     {
@@ -395,8 +393,7 @@
       ],
       "settings": {
         "foreground": "#857a6d",
-        "fontStyle": "italic",
-        "background": "#252422"
+        "fontStyle": "italic"
       }
     },
     {

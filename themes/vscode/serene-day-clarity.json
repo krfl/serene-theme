@@ -137,7 +137,6 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#857d6d",
-        "background": "#ebe8e0",
         "fontStyle": "italic"
       }
     },
@@ -266,8 +265,7 @@
       "name": "Parameter",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#6a6350",
-        "background": "#ebe6db"
+        "foreground": "#6a6350"
       }
     },
     {
@@ -347,7 +345,6 @@
       "scope": ["markup.quote"],
       "settings": {
         "foreground": "#857d6d",
-        "background": "#ebe8e0",
         "fontStyle": "italic"
       }
     },
