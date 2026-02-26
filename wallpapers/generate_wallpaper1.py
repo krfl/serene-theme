@@ -13,7 +13,7 @@ SERENE_DAY = {
     'surface': '#ebe6db',          # Secondary surface
     'muted': '#d4cfc4',            # Muted
     'subtle': '#b5ad9a',           # Subtle
-    'text_muted': '#857d6d',       # Muted text
+    'text_muted': '#857c6d',       # Muted text
     'accent_green': '#657047',     # Primary green
     'accent_sage': '#5c7554',      # Sage
     'accent_olive': '#6d6555',     # Olive
@@ -27,7 +27,7 @@ SERENE_NIGHT = {
     'surface': '#2a2826',          # Secondary surface
     'muted': '#3d3a33',            # Muted
     'subtle': '#5a5549',           # Subtle
-    'text_muted': '#857a6d',       # Muted text
+    'text_muted': '#857c6d',       # Muted text
     'accent_green': '#9fa883',     # Primary green
     'accent_sage': '#9aaa82',      # Sage
     'accent_olive': '#a89984',     # Olive

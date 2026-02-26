@@ -16,60 +16,60 @@
 
   <!-- Title -->
   <text x="80" y="100" class="sans title" fill="#3d3a33">SERENE DAY</text>
-  <text x="80" y="135" class="sans subtitle" fill="#857d6d">Eye-friendly light theme with warm earth tones</text>
+  <text x="80" y="135" class="sans subtitle" fill="#857c6d">Eye-friendly light theme with warm earth tones</text>
 
   <!-- Color Palette Grid -->
   <g transform="translate(80, 200)">
     <!-- Row 1 -->
-    <rect x="0" y="0" width="90" height="90" rx="8" fill="#f5f2ed" stroke="#857d6d" stroke-width="1.5"/>
-    <text x="45" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Background</text>
-    <text x="45" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#f5f2ed</text>
+    <rect x="0" y="0" width="90" height="90" rx="8" fill="#f5f2ed" stroke="#857c6d" stroke-width="1.5"/>
+    <text x="45" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Background</text>
+    <text x="45" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#f5f2ed</text>
 
     <rect x="120" y="0" width="90" height="90" rx="8" fill="#3d3a33"/>
-    <text x="165" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Foreground</text>
-    <text x="165" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#3d3a33</text>
+    <text x="165" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Foreground</text>
+    <text x="165" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#3d3a33</text>
 
     <rect x="240" y="0" width="90" height="90" rx="8" fill="#5a7a4a"/>
-    <text x="285" y="115" class="sans label" fill="#857d6d" text-anchor="middle">String</text>
-    <text x="285" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#5a7a4a</text>
+    <text x="285" y="115" class="sans label" fill="#857c6d" text-anchor="middle">String</text>
+    <text x="285" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#5a7a4a</text>
 
     <rect x="360" y="0" width="90" height="90" rx="8" fill="#657047"/>
-    <text x="405" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Keyword</text>
-    <text x="405" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#657047</text>
+    <text x="405" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Keyword</text>
+    <text x="405" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#657047</text>
 
     <rect x="480" y="0" width="90" height="90" rx="8" fill="#9a6c3a"/>
-    <text x="525" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Function</text>
-    <text x="525" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#9a6c3a</text>
+    <text x="525" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Function</text>
+    <text x="525" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#9a6c3a</text>
 
     <rect x="600" y="0" width="90" height="90" rx="8" fill="#8b6f47"/>
-    <text x="645" y="115" class="sans label" fill="#857d6d" text-anchor="middle">Type</text>
-    <text x="645" y="135" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#8b6f47</text>
+    <text x="645" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Type</text>
+    <text x="645" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#8b6f47</text>
 
     <!-- Row 2 -->
     <rect x="0" y="180" width="90" height="90" rx="8" fill="#a5563f"/>
-    <text x="45" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Number</text>
-    <text x="45" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#a5563f</text>
+    <text x="45" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Number</text>
+    <text x="45" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#a5563f</text>
 
     <rect x="120" y="180" width="90" height="90" rx="8" fill="#6d6555"/>
-    <text x="165" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Operator</text>
-    <text x="165" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#6d6555</text>
+    <text x="165" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Operator</text>
+    <text x="165" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#6d6555</text>
 
-    <rect x="240" y="180" width="90" height="90" rx="8" fill="#857d6d"/>
-    <text x="285" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Comment</text>
-    <text x="285" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#857d6d</text>
+    <rect x="240" y="180" width="90" height="90" rx="8" fill="#857c6d"/>
+    <text x="285" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Comment</text>
+    <text x="285" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#857c6d</text>
 
     <rect x="360" y="180" width="90" height="90" rx="8" fill="#8b4a38"/>
-    <text x="405" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Error</text>
-    <text x="405" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#8b4a38</text>
+    <text x="405" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Error</text>
+    <text x="405" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#8b4a38</text>
 
     <rect x="480" y="180" width="90" height="90" rx="8" fill="#e3d5b8"/>
-    <text x="525" y="295" class="sans label" fill="#857d6d" text-anchor="middle">Selection</text>
-    <text x="525" y="315" class="hex" fill="#857d6d" text-anchor="middle" opacity="0.7">#e3d5b8</text>
+    <text x="525" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Selection</text>
+    <text x="525" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#e3d5b8</text>
   </g>
 
   <!-- Features -->
   <g transform="translate(820, 200)">
-    <text y="30" class="sans label" fill="#857d6d">KEY FEATURES</text>
+    <text y="30" class="sans label" fill="#857c6d">KEY FEATURES</text>
 
     <text y="70" class="sans" fill="#3d3a33" font-size="16" font-weight="400">
       <tspan x="0" dy="0">✓ Reduces glare</tspan>
@@ -82,5 +82,5 @@
   </g>
 
   <!-- Footer -->
-  <text x="80" y="600" class="sans" fill="#857d6d" font-size="14" opacity="0.7">Available for Wezterm, Helix, VS Code, and Zed</text>
+  <text x="80" y="600" class="sans" fill="#857c6d" font-size="14" opacity="0.7">Available for Wezterm, Helix, VS Code, and Zed</text>
 </svg>

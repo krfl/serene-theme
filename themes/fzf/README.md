@@ -34,8 +34,8 @@ You can also set the colors directly in your configuration:
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --color=fg:#3d3a33,bg:#f5f2ed,hl:#5a7a4a \
   --color=fg+:#3d3a33,bg+:#e3d5b8,hl+:#657047 \
-  --color=info:#857d6d,prompt:#657047,pointer:#657047 \
-  --color=marker:#9a6c3a,spinner:#9a6c3a,header:#857d6d \
+  --color=info:#857c6d,prompt:#657047,pointer:#657047 \
+  --color=marker:#9a6c3a,spinner:#9a6c3a,header:#857c6d \
   --color=border:#d4cfc4,gutter:#ebe6db \
   --color=preview-fg:#3d3a33,preview-bg:#ebe6db"
 ```
@@ -45,8 +45,8 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --color=fg:#d4cfc4,bg:#1e1d1a,hl:#8fae7a \
   --color=fg+:#d4cfc4,bg+:#3d3420,hl+:#9fa883 \
-  --color=info:#857a6d,prompt:#9fa883,pointer:#9fa883 \
-  --color=marker:#d4a574,spinner:#d4a574,header:#857a6d \
+  --color=info:#857c6d,prompt:#9fa883,pointer:#9fa883 \
+  --color=marker:#d4a574,spinner:#d4a574,header:#857c6d \
   --color=border:#3d3a33,gutter:#2a2826 \
   --color=preview-fg:#d4cfc4,preview-bg:#2a2826"
 ```
