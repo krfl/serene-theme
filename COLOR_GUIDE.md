@@ -80,7 +80,7 @@ Used in terminal emulators (Wezterm, VSCode terminal, Zed terminal, Apple Termin
 | Blue | `#5c7554` | deep sage |
 | Magenta | `#8b6f47` | caramel brown |
 | Cyan | `#6d6555` | warm charcoal |
-| White | `#e8e3d8` | soft off-white |
+| White | `#7b7568` | warm mid-gray |
 | Bright Black | `#35322a` | deep warm brown |
 | Bright Red | `#8b4a38` | terracotta red |
 | Bright Green | `#657047` | deep olive |

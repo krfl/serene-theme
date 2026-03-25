@@ -11,7 +11,7 @@ ansi = [
   '#5c7554',  # Blue - deep sage (low blue content)
   '#8b6f47',  # Magenta - caramel brown
   '#6d6555',  # Cyan - warm charcoal
-  '#e8e3d8',  # White - soft off-white
+  '#7b7568',  # White - warm mid-gray
 ]
 brights = [
   '#35322a',  # Bright black - deep warm brown
