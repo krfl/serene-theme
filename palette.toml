@@ -1,0 +1,111 @@
+# Serene Theme Palette
+# Single source of truth for all color values.
+# Names describe the color itself, not its role in a theme.
+# Templates map these names to editor-specific elements.
+
+[day]
+# Light neutrals
+pearl           = "#faf8f4"
+aged-paper      = "#f5f2ed"
+pale-wheat      = "#ebe6db"
+golden-sand     = "#e3d5b8"
+light-taupe     = "#d4cfc4"
+
+# Mid neutrals
+driftwood       = "#b5ad9a"
+sandstone       = "#a89984"
+flint           = "#8a826f"
+weathered-stone = "#857c6d"
+warm-gray       = "#7b7568"
+slate           = "#7a7260"
+pebble          = "#6d6555"
+taupe           = "#6a6350"
+
+# Dark neutrals
+dark-slate      = "#5a5549"
+charcoal        = "#5a5240"
+soot            = "#4a4538"
+warm-ink        = "#3d3a33"
+deep-soot       = "#35322a"
+
+# Greens
+forest          = "#5a7a4a"
+olive           = "#657047"
+fern            = "#5c7554"
+deep-teal       = "#4a7a68"
+
+# Warm tones
+amber           = "#c68a2e"
+bronze          = "#9a6c3a"
+caramel         = "#8b6f47"
+toffee          = "#8b6340"
+clay            = "#a5563f"
+terracotta      = "#8b4a38"
+
+
+[night]
+# Dark neutrals
+deep-earth      = "#1e1d1a"
+dark-walnut     = "#2a2826"
+warm-umber      = "#3d3420"
+warm-ink        = "#3d3a33"
+
+# Mid neutrals
+dark-slate      = "#5a5549"
+moss-stone      = "#585a50"
+slate           = "#7a7565"
+lichen          = "#7a7c6e"
+weathered-stone = "#857c6d"
+dusk-stone      = "#8d8575"
+dry-clay        = "#9a8f81"
+sandstone       = "#a89984"
+
+# Light neutrals
+worn-leather    = "#b5a899"
+light-leather   = "#b8ab95"
+pale-hide       = "#c8baa8"
+parchment       = "#d4cfc4"
+
+# Greens
+meadow-sage     = "#8fae7a"
+spring-sage     = "#9aaa82"
+sage-grass      = "#9fa883"
+golden-moss     = "#a8a378"
+sage-teal       = "#7b9e8c"
+
+# Warm tones
+golden          = "#e8b55d"
+honey           = "#d4a574"
+copper          = "#c99976"
+buckskin        = "#ba9c7e"
+warm-tan        = "#b8956d"
+sunset-clay     = "#b87860"
+
+
+[day-clarity]
+# Subtle light tints for syntax backgrounds
+sage-mist       = "#e8ede0"
+olive-mist      = "#edecd4"
+stone-mist      = "#ebe8e0"
+bronze-mist     = "#f7ead8"
+caramel-mist    = "#f2ebe0"
+cool-mist       = "#e4e8ed"
+terracotta-mist = "#f5e8de"
+blush-mist      = "#f7ebe6"
+sand-mist       = "#f5ead8"
+teal-mist       = "#e6ede3"
+flint-mist      = "#ede9e0"
+
+
+[night-clarity]
+# Subtle dark tints for syntax backgrounds
+moss-shadow     = "#242520"
+olive-shadow    = "#26261e"
+stone-shadow    = "#252422"
+amber-shadow    = "#2a251e"
+earth-shadow    = "#26241f"
+dusk-shadow     = "#25241f"
+cool-shadow     = "#23242a"
+rust-shadow     = "#2a211e"
+fern-shadow     = "#22251f"
+umber-shadow    = "#2a231e"

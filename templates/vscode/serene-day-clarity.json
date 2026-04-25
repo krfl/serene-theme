@@ -1,0 +1,429 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Serene Day Clarity",
+  "type": "light",
+  "colors": {
+    "editor.background": "{{day.aged-paper}}",
+    "editor.foreground": "{{day.warm-ink}}",
+    "editorLineNumber.foreground": "{{day.driftwood}}",
+    "editorLineNumber.activeForeground": "{{day.slate}}",
+    "editorCursor.foreground": "{{day.warm-ink}}",
+    "editor.selectionBackground": "{{day.golden-sand}}",
+    "editor.selectionHighlightBackground": "{{day.golden-sand|alpha:66}}",
+    "editor.inactiveSelectionBackground": "{{day.pale-wheat}}",
+    "editor.lineHighlightBackground": "{{day.pale-wheat}}",
+    "editor.lineHighlightBorder": "#00000000",
+    "editorWhitespace.foreground": "{{day.driftwood}}",
+    "editorIndentGuide.background": "{{day.light-taupe}}",
+    "editorIndentGuide.activeBackground": "{{day.driftwood}}",
+    "editorRuler.foreground": "{{day.light-taupe}}",
+    "editorWidget.background": "{{day.pale-wheat}}",
+    "editorWidget.border": "{{day.light-taupe}}",
+    "editorSuggestWidget.background": "{{day.pale-wheat}}",
+    "editorSuggestWidget.border": "{{day.light-taupe}}",
+    "editorSuggestWidget.foreground": "{{day.warm-ink}}",
+    "editorSuggestWidget.selectedBackground": "{{day.golden-sand}}",
+    "editorHoverWidget.background": "{{day.pale-wheat}}",
+    "editorHoverWidget.border": "{{day.light-taupe}}",
+    "peekView.border": "{{day.light-taupe}}",
+    "peekViewEditor.background": "{{day.aged-paper}}",
+    "peekViewResult.background": "{{day.pale-wheat}}",
+    "peekViewTitle.background": "{{day.light-taupe}}",
+    "statusBar.background": "{{day.pale-wheat}}",
+    "statusBar.foreground": "{{day.weathered-stone}}",
+    "statusBar.noFolderBackground": "{{day.pale-wheat}}",
+    "statusBar.debuggingBackground": "{{day.terracotta}}",
+    "statusBar.debuggingForeground": "{{day.aged-paper}}",
+    "activityBar.background": "{{day.aged-paper}}",
+    "activityBar.foreground": "{{day.warm-ink}}",
+    "activityBar.inactiveForeground": "{{day.driftwood}}",
+    "activityBarBadge.background": "{{day.olive}}",
+    "activityBarBadge.foreground": "{{day.aged-paper}}",
+    "sideBar.background": "{{day.pale-wheat}}",
+    "sideBar.foreground": "{{day.warm-ink}}",
+    "sideBar.border": "{{day.light-taupe}}",
+    "sideBarTitle.foreground": "{{day.warm-ink}}",
+    "sideBarSectionHeader.background": "{{day.golden-sand}}",
+    "sideBarSectionHeader.foreground": "{{day.warm-ink}}",
+    "list.activeSelectionBackground": "{{day.golden-sand}}",
+    "list.activeSelectionForeground": "{{day.warm-ink}}",
+    "list.inactiveSelectionBackground": "{{day.pale-wheat}}",
+    "list.hoverBackground": "{{day.golden-sand}}",
+    "list.focusBackground": "{{day.golden-sand}}",
+    "list.focusForeground": "{{day.warm-ink}}",
+    "tab.activeBackground": "{{day.aged-paper}}",
+    "tab.activeForeground": "{{day.warm-ink}}",
+    "tab.inactiveBackground": "{{day.pale-wheat}}",
+    "tab.inactiveForeground": "{{day.weathered-stone}}",
+    "tab.border": "{{day.light-taupe}}",
+    "tab.activeBorder": "#00000000",
+    "tab.activeBorderTop": "{{day.olive}}",
+    "panel.background": "{{day.aged-paper}}",
+    "panel.border": "{{day.light-taupe}}",
+    "panelTitle.activeBorder": "{{day.olive}}",
+    "panelTitle.activeForeground": "{{day.warm-ink}}",
+    "panelTitle.inactiveForeground": "{{day.weathered-stone}}",
+    "terminal.background": "{{day.aged-paper}}",
+    "terminal.foreground": "{{day.warm-ink}}",
+    "terminal.ansiBlack": "{{day.soot}}",
+    "terminal.ansiRed": "{{day.terracotta}}",
+    "terminal.ansiGreen": "{{day.forest}}",
+    "terminal.ansiYellow": "{{day.bronze}}",
+    "terminal.ansiBlue": "{{day.fern}}",
+    "terminal.ansiMagenta": "{{day.caramel}}",
+    "terminal.ansiCyan": "{{day.pebble}}",
+    "terminal.ansiWhite": "{{day.warm-gray}}",
+    "terminal.ansiBrightBlack": "{{day.deep-soot}}",
+    "terminal.ansiBrightRed": "{{day.terracotta}}",
+    "terminal.ansiBrightGreen": "{{day.olive}}",
+    "terminal.ansiBrightYellow": "{{day.bronze}}",
+    "terminal.ansiBrightBlue": "{{day.fern}}",
+    "terminal.ansiBrightMagenta": "{{day.toffee}}",
+    "terminal.ansiBrightCyan": "{{day.sandstone}}",
+    "terminal.ansiBrightWhite": "{{day.aged-paper}}",
+    "gitDecoration.modifiedResourceForeground": "{{day.bronze}}",
+    "gitDecoration.deletedResourceForeground": "{{day.terracotta}}",
+    "gitDecoration.untrackedResourceForeground": "{{day.forest}}",
+    "gitDecoration.ignoredResourceForeground": "{{day.driftwood}}",
+    "gitDecoration.conflictingResourceForeground": "{{day.clay}}",
+    "notificationCenter.border": "{{day.light-taupe}}",
+    "notificationCenterHeader.background": "{{day.pale-wheat}}",
+    "notifications.background": "{{day.pale-wheat}}",
+    "notifications.border": "{{day.light-taupe}}",
+    "notificationsErrorIcon.foreground": "{{day.terracotta}}",
+    "notificationsWarningIcon.foreground": "{{day.bronze}}",
+    "notificationsInfoIcon.foreground": "{{day.fern}}",
+    "input.background": "{{day.pale-wheat}}",
+    "input.border": "{{day.light-taupe}}",
+    "input.foreground": "{{day.warm-ink}}",
+    "input.placeholderForeground": "{{day.driftwood}}",
+    "inputOption.activeBorder": "{{day.olive}}",
+    "inputValidation.errorBackground": "{{day.terracotta|alpha:33}}",
+    "inputValidation.errorBorder": "{{day.terracotta}}",
+    "inputValidation.warningBackground": "{{day.bronze|alpha:33}}",
+    "inputValidation.warningBorder": "{{day.bronze}}",
+    "button.background": "{{day.olive}}",
+    "button.foreground": "{{day.aged-paper}}",
+    "button.hoverBackground": "{{day.pebble}}",
+    "scrollbarSlider.background": "{{day.light-taupe|alpha:66}}",
+    "scrollbarSlider.hoverBackground": "{{day.driftwood|alpha:66}}",
+    "scrollbarSlider.activeBackground": "{{day.weathered-stone|alpha:99}}",
+    "badge.background": "{{day.olive}}",
+    "badge.foreground": "{{day.aged-paper}}",
+    "progressBar.background": "{{day.olive}}",
+    "titleBar.activeBackground": "{{day.aged-paper}}",
+    "titleBar.activeForeground": "{{day.warm-ink}}",
+    "titleBar.inactiveBackground": "{{day.pale-wheat}}",
+    "titleBar.inactiveForeground": "{{day.weathered-stone}}",
+    "titleBar.border": "{{day.light-taupe}}",
+    "breadcrumb.foreground": "{{day.weathered-stone}}",
+    "breadcrumb.focusForeground": "{{day.warm-ink}}",
+    "breadcrumb.activeSelectionForeground": "{{day.warm-ink}}",
+    "breadcrumbPicker.background": "{{day.pale-wheat}}",
+    "editorError.foreground": "{{day.terracotta}}",
+    "editorError.background": "{{day-clarity.blush-mist}}",
+    "editorWarning.foreground": "{{day.amber}}",
+    "editorWarning.background": "{{day-clarity.sand-mist}}",
+    "editorInfo.foreground": "{{day.deep-teal}}",
+    "editorInfo.background": "{{day-clarity.teal-mist}}",
+    "editorHint.foreground": "{{day.flint}}",
+    "editorHint.background": "{{day-clarity.flint-mist}}",
+    "diffEditor.insertedTextBackground": "{{day.forest|alpha:22}}",
+    "diffEditor.removedTextBackground": "{{day.terracotta|alpha:22}}"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "{{day.weathered-stone}}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string", "string.quoted", "string.template"],
+      "settings": {
+        "foreground": "{{day.forest}}",
+        "background": "{{day-clarity.sage-mist}}"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "{{day.clay}}",
+        "background": "{{day-clarity.bronze-mist}}"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": ["constant.language", "constant.character", "constant.other"],
+      "settings": {
+        "foreground": "{{day.clay}}",
+        "background": "{{day-clarity.bronze-mist}}"
+      }
+    },
+    {
+      "name": "Enum Constants",
+      "scope": ["constant.other.enum"],
+      "settings": {
+        "foreground": "{{day.terracotta}}",
+        "background": "{{day-clarity.terracotta-mist}}"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "keyword.control", "keyword.operator.new"],
+      "settings": {
+        "foreground": "{{day.olive}}",
+        "background": "{{day-clarity.olive-mist}}"
+      }
+    },
+    {
+      "name": "Flow Control Keywords",
+      "scope": ["keyword.control.return", "keyword.control.flow"],
+      "settings": {
+        "foreground": "{{day.terracotta}}",
+        "background": "{{day-clarity.terracotta-mist}}"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "{{day.charcoal}}"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "{{day.taupe}}"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": ["storage", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "{{day.olive}}",
+        "background": "{{day-clarity.olive-mist}}"
+      }
+    },
+    {
+      "name": "Annotations",
+      "scope": ["storage.type.annotation", "punctuation.definition.annotation"],
+      "settings": {
+        "foreground": "{{day.terracotta}}",
+        "background": "{{day-clarity.terracotta-mist}}"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "{{day.bronze}}",
+        "background": "{{day-clarity.bronze-mist}}"
+      }
+    },
+    {
+      "name": "Class, Type",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "{{day.caramel}}",
+        "background": "{{day-clarity.caramel-mist}}"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": ["variable", "support.variable"],
+      "settings": {
+        "foreground": "{{day.taupe}}"
+      }
+    },
+    {
+      "name": "Property",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.variable.property"
+      ],
+      "settings": {
+        "foreground": "{{day.taupe}}"
+      }
+    },
+    {
+      "name": "Parameter",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "{{day.taupe}}"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": ["entity.name.tag", "meta.tag"],
+      "settings": {
+        "foreground": "{{day.olive}}",
+        "background": "{{day-clarity.olive-mist}}"
+      }
+    },
+    {
+      "name": "Tag Attribute",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "{{day.bronze}}",
+        "background": "{{day-clarity.bronze-mist}}"
+      }
+    },
+    {
+      "name": "CSS Pseudo-class",
+      "scope": ["entity.other.attribute-name.pseudo-class"],
+      "settings": {
+        "foreground": "{{day.terracotta}}",
+        "background": "{{day-clarity.terracotta-mist}}"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "{{day.terracotta}}"
+      }
+    },
+    {
+      "name": "Markup Bold",
+      "scope": ["markup.bold"],
+      "settings": {
+        "foreground": "{{day.caramel}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Italic",
+      "scope": ["markup.italic"],
+      "settings": {
+        "foreground": "{{day.caramel}}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup Heading",
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "{{day.bronze}}",
+        "background": "{{day-clarity.bronze-mist}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Link",
+      "scope": ["markup.underline.link"],
+      "settings": {
+        "foreground": "{{day.olive}}",
+        "background": "{{day-clarity.olive-mist}}"
+      }
+    },
+    {
+      "name": "Markup Code",
+      "scope": ["markup.inline.raw", "markup.fenced_code"],
+      "settings": {
+        "foreground": "{{day.forest}}",
+        "background": "{{day-clarity.sage-mist}}"
+      }
+    },
+    {
+      "name": "Markup Quote",
+      "scope": ["markup.quote"],
+      "settings": {
+        "foreground": "{{day.weathered-stone}}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup List",
+      "scope": ["markup.list"],
+      "settings": {
+        "foreground": "{{day.charcoal}}",
+        "background": "{{day-clarity.olive-mist}}"
+      }
+    },
+    {
+      "name": "Diff Inserted",
+      "scope": ["markup.inserted", "diff.inserted"],
+      "settings": {
+        "foreground": "{{day.forest}}"
+      }
+    },
+    {
+      "name": "Diff Deleted",
+      "scope": ["markup.deleted", "diff.deleted"],
+      "settings": {
+        "foreground": "{{day.terracotta}}",
+        "background": "{{day-clarity.terracotta-mist}}"
+      }
+    },
+    {
+      "name": "Diff Changed",
+      "scope": ["markup.changed", "diff.changed"],
+      "settings": {
+        "foreground": "{{day.bronze}}"
+      }
+    },
+    {
+      "name": "JSON Key",
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "{{day.bronze}}",
+        "background": "{{day-clarity.bronze-mist}}"
+      }
+    },
+    {
+      "name": "CSS Class",
+      "scope": ["entity.other.attribute-name.class.css"],
+      "settings": {
+        "foreground": "{{day.caramel}}",
+        "background": "{{day-clarity.caramel-mist}}"
+      }
+    },
+    {
+      "name": "CSS ID",
+      "scope": ["entity.other.attribute-name.id.css"],
+      "settings": {
+        "foreground": "{{day.bronze}}",
+        "background": "{{day-clarity.bronze-mist}}"
+      }
+    },
+    {
+      "name": "CSS Property",
+      "scope": ["support.type.property-name.css"],
+      "settings": {
+        "foreground": "{{day.taupe}}"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": ["entity.name.namespace", "entity.name.module"],
+      "settings": {
+        "foreground": "{{day.terracotta}}",
+        "background": "{{day-clarity.terracotta-mist}}"
+      }
+    },
+    {
+      "name": "Constructor",
+      "scope": ["entity.name.function.constructor"],
+      "settings": {
+        "foreground": "{{day.bronze}}",
+        "background": "{{day-clarity.bronze-mist}}"
+      }
+    }
+  ]
+}

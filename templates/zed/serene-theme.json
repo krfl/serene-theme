@@ -1,0 +1,564 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Serene",
+  "author": "Serene Theme",
+  "themes": [
+    {
+      "name": "Serene Night",
+      "appearance": "dark",
+      "style": {
+        "background": "{{night.deep-earth}}",
+        "editor.background": "{{night.deep-earth}}",
+        "editor.foreground": "{{night.parchment}}",
+        "text": "{{night.parchment}}",
+        "text.muted": "{{night.weathered-stone}}",
+        "text.placeholder": "{{night.dark-slate}}",
+        "text.disabled": "{{night.dark-slate}}",
+        "text.accent": "{{night.sage-grass}}",
+        "border": "{{night.warm-ink}}",
+        "border.variant": "{{night.dark-walnut}}",
+        "border.focused": "{{night.sage-grass}}",
+        "border.selected": "{{night.sage-grass}}",
+        "border.transparent": "#00000000",
+        "border.disabled": "{{night.dark-walnut}}",
+        "editor.active_line.background": "{{night.dark-walnut}}",
+        "editor.line_number": "{{night.dark-slate}}",
+        "editor.active_line_number": "{{night.slate}}",
+        "editor.gutter.background": "{{night.deep-earth}}",
+        "editor.subheader.background": "{{night.dark-walnut}}",
+        "editor.highlighted_line.background": "{{night.dark-walnut}}",
+        "editor.wrap_guide": "{{night.warm-ink}}",
+        "editor.active_wrap_guide": "{{night.dark-slate}}",
+        "editor.indent_guide": "{{night.warm-ink}}",
+        "editor.indent_guide_active": "{{night.dark-slate}}",
+        "editor.invisible": "{{night.dark-slate}}",
+        "editor.document_highlight.read_background": "{{night.warm-umber}}",
+        "editor.document_highlight.write_background": "{{night.warm-umber}}",
+        "element.background": "{{night.dark-walnut}}",
+        "element.hover": "{{night.warm-ink}}",
+        "element.active": "{{night.warm-umber}}",
+        "element.selected": "{{night.warm-umber}}",
+        "element.disabled": "{{night.dark-walnut}}",
+        "ghost_element.background": "#00000000",
+        "ghost_element.hover": "{{night.dark-walnut}}",
+        "ghost_element.active": "{{night.warm-ink}}",
+        "ghost_element.selected": "{{night.warm-umber}}",
+        "ghost_element.disabled": "#00000000",
+        "surface.background": "{{night.dark-walnut}}",
+        "elevated_surface.background": "{{night.dark-walnut}}",
+        "panel.background": "{{night.deep-earth}}",
+        "panel.focused_border": "{{night.sage-grass}}",
+        "tab.active_background": "{{night.deep-earth}}",
+        "tab.inactive_background": "{{night.dark-walnut}}",
+        "tab_bar.background": "{{night.dark-walnut}}",
+        "status_bar.background": "{{night.dark-walnut}}",
+        "title_bar.background": "{{night.deep-earth}}",
+        "title_bar.inactive_background": "{{night.dark-walnut}}",
+        "toolbar.background": "{{night.dark-walnut}}",
+        "pane.focused_border": "{{night.sage-grass}}",
+        "pane_group.border": "{{night.warm-ink}}",
+        "scrollbar.thumb.background": "{{night.warm-ink|alpha:66}}",
+        "scrollbar.thumb.hover_background": "{{night.dark-slate|alpha:66}}",
+        "scrollbar.thumb.border": "#00000000",
+        "scrollbar.track.background": "#00000000",
+        "scrollbar.track.border": "#00000000",
+        "icon": "{{night.parchment}}",
+        "icon.muted": "{{night.weathered-stone}}",
+        "icon.disabled": "{{night.dark-slate}}",
+        "icon.placeholder": "{{night.dark-slate}}",
+        "icon.accent": "{{night.sage-grass}}",
+        "search.match_background": "{{night.warm-umber|alpha:66}}",
+        "drop_target.background": "{{night.sage-grass|alpha:33}}",
+        "created": "{{night.meadow-sage}}",
+        "created.background": "{{night.meadow-sage|alpha:22}}",
+        "created.border": "{{night.meadow-sage}}",
+        "modified": "{{night.honey}}",
+        "modified.background": "{{night.honey|alpha:22}}",
+        "modified.border": "{{night.honey}}",
+        "deleted": "{{night.sunset-clay}}",
+        "deleted.background": "{{night.sunset-clay|alpha:22}}",
+        "deleted.border": "{{night.sunset-clay}}",
+        "conflict": "{{night.copper}}",
+        "conflict.background": "{{night.copper|alpha:22}}",
+        "conflict.border": "{{night.copper}}",
+        "ignored": "{{night.dark-slate}}",
+        "ignored.background": "#00000000",
+        "ignored.border": "{{night.dark-slate}}",
+        "hidden": "{{night.dark-slate}}",
+        "hidden.background": "#00000000",
+        "hidden.border": "{{night.dark-slate}}",
+        "renamed": "{{night.spring-sage}}",
+        "renamed.background": "{{night.spring-sage|alpha:22}}",
+        "renamed.border": "{{night.spring-sage}}",
+        "error": "{{night.sunset-clay}}",
+        "error.background": "{{night.sunset-clay|alpha:22}}",
+        "error.border": "{{night.sunset-clay}}",
+        "warning": "{{night.golden}}",
+        "warning.background": "{{night.golden|alpha:22}}",
+        "warning.border": "{{night.golden}}",
+        "info": "{{night.sage-teal}}",
+        "info.background": "{{night.sage-teal|alpha:22}}",
+        "info.border": "{{night.sage-teal}}",
+        "hint": "{{night.dusk-stone}}",
+        "hint.background": "{{night.dusk-stone|alpha:22}}",
+        "hint.border": "{{night.dusk-stone}}",
+        "success": "{{night.meadow-sage}}",
+        "success.background": "{{night.meadow-sage|alpha:22}}",
+        "success.border": "{{night.meadow-sage}}",
+        "predictive": "{{night.weathered-stone}}",
+        "predictive.background": "{{night.weathered-stone|alpha:22}}",
+        "predictive.border": "{{night.weathered-stone}}",
+        "unreachable": "{{night.dark-slate}}",
+        "unreachable.background": "{{night.dark-slate|alpha:22}}",
+        "unreachable.border": "{{night.dark-slate}}",
+        "terminal.background": "{{night.deep-earth}}",
+        "terminal.foreground": "{{night.parchment}}",
+        "terminal.bright_foreground": "{{night.parchment}}",
+        "terminal.dim_foreground": "{{night.weathered-stone}}",
+        "terminal.ansi.black": "{{night.moss-stone}}",
+        "terminal.ansi.red": "{{night.sunset-clay}}",
+        "terminal.ansi.green": "{{night.meadow-sage}}",
+        "terminal.ansi.yellow": "{{night.honey}}",
+        "terminal.ansi.blue": "{{night.spring-sage}}",
+        "terminal.ansi.magenta": "{{night.warm-tan}}",
+        "terminal.ansi.cyan": "{{night.sandstone}}",
+        "terminal.ansi.white": "{{night.pale-hide}}",
+        "terminal.ansi.bright_black": "{{night.lichen}}",
+        "terminal.ansi.bright_red": "{{night.sunset-clay}}",
+        "terminal.ansi.bright_green": "{{night.sage-grass}}",
+        "terminal.ansi.bright_yellow": "{{night.honey}}",
+        "terminal.ansi.bright_blue": "{{night.spring-sage}}",
+        "terminal.ansi.bright_magenta": "{{night.buckskin}}",
+        "terminal.ansi.bright_cyan": "{{night.sandstone}}",
+        "terminal.ansi.bright_white": "{{night.parchment}}",
+        "link_text.hover": "{{night.sage-grass}}",
+        "players": [
+          {
+            "cursor": "{{night.parchment}}",
+            "background": "{{night.parchment}}",
+            "selection": "{{night.warm-umber}}"
+          }
+        ],
+        "syntax": {
+          "comment": {
+            "color": "{{night.weathered-stone}}",
+            "font_style": "italic"
+          },
+          "comment.doc": {
+            "color": "{{night.weathered-stone}}",
+            "font_style": "italic"
+          },
+          "string": {
+            "color": "{{night.meadow-sage}}"
+          },
+          "string.escape": {
+            "color": "{{night.sandstone}}"
+          },
+          "string.regex": {
+            "color": "{{night.sandstone}}"
+          },
+          "string.special": {
+            "color": "{{night.sandstone}}"
+          },
+          "number": {
+            "color": "{{night.copper}}"
+          },
+          "boolean": {
+            "color": "{{night.copper}}"
+          },
+          "constant": {
+            "color": "{{night.copper}}"
+          },
+          "constant.other.enum": {
+            "color": "{{night.sunset-clay}}"
+          },
+          "variable": {
+            "color": "{{night.pale-hide}}"
+          },
+          "variable.special": {
+            "color": "{{night.pale-hide}}"
+          },
+          "variable.parameter": {
+            "color": "{{night.pale-hide}}"
+          },
+          "variable.member": {
+            "color": "{{night.pale-hide}}"
+          },
+          "keyword": {
+            "color": "{{night.golden-moss}}"
+          },
+          "keyword.control.return": {
+            "color": "{{night.sunset-clay}}"
+          },
+          "keyword.control.exception": {
+            "color": "{{night.sunset-clay}}"
+          },
+          "operator": {
+            "color": "{{night.worn-leather}}"
+          },
+          "function": {
+            "color": "{{night.honey}}"
+          },
+          "function.method": {
+            "color": "{{night.honey}}"
+          },
+          "function.macro": {
+            "color": "{{night.sage-grass}}"
+          },
+          "type": {
+            "color": "{{night.warm-tan}}"
+          },
+          "type.builtin": {
+            "color": "{{night.warm-tan}}"
+          },
+          "namespace": {
+            "color": "{{night.sunset-clay}}"
+          },
+          "constructor": {
+            "color": "{{night.honey}}"
+          },
+          "property": {
+            "color": "{{night.pale-hide}}"
+          },
+          "attribute": {
+            "color": "{{night.honey}}"
+          },
+          "tag": {
+            "color": "{{night.golden-moss}}"
+          },
+          "label": {
+            "color": "{{night.sage-grass}}"
+          },
+          "punctuation": {
+            "color": "{{night.dry-clay}}"
+          },
+          "punctuation.bracket": {
+            "color": "{{night.dry-clay}}"
+          },
+          "punctuation.delimiter": {
+            "color": "{{night.dry-clay}}"
+          },
+          "punctuation.special": {
+            "color": "{{night.sandstone}}"
+          },
+          "emphasis": {
+            "color": "{{night.warm-tan}}",
+            "font_style": "italic"
+          },
+          "emphasis.strong": {
+            "color": "{{night.warm-tan}}",
+            "font_weight": 700
+          },
+          "link_uri": {
+            "color": "{{night.golden-moss}}"
+          },
+          "link_text": {
+            "color": "{{night.parchment}}"
+          },
+          "title": {
+            "color": "{{night.honey}}",
+            "font_weight": 700
+          },
+          "enum": {
+            "color": "{{night.warm-tan}}"
+          },
+          "variant": {
+            "color": "{{night.warm-tan}}"
+          },
+          "preproc": {
+            "color": "{{night.sage-grass}}"
+          },
+          "primary": {
+            "color": "{{night.parchment}}"
+          },
+          "predictive": {
+            "color": "{{night.weathered-stone}}"
+          },
+          "hint": {
+            "color": "{{night.sandstone}}",
+            "font_weight": 700
+          }
+        }
+      }
+    },
+    {
+      "name": "Serene Day",
+      "appearance": "light",
+      "style": {
+        "background": "{{day.aged-paper}}",
+        "editor.background": "{{day.aged-paper}}",
+        "editor.foreground": "{{day.warm-ink}}",
+        "text": "{{day.warm-ink}}",
+        "text.muted": "{{day.weathered-stone}}",
+        "text.placeholder": "{{day.driftwood}}",
+        "text.disabled": "{{day.driftwood}}",
+        "text.accent": "{{day.olive}}",
+        "border": "{{day.light-taupe}}",
+        "border.variant": "{{day.pale-wheat}}",
+        "border.focused": "{{day.olive}}",
+        "border.selected": "{{day.olive}}",
+        "border.transparent": "#00000000",
+        "border.disabled": "{{day.pale-wheat}}",
+        "editor.active_line.background": "{{day.pale-wheat}}",
+        "editor.line_number": "{{day.driftwood}}",
+        "editor.active_line_number": "{{day.slate}}",
+        "editor.gutter.background": "{{day.aged-paper}}",
+        "editor.subheader.background": "{{day.pale-wheat}}",
+        "editor.highlighted_line.background": "{{day.pale-wheat}}",
+        "editor.wrap_guide": "{{day.light-taupe}}",
+        "editor.active_wrap_guide": "{{day.driftwood}}",
+        "editor.indent_guide": "{{day.light-taupe}}",
+        "editor.indent_guide_active": "{{day.driftwood}}",
+        "editor.invisible": "{{day.driftwood}}",
+        "editor.document_highlight.read_background": "{{day.golden-sand}}",
+        "editor.document_highlight.write_background": "{{day.golden-sand}}",
+        "element.background": "{{day.pale-wheat}}",
+        "element.hover": "{{day.golden-sand}}",
+        "element.active": "{{day.golden-sand}}",
+        "element.selected": "{{day.golden-sand}}",
+        "element.disabled": "{{day.pale-wheat}}",
+        "ghost_element.background": "#00000000",
+        "ghost_element.hover": "{{day.pale-wheat}}",
+        "ghost_element.active": "{{day.golden-sand}}",
+        "ghost_element.selected": "{{day.golden-sand}}",
+        "ghost_element.disabled": "#00000000",
+        "surface.background": "{{day.pale-wheat}}",
+        "elevated_surface.background": "{{day.pearl}}",
+        "panel.background": "{{day.aged-paper}}",
+        "panel.focused_border": "{{day.olive}}",
+        "tab.active_background": "{{day.aged-paper}}",
+        "tab.inactive_background": "{{day.pale-wheat}}",
+        "tab_bar.background": "{{day.pale-wheat}}",
+        "status_bar.background": "{{day.pale-wheat}}",
+        "title_bar.background": "{{day.aged-paper}}",
+        "title_bar.inactive_background": "{{day.pale-wheat}}",
+        "toolbar.background": "{{day.pale-wheat}}",
+        "pane.focused_border": "{{day.olive}}",
+        "pane_group.border": "{{day.light-taupe}}",
+        "scrollbar.thumb.background": "{{day.light-taupe|alpha:66}}",
+        "scrollbar.thumb.hover_background": "{{day.driftwood|alpha:66}}",
+        "scrollbar.thumb.border": "#00000000",
+        "scrollbar.track.background": "#00000000",
+        "scrollbar.track.border": "#00000000",
+        "icon": "{{day.warm-ink}}",
+        "icon.muted": "{{day.weathered-stone}}",
+        "icon.disabled": "{{day.driftwood}}",
+        "icon.placeholder": "{{day.driftwood}}",
+        "icon.accent": "{{day.olive}}",
+        "search.match_background": "{{day.golden-sand|alpha:66}}",
+        "drop_target.background": "{{day.olive|alpha:33}}",
+        "created": "{{day.forest}}",
+        "created.background": "{{day.forest|alpha:22}}",
+        "created.border": "{{day.forest}}",
+        "modified": "{{day.bronze}}",
+        "modified.background": "{{day.bronze|alpha:22}}",
+        "modified.border": "{{day.bronze}}",
+        "deleted": "{{day.terracotta}}",
+        "deleted.background": "{{day.terracotta|alpha:22}}",
+        "deleted.border": "{{day.terracotta}}",
+        "conflict": "{{day.clay}}",
+        "conflict.background": "{{day.clay|alpha:22}}",
+        "conflict.border": "{{day.clay}}",
+        "ignored": "{{day.driftwood}}",
+        "ignored.background": "#00000000",
+        "ignored.border": "{{day.driftwood}}",
+        "hidden": "{{day.driftwood}}",
+        "hidden.background": "#00000000",
+        "hidden.border": "{{day.driftwood}}",
+        "renamed": "{{day.fern}}",
+        "renamed.background": "{{day.fern|alpha:22}}",
+        "renamed.border": "{{day.fern}}",
+        "error": "{{day.terracotta}}",
+        "error.background": "{{day.terracotta|alpha:22}}",
+        "error.border": "{{day.terracotta}}",
+        "warning": "{{day.amber}}",
+        "warning.background": "{{day.amber|alpha:22}}",
+        "warning.border": "{{day.amber}}",
+        "info": "{{day.deep-teal}}",
+        "info.background": "{{day.deep-teal|alpha:22}}",
+        "info.border": "{{day.deep-teal}}",
+        "hint": "{{day.flint}}",
+        "hint.background": "{{day.flint|alpha:22}}",
+        "hint.border": "{{day.flint}}",
+        "success": "{{day.forest}}",
+        "success.background": "{{day.forest|alpha:22}}",
+        "success.border": "{{day.forest}}",
+        "predictive": "{{day.weathered-stone}}",
+        "predictive.background": "{{day.weathered-stone|alpha:22}}",
+        "predictive.border": "{{day.weathered-stone}}",
+        "unreachable": "{{day.driftwood}}",
+        "unreachable.background": "{{day.driftwood|alpha:22}}",
+        "unreachable.border": "{{day.driftwood}}",
+        "terminal.background": "{{day.aged-paper}}",
+        "terminal.foreground": "{{day.warm-ink}}",
+        "terminal.bright_foreground": "{{day.warm-ink}}",
+        "terminal.dim_foreground": "{{day.weathered-stone}}",
+        "terminal.ansi.black": "{{day.soot}}",
+        "terminal.ansi.red": "{{day.terracotta}}",
+        "terminal.ansi.green": "{{day.forest}}",
+        "terminal.ansi.yellow": "{{day.bronze}}",
+        "terminal.ansi.blue": "{{day.fern}}",
+        "terminal.ansi.magenta": "{{day.caramel}}",
+        "terminal.ansi.cyan": "{{day.pebble}}",
+        "terminal.ansi.white": "{{day.warm-gray}}",
+        "terminal.ansi.bright_black": "{{day.deep-soot}}",
+        "terminal.ansi.bright_red": "{{day.terracotta}}",
+        "terminal.ansi.bright_green": "{{day.olive}}",
+        "terminal.ansi.bright_yellow": "{{day.bronze}}",
+        "terminal.ansi.bright_blue": "{{day.fern}}",
+        "terminal.ansi.bright_magenta": "{{day.toffee}}",
+        "terminal.ansi.bright_cyan": "{{day.sandstone}}",
+        "terminal.ansi.bright_white": "{{day.aged-paper}}",
+        "link_text.hover": "{{day.olive}}",
+        "players": [
+          {
+            "cursor": "{{day.warm-ink}}",
+            "background": "{{day.warm-ink}}",
+            "selection": "{{day.golden-sand}}"
+          }
+        ],
+        "syntax": {
+          "comment": {
+            "color": "{{day.weathered-stone}}",
+            "font_style": "italic"
+          },
+          "comment.doc": {
+            "color": "{{day.weathered-stone}}",
+            "font_style": "italic"
+          },
+          "string": {
+            "color": "{{day.forest}}"
+          },
+          "string.escape": {
+            "color": "{{day.pebble}}"
+          },
+          "string.regex": {
+            "color": "{{day.pebble}}"
+          },
+          "string.special": {
+            "color": "{{day.pebble}}"
+          },
+          "number": {
+            "color": "{{day.clay}}"
+          },
+          "boolean": {
+            "color": "{{day.clay}}"
+          },
+          "constant": {
+            "color": "{{day.clay}}"
+          },
+          "constant.other.enum": {
+            "color": "{{day.terracotta}}"
+          },
+          "variable": {
+            "color": "{{day.taupe}}"
+          },
+          "variable.special": {
+            "color": "{{day.taupe}}"
+          },
+          "variable.parameter": {
+            "color": "{{day.taupe}}"
+          },
+          "variable.member": {
+            "color": "{{day.taupe}}"
+          },
+          "keyword": {
+            "color": "{{day.olive}}"
+          },
+          "keyword.control.return": {
+            "color": "{{day.terracotta}}"
+          },
+          "keyword.control.exception": {
+            "color": "{{day.terracotta}}"
+          },
+          "operator": {
+            "color": "{{day.charcoal}}"
+          },
+          "function": {
+            "color": "{{day.bronze}}"
+          },
+          "function.method": {
+            "color": "{{day.bronze}}"
+          },
+          "function.macro": {
+            "color": "{{day.olive}}"
+          },
+          "type": {
+            "color": "{{day.caramel}}"
+          },
+          "type.builtin": {
+            "color": "{{day.caramel}}"
+          },
+          "namespace": {
+            "color": "{{day.terracotta}}"
+          },
+          "constructor": {
+            "color": "{{day.bronze}}"
+          },
+          "property": {
+            "color": "{{day.taupe}}"
+          },
+          "attribute": {
+            "color": "{{day.bronze}}"
+          },
+          "tag": {
+            "color": "{{day.olive}}"
+          },
+          "label": {
+            "color": "{{day.olive}}"
+          },
+          "punctuation": {
+            "color": "{{day.taupe}}"
+          },
+          "punctuation.bracket": {
+            "color": "{{day.taupe}}"
+          },
+          "punctuation.delimiter": {
+            "color": "{{day.taupe}}"
+          },
+          "punctuation.special": {
+            "color": "{{day.pebble}}"
+          },
+          "emphasis": {
+            "color": "{{day.caramel}}",
+            "font_style": "italic"
+          },
+          "emphasis.strong": {
+            "color": "{{day.caramel}}",
+            "font_weight": 700
+          },
+          "link_uri": {
+            "color": "{{day.olive}}"
+          },
+          "link_text": {
+            "color": "{{day.warm-ink}}"
+          },
+          "title": {
+            "color": "{{day.bronze}}",
+            "font_weight": 700
+          },
+          "enum": {
+            "color": "{{day.caramel}}"
+          },
+          "variant": {
+            "color": "{{day.caramel}}"
+          },
+          "preproc": {
+            "color": "{{day.olive}}"
+          },
+          "primary": {
+            "color": "{{day.warm-ink}}"
+          },
+          "predictive": {
+            "color": "{{day.weathered-stone}}"
+          },
+          "hint": {
+            "color": "{{day.pebble}}",
+            "font_weight": 700
+          }
+        }
+      }
+    }
+
+  ]
+}

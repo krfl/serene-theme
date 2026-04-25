@@ -20,6 +20,30 @@ Muted colors reduce eye fatigue during extended use. The tradeoff is intentional
 
 The theme maintains good contrast and doesn't rely on color alone for distinction, but dedicated colorblind variants may be added later.
 
+## Development
+
+All colors are defined in `palette.toml` and theme files are generated from templates.
+
+### Changing a color
+
+1. Edit the color value in `palette.toml`
+2. Run `python3 build.py` (requires Python 3.11+)
+3. All 22 theme files in `themes/` update automatically
+
+### How it works
+
+- `palette.toml` — Single source of truth. Named colors organized into `[day]`, `[night]`, `[day-clarity]`, and `[night-clarity]` sections.
+- `templates/` — Theme files with `{{section.color-name}}` placeholders (e.g., `{{day.forest}}`, `{{night.parchment|nohash}}`).
+- `build.py` — Reads the palette, renders each template, writes to `themes/`.
+
+Available filters: `|nohash` (strip `#`), `|alpha:XX` (append alpha hex).
+
+### Adding a new editor
+
+1. Create a template in `templates/editor-name/` using palette references
+2. Run `python3 build.py` to generate the theme file
+3. Verify the output in `themes/editor-name/`
+
 ## License
 
 MIT

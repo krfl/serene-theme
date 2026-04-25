@@ -1,0 +1,603 @@
+/* Serene Clarity - An eye-friendly theme with syntax backgrounds for Obsidian (Light & Dark modes) */
+
+/* ============================================
+   LIGHT MODE
+   ============================================ */
+
+.theme-light {
+  /* Base Colors */
+  --background-primary: {{day.aged-paper}};
+  --background-primary-alt: {{day.pale-wheat}};
+  --background-secondary: {{day.pale-wheat}};
+  --background-secondary-alt: {{day.golden-sand}};
+  --background-modifier-border: {{day.light-taupe}};
+  --background-modifier-form-field: {{day.pale-wheat}};
+  --background-modifier-form-field-highlighted: {{day.golden-sand}};
+  --background-modifier-box-shadow: rgba(61, 58, 51, 0.1);
+  --background-modifier-success: {{day.forest}};
+  --background-modifier-error: {{day.terracotta}};
+  --background-modifier-error-rgb: 139, 74, 56;
+  --background-modifier-error-hover: {{day.terracotta}};
+  --background-modifier-cover: rgba(61, 58, 51, 0.5);
+
+  /* Text Colors */
+  --text-normal: {{day.warm-ink}};
+  --text-muted: {{day.weathered-stone}};
+  --text-faint: {{day.driftwood}};
+  --text-on-accent: {{day.aged-paper}};
+  --text-error: {{day.terracotta}};
+  --text-accent: {{day.olive}};
+  --text-accent-hover: {{day.fern}};
+  --text-selection: {{day.golden-sand}};
+
+  /* Interactive Elements */
+  --interactive-normal: {{day.light-taupe}};
+  --interactive-hover: {{day.golden-sand}};
+  --interactive-accent: {{day.olive}};
+  --interactive-accent-rgb: 109, 115, 64;
+  --interactive-accent-hover: {{day.fern}};
+  --interactive-success: {{day.forest}};
+
+  /* Scrollbars */
+  --scrollbar-bg: {{day.aged-paper}};
+  --scrollbar-thumb-bg: rgba(212, 207, 196, 0.4);
+  --scrollbar-active-thumb-bg: rgba(133, 125, 109, 0.6);
+
+  /* Code Blocks */
+  --code-normal: {{day.warm-ink}};
+  --code-background: {{day.pale-wheat}};
+  --code-size: 0.95em;
+
+  /* Headings */
+  --h1-color: {{day.bronze}};
+  --h2-color: {{day.bronze}};
+  --h3-color: {{day.bronze}};
+  --h4-color: {{day.caramel}};
+  --h5-color: {{day.caramel}};
+  --h6-color: {{day.caramel}};
+
+  /* Links */
+  --link-color: {{day.olive}};
+  --link-color-hover: {{day.fern}};
+  --link-external-color: {{day.olive}};
+  --link-unresolved-color: {{day.weathered-stone}};
+
+  /* Tags */
+  --tag-color: {{day.olive}};
+  --tag-background: {{day-clarity.olive-mist}};
+
+  /* Inline Code */
+  --inline-code: {{day.forest}};
+  --inline-code-background: {{day-clarity.sage-mist}};
+
+  /* Lists */
+  --list-marker-color: {{day.charcoal}};
+
+  /* Blockquotes */
+  --blockquote-border-color: {{day.light-taupe}};
+  --blockquote-background-color: {{day.pale-wheat}};
+
+  /* Tables */
+  --table-header-background: {{day.golden-sand}};
+  --table-row-even-background: {{day.pale-wheat}};
+  --table-row-odd-background: {{day.aged-paper}};
+  --table-border-color: {{day.light-taupe}};
+}
+
+/* ============================================
+   DARK MODE
+   ============================================ */
+
+.theme-dark {
+  /* Base Colors */
+  --background-primary: {{night.deep-earth}};
+  --background-primary-alt: {{night.dark-walnut}};
+  --background-secondary: {{night.dark-walnut}};
+  --background-secondary-alt: {{night.warm-umber}};
+  --background-modifier-border: {{night.warm-ink}};
+  --background-modifier-form-field: {{night.dark-walnut}};
+  --background-modifier-form-field-highlighted: {{night.warm-umber}};
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: {{night.meadow-sage}};
+  --background-modifier-error: {{night.sunset-clay}};
+  --background-modifier-error-rgb: 184, 120, 96;
+  --background-modifier-error-hover: {{night.copper}};
+  --background-modifier-cover: rgba(0, 0, 0, 0.5);
+
+  /* Text Colors */
+  --text-normal: {{night.parchment}};
+  --text-muted: {{night.weathered-stone}};
+  --text-faint: {{night.dark-slate}};
+  --text-on-accent: {{night.deep-earth}};
+  --text-error: {{night.sunset-clay}};
+  --text-accent: {{night.golden-moss}};
+  --text-accent-hover: {{night.spring-sage}};
+  --text-selection: {{night.warm-umber}};
+
+  /* Interactive Elements */
+  --interactive-normal: {{night.warm-ink}};
+  --interactive-hover: {{night.warm-umber}};
+  --interactive-accent: {{night.golden-moss}};
+  --interactive-accent-rgb: 168, 163, 120;
+  --interactive-accent-hover: {{night.spring-sage}};
+  --interactive-success: {{night.meadow-sage}};
+
+  /* Scrollbars */
+  --scrollbar-bg: {{night.deep-earth}};
+  --scrollbar-thumb-bg: rgba(61, 58, 51, 0.4);
+  --scrollbar-active-thumb-bg: rgba(122, 117, 101, 0.6);
+
+  /* Code Blocks */
+  --code-normal: {{night.parchment}};
+  --code-background: {{night.dark-walnut}};
+  --code-size: 0.95em;
+
+  /* Headings */
+  --h1-color: {{night.honey}};
+  --h2-color: {{night.honey}};
+  --h3-color: {{night.honey}};
+  --h4-color: {{night.warm-tan}};
+  --h5-color: {{night.warm-tan}};
+  --h6-color: {{night.warm-tan}};
+
+  /* Links */
+  --link-color: {{night.sage-grass}};
+  --link-color-hover: {{night.spring-sage}};
+  --link-external-color: {{night.sage-grass}};
+  --link-unresolved-color: {{night.weathered-stone}};
+
+  /* Tags */
+  --tag-color: {{night.golden-moss}};
+  --tag-background: {{night-clarity.olive-shadow}};
+
+  /* Inline Code */
+  --inline-code: {{night.meadow-sage}};
+  --inline-code-background: {{night-clarity.moss-shadow}};
+
+  /* Lists */
+  --list-marker-color: {{night.sandstone}};
+
+  /* Blockquotes */
+  --blockquote-border-color: {{night.warm-ink}};
+  --blockquote-background-color: {{night.dark-walnut}};
+
+  /* Tables */
+  --table-header-background: {{night.warm-umber}};
+  --table-row-even-background: {{night.dark-walnut}};
+  --table-row-odd-background: {{night.deep-earth}};
+  --table-border-color: {{night.warm-ink}};
+}
+
+/* ============================================
+   SHARED STYLES (Both Light & Dark)
+   ============================================ */
+
+/* Inline Code */
+.theme-light code,
+.theme-dark code {
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: var(--code-size);
+}
+
+.theme-light code {
+  color: var(--inline-code);
+  background-color: var(--inline-code-background);
+}
+
+.theme-dark code {
+  color: var(--inline-code);
+  background-color: var(--inline-code-background);
+}
+
+/* Code Blocks */
+.theme-light pre code,
+.theme-dark pre code {
+  color: var(--code-normal);
+  background-color: var(--code-background);
+}
+
+/* ============================================
+   PRISMJS SYNTAX HIGHLIGHTING WITH CLARITY - LIGHT MODE
+   ============================================ */
+
+.theme-light .token.comment,
+.theme-light .token.prolog,
+.theme-light .token.doctype,
+.theme-light .token.cdata {
+  color: {{day.weathered-stone}};
+  background-color: {{day-clarity.stone-mist}};
+  font-style: italic;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .token.punctuation {
+  color: {{day.taupe}};
+}
+
+.theme-light .token.property,
+.theme-light .token.tag,
+.theme-light .token.boolean,
+.theme-light .token.constant,
+.theme-light .token.symbol {
+  color: {{day.olive}};
+  background-color: {{day-clarity.olive-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .token.deleted {
+  color: {{day.terracotta}};
+  background-color: {{day-clarity.terracotta-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .token.number {
+  color: {{day.clay}};
+  background-color: {{day-clarity.bronze-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .token.selector,
+.theme-light .token.attr-name,
+.theme-light .token.string,
+.theme-light .token.char,
+.theme-light .token.builtin,
+.theme-light .token.inserted {
+  color: {{day.forest}};
+  background-color: {{day-clarity.sage-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .token.operator,
+.theme-light .token.entity,
+.theme-light .token.url,
+.theme-light .language-css .token.string,
+.theme-light .style .token.string {
+  color: {{day.charcoal}};
+}
+
+.theme-light .token.atrule,
+.theme-light .token.attr-value,
+.theme-light .token.keyword {
+  color: {{day.olive}};
+  background-color: {{day-clarity.olive-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .token.function,
+.theme-light .token.class-name {
+  color: {{day.bronze}};
+  background-color: {{day-clarity.bronze-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .token.regex,
+.theme-light .token.important,
+.theme-light .token.variable {
+  color: {{day.taupe}};
+  background-color: {{day.pale-wheat}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .token.important,
+.theme-light .token.bold {
+  font-weight: bold;
+}
+
+.theme-light .token.italic {
+  font-style: italic;
+}
+
+/* ============================================
+   PRISMJS SYNTAX HIGHLIGHTING WITH CLARITY - DARK MODE
+   ============================================ */
+
+.theme-dark .token.comment,
+.theme-dark .token.prolog,
+.theme-dark .token.doctype,
+.theme-dark .token.cdata {
+  color: {{night.weathered-stone}};
+  background-color: {{night-clarity.stone-shadow}};
+  font-style: italic;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .token.punctuation {
+  color: {{night.dry-clay}};
+}
+
+.theme-dark .token.property,
+.theme-dark .token.tag,
+.theme-dark .token.boolean,
+.theme-dark .token.constant,
+.theme-dark .token.symbol {
+  color: {{night.golden-moss}};
+  background-color: {{night-clarity.olive-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .token.deleted {
+  color: {{night.sunset-clay}};
+  background-color: {{night-clarity.umber-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .token.number {
+  color: {{night.copper}};
+  background-color: {{night-clarity.amber-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .token.selector,
+.theme-dark .token.attr-name,
+.theme-dark .token.string,
+.theme-dark .token.char,
+.theme-dark .token.builtin,
+.theme-dark .token.inserted {
+  color: {{night.meadow-sage}};
+  background-color: {{night-clarity.moss-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .token.operator,
+.theme-dark .token.entity,
+.theme-dark .token.url,
+.theme-dark .language-css .token.string,
+.theme-dark .style .token.string {
+  color: {{night.worn-leather}};
+}
+
+.theme-dark .token.atrule,
+.theme-dark .token.attr-value,
+.theme-dark .token.keyword {
+  color: {{night.golden-moss}};
+  background-color: {{night-clarity.olive-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .token.function,
+.theme-dark .token.class-name {
+  color: {{night.honey}};
+  background-color: {{night-clarity.amber-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .token.regex,
+.theme-dark .token.important,
+.theme-dark .token.variable {
+  color: {{night.pale-hide}};
+  background-color: {{night.dark-walnut}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .token.important,
+.theme-dark .token.bold {
+  font-weight: bold;
+}
+
+.theme-dark .token.italic {
+  font-style: italic;
+}
+
+/* ============================================
+   MARKDOWN SYNTAX HIGHLIGHTING - LIGHT MODE
+   ============================================ */
+
+.theme-light .cm-header {
+  color: var(--h1-color);
+  font-weight: bold;
+  background-color: {{day-clarity.bronze-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .cm-strong {
+  color: {{day.caramel}};
+  font-weight: bold;
+}
+
+.theme-light .cm-em {
+  color: {{day.caramel}};
+  font-style: italic;
+}
+
+.theme-light .cm-link {
+  color: var(--link-color);
+  background-color: {{day-clarity.olive-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .cm-url {
+  color: var(--link-color);
+  background-color: {{day-clarity.olive-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .cm-quote {
+  color: {{day.weathered-stone}};
+  font-style: italic;
+  background-color: {{day-clarity.stone-mist}};
+}
+
+.theme-light .cm-tag {
+  color: var(--tag-color);
+  background-color: var(--tag-background);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .cm-string {
+  color: {{day.forest}};
+  background-color: {{day-clarity.sage-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-light .cm-comment {
+  color: {{day.weathered-stone}};
+  font-style: italic;
+  background-color: {{day-clarity.stone-mist}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+/* ============================================
+   MARKDOWN SYNTAX HIGHLIGHTING - DARK MODE
+   ============================================ */
+
+.theme-dark .cm-header {
+  color: var(--h1-color);
+  font-weight: bold;
+  background-color: {{night-clarity.amber-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .cm-strong {
+  color: {{night.warm-tan}};
+  font-weight: bold;
+}
+
+.theme-dark .cm-em {
+  color: {{night.warm-tan}};
+  font-style: italic;
+}
+
+.theme-dark .cm-link {
+  color: var(--link-color);
+  background-color: {{night-clarity.olive-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .cm-url {
+  color: var(--link-color);
+  background-color: {{night-clarity.olive-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .cm-quote {
+  color: {{night.weathered-stone}};
+  font-style: italic;
+  background-color: {{night-clarity.stone-shadow}};
+}
+
+.theme-dark .cm-tag {
+  color: var(--tag-color);
+  background-color: var(--tag-background);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .cm-string {
+  color: {{night.meadow-sage}};
+  background-color: {{night-clarity.moss-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.theme-dark .cm-comment {
+  color: {{night.weathered-stone}};
+  font-style: italic;
+  background-color: {{night-clarity.stone-shadow}};
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+/* ============================================
+   GENERAL ELEMENTS - LIGHT MODE
+   ============================================ */
+
+.theme-light a {
+  color: var(--link-color);
+}
+
+.theme-light a:hover {
+  color: var(--link-color-hover);
+}
+
+.theme-light blockquote {
+  border-left: 3px solid var(--blockquote-border-color);
+  background-color: var(--blockquote-background-color);
+  color: {{day.weathered-stone}};
+  font-style: italic;
+}
+
+.theme-light .list-bullet::after,
+.theme-light .list-collapse-indicator {
+  color: var(--list-marker-color);
+}
+
+.theme-light .tag {
+  color: var(--tag-color);
+  background-color: var(--tag-background);
+}
+
+.theme-light table {
+  border-color: var(--table-border-color);
+}
+
+.theme-light th {
+  background-color: var(--table-header-background);
+  color: var(--text-normal);
+  font-weight: bold;
+}
+
+/* ============================================
+   GENERAL ELEMENTS - DARK MODE
+   ============================================ */
+
+.theme-dark a {
+  color: var(--link-color);
+}
+
+.theme-dark a:hover {
+  color: var(--link-color-hover);
+}
+
+.theme-dark blockquote {
+  border-left: 3px solid var(--blockquote-border-color);
+  background-color: var(--blockquote-background-color);
+  color: {{night.weathered-stone}};
+  font-style: italic;
+}
+
+.theme-dark .list-bullet::after,
+.theme-dark .list-collapse-indicator {
+  color: var(--list-marker-color);
+}
+
+.theme-dark .tag {
+  color: var(--tag-color);
+  background-color: var(--tag-background);
+  border: 1px solid {{night.warm-ink}};
+}
+
+.theme-dark table {
+  border-color: var(--table-border-color);
+}
+
+.theme-dark th {
+  background-color: var(--table-header-background);
+  color: var(--text-normal);
+  font-weight: bold;
+}
