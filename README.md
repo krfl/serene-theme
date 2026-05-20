@@ -4,7 +4,7 @@ A warm, earth-toned color scheme for comfortable extended screen use. Serene shi
 
 ## Eye Health
 
-Serene avoids pure white and pure black, which cause your pupils to constantly adjust. Instead, it uses warm off-white and soft dark backgrounds with around 10:1 contrast—readable without being harsh. Colors are muted to prevent overstimulation during long sessions, and the reduced blue light content may help with sleep if you code in the evening.
+Serene avoids pure white and pure black, which cause your pupils to constantly adjust. Instead, it uses warm off-white and soft dark backgrounds with around 10:1 contrast, readable without being harsh. Colors are muted to prevent overstimulation during long sessions, and the reduced blue light content may help with sleep if you code in the evening.
 
 ## FAQ
 
@@ -32,9 +32,9 @@ All colors are defined in `palette.toml` and theme files are generated from temp
 
 ### How it works
 
-- `palette.toml` — Single source of truth. Named colors organized into `[day]`, `[night]`, `[day-clarity]`, and `[night-clarity]` sections.
-- `templates/` — Theme files with `{{section.color-name}}` placeholders (e.g., `{{day.forest}}`, `{{night.parchment|nohash}}`).
-- `build.py` — Reads the palette, renders each template, writes to `themes/`.
+- `palette.toml` is the single source of truth. Named colors are organized into `[day]`, `[night]`, `[day-clarity]`, and `[night-clarity]` sections.
+- `templates/` holds theme files with `{{section.color-name}}` placeholders (e.g., `{{day.forest}}`, `{{night.parchment|nohash}}`).
+- `build.py` reads the palette, renders each template, and writes the result to `themes/`.
 
 Available filters: `|nohash` (strip `#`), `|alpha:XX` (append alpha hex).
 
