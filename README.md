@@ -4,7 +4,9 @@ A warm, earth-toned color scheme for comfortable extended screen use. Serene shi
 
 ## Eye Health
 
-Serene avoids pure white and pure black, which cause your pupils to constantly adjust. Instead, it uses warm off-white and soft dark backgrounds with around 10:1 contrast, readable without being harsh. Colors are muted to prevent overstimulation during long sessions, and the reduced blue light content may help with sleep if you code in the evening.
+Serene avoids pure white and pure black, which cause your pupils to constantly adjust. Colors are muted to reduce glare during long sessions, and the warmer palette lowers blue-light exposure in the evening (though screen brightness matters more than color for sleep).
+
+The palette draws on computer-vision-syndrome (CVS) research: a slightly warm palette with no high-chroma blue accents, muted saturation, and no pure white or black. Every syntax token meets **WCAG AA (4.5:1)** contrast against every background it sits on, including the active line and Clarity tints. Body text targets ~10:1, while syntax stays in a gentler 4.5–7:1 band so highlighting separates tokens without glare. Diagnostic accents like errors and warnings are tuned for salience and carry non-color cues, so they sit outside that floor.
 
 ## FAQ
 
@@ -18,7 +20,7 @@ Muted colors reduce eye fatigue during extended use. The tradeoff is intentional
 
 ### Is this suitable for colorblind users?
 
-The theme maintains good contrast and doesn't rely on color alone for distinction, but dedicated colorblind variants may be added later.
+That depends. All text meets WCAG AA contrast, so readability doesn't depend on color. However, Serene separates several syntax roles (strings, keywords, functions, numbers) mainly by warm hue. This means under red-green color vision deficiency, the most common kind, those greens, olives, and browns can converge. 
 
 ## Development
 
@@ -50,16 +52,23 @@ MIT
 
 ---
 
-**Remember**: The best theme is one that makes your eyes comfortable. If Serene doesn't work for you, that's okay - everyone's eyes are different!
+**Remember**: The best theme is one that makes your eyes comfortable. If Serene doesn't work for you, that's okay!
 
 ---
 
 ## Preview
 
+### Serene Day (Light)
+
+![Serene Day Preview](previews/preview-day.svg)
+
 ### Serene Night (Dark)
 
 ![Serene Night Preview](previews/preview-dark.svg)
 
-### Serene Day (Light)
 
-![Serene Day Preview](previews/preview-day.svg)
+### Syntax Sample
+
+The same snippet across all four variants.
+
+![Serene Syntax Sample](previews/syntax-sample.svg)

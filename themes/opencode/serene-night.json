@@ -8,7 +8,7 @@
     "border": "#3d3a33",
     "lineNumber": "#5a5549",
     "lineNumberActive": "#7a7565",
-    "comment": "#857c6d",
+    "comment": "#968e7f",
     "sage": "#8fae7a",
     "olive": "#a8a378",
     "sand": "#d4a574",
@@ -17,7 +17,7 @@
     "beige": "#c8baa8",
     "muted_punctuation": "#9a8f81",
     "terracotta": "#c99976",
-    "error": "#b87860",
+    "error": "#bc816b",
     "warning": "#d4a574",
     "info": "#9aaa82",
     "hint": "#a89984"

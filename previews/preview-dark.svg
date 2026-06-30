@@ -11,76 +11,59 @@
     </style>
   </defs>
 
-  <!-- Background -->
   <rect width="1200" height="630" fill="#1e1d1a"/>
 
-  <!-- Title -->
   <text x="80" y="100" class="sans title" fill="#d4cfc4">SERENE NIGHT</text>
-  <text x="80" y="135" class="sans subtitle" fill="#857c6d">Eye-friendly dark theme with warm earth tones</text>
+  <text x="80" y="135" class="sans subtitle" fill="#968e7f">Eye-friendly dark theme with warm earth tones</text>
 
-  <!-- Color Palette Grid -->
   <g transform="translate(80, 200)">
-    <!-- Row 1 -->
-    <rect x="0" y="0" width="90" height="90" rx="8" fill="#1e1d1a" stroke="#857c6d" stroke-width="1.5"/>
-    <text x="45" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Background</text>
-    <text x="45" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#1e1d1a</text>
-
+    <rect x="0" y="0" width="90" height="90" rx="8" fill="#1e1d1a" stroke="#968e7f" stroke-width="1.5"/>
+    <text x="45" y="115" class="sans label" fill="#968e7f" text-anchor="middle">Background</text>
+    <text x="45" y="135" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#1e1d1a</text>
     <rect x="120" y="0" width="90" height="90" rx="8" fill="#d4cfc4"/>
-    <text x="165" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Foreground</text>
-    <text x="165" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#d4cfc4</text>
-
+    <text x="165" y="115" class="sans label" fill="#968e7f" text-anchor="middle">Foreground</text>
+    <text x="165" y="135" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#d4cfc4</text>
     <rect x="240" y="0" width="90" height="90" rx="8" fill="#8fae7a"/>
-    <text x="285" y="115" class="sans label" fill="#857c6d" text-anchor="middle">String</text>
-    <text x="285" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#8fae7a</text>
-
-    <rect x="360" y="0" width="90" height="90" rx="8" fill="#9fa883"/>
-    <text x="405" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Keyword</text>
-    <text x="405" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#9fa883</text>
-
+    <text x="285" y="115" class="sans label" fill="#968e7f" text-anchor="middle">String</text>
+    <text x="285" y="135" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#8fae7a</text>
+    <rect x="360" y="0" width="90" height="90" rx="8" fill="#a8a378"/>
+    <text x="405" y="115" class="sans label" fill="#968e7f" text-anchor="middle">Keyword</text>
+    <text x="405" y="135" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#a8a378</text>
     <rect x="480" y="0" width="90" height="90" rx="8" fill="#d4a574"/>
-    <text x="525" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Function</text>
-    <text x="525" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#d4a574</text>
-
+    <text x="525" y="115" class="sans label" fill="#968e7f" text-anchor="middle">Function</text>
+    <text x="525" y="135" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#d4a574</text>
     <rect x="600" y="0" width="90" height="90" rx="8" fill="#b8956d"/>
-    <text x="645" y="115" class="sans label" fill="#857c6d" text-anchor="middle">Type</text>
-    <text x="645" y="135" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#b8956d</text>
-
-    <!-- Row 2 -->
+    <text x="645" y="115" class="sans label" fill="#968e7f" text-anchor="middle">Type</text>
+    <text x="645" y="135" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#b8956d</text>
     <rect x="0" y="180" width="90" height="90" rx="8" fill="#c99976"/>
-    <text x="45" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Number</text>
-    <text x="45" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#c99976</text>
-
-    <rect x="120" y="180" width="90" height="90" rx="8" fill="#a89984"/>
-    <text x="165" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Operator</text>
-    <text x="165" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#a89984</text>
-
-    <rect x="240" y="180" width="90" height="90" rx="8" fill="#857c6d"/>
-    <text x="285" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Comment</text>
-    <text x="285" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#857c6d</text>
-
-    <rect x="360" y="180" width="90" height="90" rx="8" fill="#b87860"/>
-    <text x="405" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Error</text>
-    <text x="405" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#b87860</text>
-
+    <text x="45" y="295" class="sans label" fill="#968e7f" text-anchor="middle">Number</text>
+    <text x="45" y="315" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#c99976</text>
+    <rect x="120" y="180" width="90" height="90" rx="8" fill="#b5a899"/>
+    <text x="165" y="295" class="sans label" fill="#968e7f" text-anchor="middle">Operator</text>
+    <text x="165" y="315" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#b5a899</text>
+    <rect x="240" y="180" width="90" height="90" rx="8" fill="#968e7f"/>
+    <text x="285" y="295" class="sans label" fill="#968e7f" text-anchor="middle">Comment</text>
+    <text x="285" y="315" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#968e7f</text>
+    <rect x="360" y="180" width="90" height="90" rx="8" fill="#bc816b"/>
+    <text x="405" y="295" class="sans label" fill="#968e7f" text-anchor="middle">Error</text>
+    <text x="405" y="315" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#bc816b</text>
     <rect x="480" y="180" width="90" height="90" rx="8" fill="#3d3420"/>
-    <text x="525" y="295" class="sans label" fill="#857c6d" text-anchor="middle">Selection</text>
-    <text x="525" y="315" class="hex" fill="#857c6d" text-anchor="middle" opacity="0.7">#3d3420</text>
+    <text x="525" y="295" class="sans label" fill="#968e7f" text-anchor="middle">Selection</text>
+    <text x="525" y="315" class="hex" fill="#968e7f" text-anchor="middle" opacity="0.7">#3d3420</text>
   </g>
 
-  <!-- Features -->
   <g transform="translate(820, 200)">
-    <text y="30" class="sans label" fill="#857c6d">KEY FEATURES</text>
+    <text y="30" class="sans label" fill="#968e7f">KEY FEATURES</text>
 
     <text y="70" class="sans" fill="#d4cfc4" font-size="16" font-weight="400">
-      <tspan x="0" dy="0">✓ 40% less blue light</tspan>
-      <tspan x="0" dy="35">✓ ~3000K color temperature</tspan>
-      <tspan x="0" dy="35">✓ 10:1 contrast ratio</tspan>
+      <tspan x="0" dy="0">✓ Low blue-light palette</tspan>
+      <tspan x="0" dy="35">✓ Meets WCAG AA</tspan>
+      <tspan x="0" dy="35">✓ ~10:1 body-text contrast</tspan>
       <tspan x="0" dy="35">✓ Reduces eye strain</tspan>
       <tspan x="0" dy="35">✓ Warm earth tones</tspan>
       <tspan x="0" dy="35">✓ Perfect for evening</tspan>
     </text>
   </g>
 
-  <!-- Footer -->
-  <text x="80" y="600" class="sans" fill="#857c6d" font-size="14" opacity="0.7">Available for Wezterm, Helix, VS Code, and Zed</text>
+  <text x="80" y="600" class="sans" fill="#968e7f" font-size="14" opacity="0.7">Available for Wezterm, Helix, VS Code, and Zed</text>
 </svg>

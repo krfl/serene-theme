@@ -32,10 +32,10 @@ You can also set the colors directly in your configuration:
 **Serene Day:**
 ```bash
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
-  --color=fg:#3d3a33,bg:#f5f2ed,hl:#5a7a4a \
-  --color=fg+:#3d3a33,bg+:#e3d5b8,hl+:#657047 \
-  --color=info:#857c6d,prompt:#657047,pointer:#657047 \
-  --color=marker:#9a6c3a,spinner:#9a6c3a,header:#857c6d \
+  --color=fg:#3d3a33,bg:#f5f2ed,hl:#536f44 \
+  --color=fg+:#3d3a33,bg+:#e3d5b8,hl+:#606b44 \
+  --color=info:#6e665a,prompt:#606b44,pointer:#606b44 \
+  --color=marker:#875f33,spinner:#875f33,header:#6e665a \
   --color=border:#d4cfc4,gutter:#ebe6db \
   --color=preview-fg:#3d3a33,preview-bg:#ebe6db"
 ```
@@ -45,8 +45,8 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --color=fg:#d4cfc4,bg:#1e1d1a,hl:#8fae7a \
   --color=fg+:#d4cfc4,bg+:#3d3420,hl+:#9fa883 \
-  --color=info:#857c6d,prompt:#9fa883,pointer:#9fa883 \
-  --color=marker:#d4a574,spinner:#d4a574,header:#857c6d \
+  --color=info:#968e7f,prompt:#9fa883,pointer:#9fa883 \
+  --color=marker:#d4a574,spinner:#d4a574,header:#968e7f \
   --color=border:#3d3a33,gutter:#2a2826 \
   --color=preview-fg:#d4cfc4,preview-bg:#2a2826"
 ```
@@ -57,8 +57,8 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
 - Background: `#f5f2ed` (warm light beige)
 - Foreground: `#3d3a33` (dark brown)
 - Selection: `#e3d5b8` (soft tan)
-- Highlights: `#5a7a4a` / `#657047` (muted greens)
-- Accent: `#9a6c3a` (warm amber)
+- Highlights: `#536f44` / `#606b44` (muted greens)
+- Accent: `#875f33` (warm amber)
 
 ### Serene Night
 - Background: `#1e1d1a` (deep warm black)

@@ -12,9 +12,9 @@ set -g fish_color_keyword b8956d                 # Keywords - muted tan
 set -g fish_color_quote 8fae7a                   # Quoted strings - soft sage
 set -g fish_color_redirection d4a574             # Redirections - warm sand
 set -g fish_color_end b8956d                     # End keyword - muted tan
-set -g fish_color_error b87860                   # Errors - terracotta red
+set -g fish_color_error bc816b                   # Errors - terracotta red
 set -g fish_color_param d4cfc4                   # Parameters - soft cream
-set -g fish_color_comment 857c6d                 # Comments - warm gray
+set -g fish_color_comment 968e7f                 # Comments - warm gray
 set -g fish_color_selection --background=3d3420 # Selection - dark olive background
 set -g fish_color_operator d4a574               # Operators - warm sand
 set -g fish_color_escape d4a574                  # Escape sequences - warm sand
@@ -23,7 +23,7 @@ set -g fish_color_cwd 9aaa82                     # Current directory - warm sage
 set -g fish_color_user 9aaa82                    # Username - warm sage
 set -g fish_color_host 9aaa82                    # Hostname - warm sage
 set -g fish_color_host_remote b8956d             # Remote hostname - muted tan
-set -g fish_color_cancel b87860                  # Cancel (^C) - terracotta red
+set -g fish_color_cancel bc816b                  # Cancel (^C) - terracotta red
 set -g fish_color_search_match --background=3d3420 # Search match - dark olive
 
 # Pager Colors (completion menu)

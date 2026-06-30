@@ -30,9 +30,9 @@
     "peekViewResult.background": "#2a2826",
     "peekViewTitle.background": "#3d3a33",
     "statusBar.background": "#2a2826",
-    "statusBar.foreground": "#857c6d",
+    "statusBar.foreground": "#968e7f",
     "statusBar.noFolderBackground": "#2a2826",
-    "statusBar.debuggingBackground": "#b87860",
+    "statusBar.debuggingBackground": "#bc816b",
     "statusBar.debuggingForeground": "#1e1d1a",
     "activityBar.background": "#1e1d1a",
     "activityBar.foreground": "#d4cfc4",
@@ -54,7 +54,7 @@
     "tab.activeBackground": "#1e1d1a",
     "tab.activeForeground": "#d4cfc4",
     "tab.inactiveBackground": "#2a2826",
-    "tab.inactiveForeground": "#857c6d",
+    "tab.inactiveForeground": "#968e7f",
     "tab.border": "#3d3a33",
     "tab.activeBorder": "#00000000",
     "tab.activeBorderTop": "#a8a378",
@@ -62,11 +62,11 @@
     "panel.border": "#3d3a33",
     "panelTitle.activeBorder": "#a8a378",
     "panelTitle.activeForeground": "#d4cfc4",
-    "panelTitle.inactiveForeground": "#857c6d",
+    "panelTitle.inactiveForeground": "#968e7f",
     "terminal.background": "#1e1d1a",
     "terminal.foreground": "#d4cfc4",
     "terminal.ansiBlack": "#585a50",
-    "terminal.ansiRed": "#b87860",
+    "terminal.ansiRed": "#bc816b",
     "terminal.ansiGreen": "#8fae7a",
     "terminal.ansiYellow": "#d4a574",
     "terminal.ansiBlue": "#9aaa82",
@@ -74,7 +74,7 @@
     "terminal.ansiCyan": "#a89984",
     "terminal.ansiWhite": "#c8baa8",
     "terminal.ansiBrightBlack": "#7a7c6e",
-    "terminal.ansiBrightRed": "#b87860",
+    "terminal.ansiBrightRed": "#bc816b",
     "terminal.ansiBrightGreen": "#9fa883",
     "terminal.ansiBrightYellow": "#d4a574",
     "terminal.ansiBrightBlue": "#9aaa82",
@@ -82,7 +82,7 @@
     "terminal.ansiBrightCyan": "#a89984",
     "terminal.ansiBrightWhite": "#d4cfc4",
     "gitDecoration.modifiedResourceForeground": "#d4a574",
-    "gitDecoration.deletedResourceForeground": "#b87860",
+    "gitDecoration.deletedResourceForeground": "#bc816b",
     "gitDecoration.untrackedResourceForeground": "#8fae7a",
     "gitDecoration.ignoredResourceForeground": "#5a5549",
     "gitDecoration.conflictingResourceForeground": "#c99976",
@@ -90,7 +90,7 @@
     "notificationCenterHeader.background": "#2a2826",
     "notifications.background": "#2a2826",
     "notifications.border": "#3d3a33",
-    "notificationsErrorIcon.foreground": "#b87860",
+    "notificationsErrorIcon.foreground": "#bc816b",
     "notificationsWarningIcon.foreground": "#d4a574",
     "notificationsInfoIcon.foreground": "#9aaa82",
     "input.background": "#2a2826",
@@ -98,8 +98,8 @@
     "input.foreground": "#d4cfc4",
     "input.placeholderForeground": "#5a5549",
     "inputOption.activeBorder": "#a8a378",
-    "inputValidation.errorBackground": "#b8786033",
-    "inputValidation.errorBorder": "#b87860",
+    "inputValidation.errorBackground": "#bc816b33",
+    "inputValidation.errorBorder": "#bc816b",
     "inputValidation.warningBackground": "#d4a57433",
     "inputValidation.warningBorder": "#d4a574",
     "button.background": "#a8a378",
@@ -107,20 +107,20 @@
     "button.hoverBackground": "#a89984",
     "scrollbarSlider.background": "#3d3a3366",
     "scrollbarSlider.hoverBackground": "#5a554966",
-    "scrollbarSlider.activeBackground": "#857c6d99",
+    "scrollbarSlider.activeBackground": "#968e7f99",
     "badge.background": "#a8a378",
     "badge.foreground": "#1e1d1a",
     "progressBar.background": "#a8a378",
     "titleBar.activeBackground": "#1e1d1a",
     "titleBar.activeForeground": "#d4cfc4",
     "titleBar.inactiveBackground": "#2a2826",
-    "titleBar.inactiveForeground": "#857c6d",
+    "titleBar.inactiveForeground": "#968e7f",
     "titleBar.border": "#3d3a33",
-    "breadcrumb.foreground": "#857c6d",
+    "breadcrumb.foreground": "#968e7f",
     "breadcrumb.focusForeground": "#d4cfc4",
     "breadcrumb.activeSelectionForeground": "#d4cfc4",
     "breadcrumbPicker.background": "#2a2826",
-    "editorError.foreground": "#b87860",
+    "editorError.foreground": "#bc816b",
     "editorError.background": "#2a211e",
     "editorWarning.foreground": "#e8b55d",
     "editorWarning.background": "#2a251e",
@@ -129,7 +129,7 @@
     "editorHint.foreground": "#8d8575",
     "editorHint.background": "#25241f",
     "diffEditor.insertedTextBackground": "#8fae7a22",
-    "diffEditor.removedTextBackground": "#b8786022"
+    "diffEditor.removedTextBackground": "#bc816b22"
   },
   "tokenColors": [
     {
@@ -139,7 +139,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#857c6d",
+        "foreground": "#968e7f",
         "fontStyle": "italic"
       }
     },
@@ -181,7 +181,7 @@
       "name": "Enum Constants",
       "scope": ["constant.other.enum"],
       "settings": {
-        "foreground": "#b87860",
+        "foreground": "#bc816b",
         "background": "#2a231e"
       }
     },
@@ -201,7 +201,7 @@
       "name": "Flow Control Keywords",
       "scope": ["keyword.control.return", "keyword.control.flow"],
       "settings": {
-        "foreground": "#b87860",
+        "foreground": "#bc816b",
         "background": "#2a231e"
       }
     },
@@ -237,7 +237,7 @@
       "name": "Annotations",
       "scope": ["storage.type.annotation", "punctuation.definition.annotation"],
       "settings": {
-        "foreground": "#b87860",
+        "foreground": "#bc816b",
         "background": "#2a231e"
       }
     },
@@ -321,7 +321,7 @@
       "name": "CSS Pseudo-class",
       "scope": ["entity.other.attribute-name.pseudo-class"],
       "settings": {
-        "foreground": "#b87860",
+        "foreground": "#bc816b",
         "background": "#2a231e"
       }
     },
@@ -332,7 +332,7 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#b87860"
+        "foreground": "#bc816b"
       }
     },
     {
@@ -393,7 +393,7 @@
         "markup.quote"
       ],
       "settings": {
-        "foreground": "#857c6d",
+        "foreground": "#968e7f",
         "fontStyle": "italic"
       }
     },
@@ -414,7 +414,7 @@
         "diff.deleted"
       ],
       "settings": {
-        "foreground": "#b87860",
+        "foreground": "#bc816b",
         "background": "#2a231e"
       }
     },
@@ -475,7 +475,7 @@
         "entity.name.module"
       ],
       "settings": {
-        "foreground": "#b87860",
+        "foreground": "#bc816b",
         "background": "#2a231e"
       }
     },

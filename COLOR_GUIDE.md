@@ -2,6 +2,8 @@
 
 Reference of all colors used across the Serene theme family. All variants (regular and clarity) use the same foreground colors. Clarity variants add subtle background colors on syntax elements but never alter the foreground.
 
+Every syntax token meets **WCAG AA (4.5:1)** against every background it renders on: base, active-line highlight, and clarity tints. Body text targets ~10:1. Syntax colors stay in a 4.5–7:1 band, low enough to separate tokens without glare but never below the AA floor. Diagnostic accents (error, warning, info, hint) are tuned for salience and carry non-color cues, so they are not held to the AA text floor.
+
 ## Base Colors
 
 | Role | Day | Night |
@@ -20,26 +22,26 @@ These colors are identical across all editors (VSCode, Helix, Zed, OpenCode) for
 
 | Semantic Role | Day Name | Day Hex | Night Name | Night Hex |
 |---|---|---|---|---|
-| Comment | comment | `#857c6d` | comment | `#857c6d` |
-| String | forest | `#5a7a4a` | sage | `#8fae7a` |
-| Number / Constant | clay | `#a5563f` | terracotta | `#c99976` |
-| Enum constant | terracotta red | `#8b4a38` | terracotta red | `#b87860` |
-| Keyword / Storage | olive | `#657047` | olive | `#a8a378` |
-| Flow control | terracotta red | `#8b4a38` | terracotta red | `#b87860` |
+| Comment | comment | `#6e665a` | comment | `#968e7f` |
+| String | forest | `#536f44` | sage | `#8fae7a` |
+| Number / Constant | clay | `#9e523c` | terracotta | `#c99976` |
+| Enum constant | terracotta red | `#8b4a38` | terracotta red | `#bc816b` |
+| Keyword / Storage | olive | `#606b44` | olive | `#a8a378` |
+| Flow control | terracotta red | `#8b4a38` | terracotta red | `#bc816b` |
 | Operator | charcoal | `#5a5240` | stone | `#b5a899` |
 | Punctuation | taupe | `#6a6350` | muted punctuation | `#9a8f81` |
-| Function | bronze | `#9a6c3a` | sand | `#d4a574` |
-| Constructor | bronze | `#9a6c3a` | sand | `#d4a574` |
-| Class / Type | caramel | `#8b6f47` | tan | `#b8956d` |
+| Function | bronze | `#875f33` | sand | `#d4a574` |
+| Constructor | bronze | `#875f33` | sand | `#d4a574` |
+| Class / Type | caramel | `#7c6340` | tan | `#b8956d` |
 | Variable / Property | taupe | `#6a6350` | beige | `#c8baa8` |
-| Namespace / Annotation | terracotta red | `#8b4a38` | terracotta red | `#b87860` |
-| Tag / Markup link | olive | `#657047` | olive | `#a8a378` |
-| Tag attribute | bronze | `#9a6c3a` | sand | `#d4a574` |
+| Namespace / Annotation | terracotta red | `#8b4a38` | terracotta red | `#bc816b` |
+| Tag / Markup link | olive | `#606b44` | olive | `#a8a378` |
+| Tag attribute | bronze | `#875f33` | sand | `#d4a574` |
 | Markup list | charcoal | `#5a5240` | stone | `#a89984` |
-| Markup heading | bronze | `#9a6c3a` | sand | `#d4a574` |
-| Markup bold/italic | caramel | `#8b6f47` | tan | `#b8956d` |
-| Markup code | forest | `#5a7a4a` | sage | `#8fae7a` |
-| Markup quote | comment | `#857c6d` | comment | `#857c6d` |
+| Markup heading | bronze | `#875f33` | sand | `#d4a574` |
+| Markup bold/italic | caramel | `#7c6340` | tan | `#b8956d` |
+| Markup code | forest | `#536f44` | sage | `#8fae7a` |
+| Markup quote | comment | `#6e665a` | comment | `#968e7f` |
 
 ## Clarity Backgrounds
 
@@ -67,7 +69,7 @@ Used only in clarity variants (VSCode, Helix). These are subtle tints that match
 
 ## ANSI Terminal Colors
 
-Used in terminal emulators (Wezterm, VSCode terminal, Zed terminal, Apple Terminal).
+Used in terminal emulators (Wezterm, VSCode terminal, Zed terminal).
 
 ### Day
 
@@ -75,16 +77,16 @@ Used in terminal emulators (Wezterm, VSCode terminal, Zed terminal, Apple Termin
 |---|---|---|
 | Black | `#4a4538` | dark taupe |
 | Red | `#8b4a38` | terracotta red |
-| Green | `#5a7a4a` | forest green |
-| Yellow | `#9a6c3a` | warm bronze |
+| Green | `#536f44` | forest green |
+| Yellow | `#875f33` | warm bronze |
 | Blue | `#5c7554` | deep sage |
-| Magenta | `#8b6f47` | caramel brown |
+| Magenta | `#7c6340` | caramel brown |
 | Cyan | `#6d6555` | warm charcoal |
 | White | `#7b7568` | warm mid-gray |
 | Bright Black | `#35322a` | deep warm brown |
 | Bright Red | `#8b4a38` | terracotta red |
-| Bright Green | `#657047` | deep olive |
-| Bright Yellow | `#9a6c3a` | bronze |
+| Bright Green | `#606b44` | deep olive |
+| Bright Yellow | `#875f33` | bronze |
 | Bright Blue | `#5c7554` | sage |
 | Bright Magenta | `#8b6340` | chocolate |
 | Bright Cyan | `#a89984` | warm stone |
@@ -95,7 +97,7 @@ Used in terminal emulators (Wezterm, VSCode terminal, Zed terminal, Apple Termin
 | ANSI Color | Hex | Name |
 |---|---|---|
 | Black | `#585a50` | warm olive-gray |
-| Red | `#b87860` | terracotta red |
+| Red | `#bc816b` | terracotta red |
 | Green | `#8fae7a` | soft sage |
 | Yellow | `#d4a574` | warm sand |
 | Blue | `#9aaa82` | warm sage |
@@ -103,7 +105,7 @@ Used in terminal emulators (Wezterm, VSCode terminal, Zed terminal, Apple Termin
 | Cyan | `#a89984` | warm stone |
 | White | `#c8baa8` | light beige |
 | Bright Black | `#7a7c6e` | warm olive-gray |
-| Bright Red | `#b87860` | terracotta red |
+| Bright Red | `#bc816b` | terracotta red |
 | Bright Green | `#9fa883` | olive |
 | Bright Yellow | `#d4a574` | sand |
 | Bright Blue | `#9aaa82` | sage |
@@ -113,7 +115,7 @@ Used in terminal emulators (Wezterm, VSCode terminal, Zed terminal, Apple Termin
 
 ## Shell Colors (Fish, FZF)
 
-Fish and FZF use the same syntax palette as above. The comment color is `#857c6d` across all tools.
+Fish and FZF use the same syntax palette as above. The comment color is `#6e665a` (day) / `#968e7f` (night) across all tools.
 
 ## Editor Support Matrix
 
@@ -124,7 +126,6 @@ Fish and FZF use the same syntax palette as above. The comment color is `#857c6d
 | Zed | yes | yes | no | no |
 | OpenCode | yes | yes | no | no |
 | Wezterm | yes | yes | no | no |
-| Apple Terminal | yes | yes | no | no |
 | Fish | yes | yes | no | no |
 | FZF | yes | yes | no | no |
 | Obsidian | yes | yes | yes | yes |
@@ -133,6 +134,6 @@ Clarity variants are only created for editors that support background colors on 
 
 ## Notes
 
-- Comment color `#857c6d` is shared across day and night variants.
-- ANSI terminal colors are identical across all terminal-capable editors (Wezterm, VSCode, Zed, Apple Terminal).
+- Comment uses separate day (`#6e665a`) and night (`#968e7f`) values. Each clears WCAG AA 4.5:1 on every background it renders on, including the active line. One shared value cannot meet AA on both day and night.
+- ANSI terminal colors are identical across all terminal-capable editors (Wezterm, VSCode, Zed).
 - Regular and clarity variants always use the same foreground colors. Clarity only adds backgrounds.

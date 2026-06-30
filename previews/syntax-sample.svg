@@ -1,0 +1,334 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="1014" viewBox="0 0 1012 1014" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
+<rect width="1012" height="1014" fill="#faf8f4"/>
+<text x="24" y="36" font-size="20" font-weight="700" fill="#3d3a33">Serene syntax sample</text>
+<text x="24" y="60" font-size="13" fill="#8a826f">Same snippet across all four variants, on the real editor backgrounds. Every key token meets WCAG AA (4.5:1).</text>
+<g transform="translate(24,86)">
+<rect x="0" y="0" width="470" height="422" rx="10" fill="#f5f2ed" stroke="#e6e3dd"/>
+<text x="18" y="26" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#3d3a33" opacity="0.75">Day (Regular)</text>
+<text x="18.0" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6e665a" font-style="italic" xml:space="preserve">// Serene theme syntax highlighting sample</text>
+<text x="18.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">import</text>
+<text x="72.6" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">{</text>
+<text x="88.2" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#875f33" xml:space="preserve">readFile</text>
+<text x="158.4" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">}</text>
+<text x="174.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">from</text>
+<text x="213.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#536f44" xml:space="preserve">"fs/promises"</text>
+<text x="18.0" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">const</text>
+<text x="64.8" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9e523c" xml:space="preserve">MAX_RETRIES</text>
+<text x="158.4" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">=</text>
+<text x="174.0" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9e523c" xml:space="preserve">3</text>
+<text x="18.0" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">let</text>
+<text x="49.2" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">palette</text>
+<text x="103.8" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<text x="119.4" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">Palette</text>
+<text x="181.8" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">=</text>
+<text x="197.4" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9e523c" xml:space="preserve">null</text>
+<text x="18.0" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">interface</text>
+<text x="96.0" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">Theme</text>
+<text x="142.8" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">{</text>
+<text x="33.6" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">name</text>
+<text x="64.8" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<text x="80.4" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">string</text>
+<text x="33.6" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">contrast</text>
+<text x="96.0" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<text x="111.6" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">number</text>
+<text x="18.0" y="248" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">}</text>
+<text x="18.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">function</text>
+<text x="88.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#875f33" xml:space="preserve">loadTheme</text>
+<text x="158.4" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<text x="166.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">path</text>
+<text x="197.4" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<text x="213.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">string</text>
+<text x="259.8" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<text x="267.6" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<text x="283.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">Theme</text>
+<text x="330.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">{</text>
+<text x="33.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">const</text>
+<text x="80.4" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">raw</text>
+<text x="111.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">=</text>
+<text x="127.2" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#875f33" xml:space="preserve">readFile</text>
+<text x="189.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<text x="197.4" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">path</text>
+<text x="228.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<text x="33.6" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">if</text>
+<text x="57.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<text x="64.8" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">raw</text>
+<text x="96.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">===</text>
+<text x="127.2" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9e523c" xml:space="preserve">null</text>
+<text x="158.4" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<text x="174.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">{</text>
+<text x="49.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b4a38" xml:space="preserve">throw</text>
+<text x="96.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">new</text>
+<text x="127.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">Error</text>
+<text x="166.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<text x="174.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#536f44" xml:space="preserve">"missing theme"</text>
+<text x="291.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<text x="33.6" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">}</text>
+<text x="33.6" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b4a38" xml:space="preserve">return</text>
+<text x="88.2" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#875f33" xml:space="preserve">parse</text>
+<text x="127.2" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<text x="135.0" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">raw</text>
+<text x="158.4" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<text x="18.0" y="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">}</text>
+</g>
+<g transform="translate(518,86)">
+<rect x="0" y="0" width="470" height="422" rx="10" fill="#f5f2ed" stroke="#e6e3dd"/>
+<text x="18" y="26" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#3d3a33" opacity="0.75">Day (Clarity)</text>
+<text x="18.0" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6e665a" font-style="italic" xml:space="preserve">// Serene theme syntax highlighting sample</text>
+<rect x="18.0" y="83" width="46.8" height="18" fill="#edecd4"/>
+<text x="18.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">import</text>
+<text x="72.6" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">{</text>
+<rect x="88.2" y="83" width="62.4" height="18" fill="#f7ead8"/>
+<text x="88.2" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#875f33" xml:space="preserve">readFile</text>
+<text x="158.4" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">}</text>
+<rect x="174.0" y="83" width="31.2" height="18" fill="#edecd4"/>
+<text x="174.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">from</text>
+<rect x="213.0" y="83" width="101.4" height="18" fill="#e8ede0"/>
+<text x="213.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#536f44" xml:space="preserve">"fs/promises"</text>
+<rect x="18.0" y="121" width="39.0" height="18" fill="#edecd4"/>
+<text x="18.0" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">const</text>
+<rect x="64.8" y="121" width="85.8" height="18" fill="#f7ead8"/>
+<text x="64.8" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9e523c" xml:space="preserve">MAX_RETRIES</text>
+<text x="158.4" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">=</text>
+<rect x="174.0" y="121" width="7.8" height="18" fill="#f7ead8"/>
+<text x="174.0" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9e523c" xml:space="preserve">3</text>
+<rect x="18.0" y="140" width="23.4" height="18" fill="#edecd4"/>
+<text x="18.0" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">let</text>
+<text x="49.2" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">palette</text>
+<text x="103.8" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<rect x="119.4" y="140" width="54.6" height="18" fill="#f2ebe0"/>
+<text x="119.4" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">Palette</text>
+<text x="181.8" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">=</text>
+<rect x="197.4" y="140" width="31.2" height="18" fill="#f7ead8"/>
+<text x="197.4" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9e523c" xml:space="preserve">null</text>
+<rect x="18.0" y="178" width="70.2" height="18" fill="#edecd4"/>
+<text x="18.0" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">interface</text>
+<rect x="96.0" y="178" width="39.0" height="18" fill="#f2ebe0"/>
+<text x="96.0" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">Theme</text>
+<text x="142.8" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">{</text>
+<text x="33.6" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">name</text>
+<text x="64.8" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<rect x="80.4" y="197" width="46.8" height="18" fill="#f2ebe0"/>
+<text x="80.4" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">string</text>
+<text x="33.6" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">contrast</text>
+<text x="96.0" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<rect x="111.6" y="216" width="46.8" height="18" fill="#f2ebe0"/>
+<text x="111.6" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">number</text>
+<text x="18.0" y="248" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">}</text>
+<rect x="18.0" y="273" width="62.4" height="18" fill="#edecd4"/>
+<text x="18.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">function</text>
+<rect x="88.2" y="273" width="70.2" height="18" fill="#f7ead8"/>
+<text x="88.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#875f33" xml:space="preserve">loadTheme</text>
+<text x="158.4" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<text x="166.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">path</text>
+<text x="197.4" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<rect x="213.0" y="273" width="46.8" height="18" fill="#f2ebe0"/>
+<text x="213.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">string</text>
+<text x="259.8" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<text x="267.6" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">:</text>
+<rect x="283.2" y="273" width="39.0" height="18" fill="#f2ebe0"/>
+<text x="283.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">Theme</text>
+<text x="330.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">{</text>
+<rect x="33.6" y="292" width="39.0" height="18" fill="#edecd4"/>
+<text x="33.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">const</text>
+<text x="80.4" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">raw</text>
+<text x="111.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">=</text>
+<rect x="127.2" y="292" width="62.4" height="18" fill="#f7ead8"/>
+<text x="127.2" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#875f33" xml:space="preserve">readFile</text>
+<text x="189.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<text x="197.4" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">path</text>
+<text x="228.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<rect x="33.6" y="311" width="15.6" height="18" fill="#edecd4"/>
+<text x="33.6" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">if</text>
+<text x="57.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<text x="64.8" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">raw</text>
+<text x="96.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5a5240" xml:space="preserve">===</text>
+<rect x="127.2" y="311" width="31.2" height="18" fill="#f7ead8"/>
+<text x="127.2" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9e523c" xml:space="preserve">null</text>
+<text x="158.4" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<text x="174.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">{</text>
+<rect x="49.2" y="330" width="39.0" height="18" fill="#f5e8de"/>
+<text x="49.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b4a38" xml:space="preserve">throw</text>
+<rect x="96.0" y="330" width="23.4" height="18" fill="#edecd4"/>
+<text x="96.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#606b44" xml:space="preserve">new</text>
+<rect x="127.2" y="330" width="39.0" height="18" fill="#f2ebe0"/>
+<text x="127.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7c6340" xml:space="preserve">Error</text>
+<text x="166.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<rect x="174.0" y="330" width="117.0" height="18" fill="#e8ede0"/>
+<text x="174.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#536f44" xml:space="preserve">"missing theme"</text>
+<text x="291.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<text x="33.6" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">}</text>
+<rect x="33.6" y="368" width="46.8" height="18" fill="#f5e8de"/>
+<text x="33.6" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b4a38" xml:space="preserve">return</text>
+<rect x="88.2" y="368" width="39.0" height="18" fill="#f7ead8"/>
+<text x="88.2" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#875f33" xml:space="preserve">parse</text>
+<text x="127.2" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">(</text>
+<text x="135.0" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">raw</text>
+<text x="158.4" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">)</text>
+<text x="18.0" y="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6a6350" xml:space="preserve">}</text>
+</g>
+<g transform="translate(24,536)">
+<rect x="0" y="0" width="470" height="422" rx="10" fill="#1e1d1a" stroke="#e6e3dd"/>
+<text x="18" y="26" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#d4cfc4" opacity="0.75">Night (Regular)</text>
+<text x="18.0" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#968e7f" font-style="italic" xml:space="preserve">// Serene theme syntax highlighting sample</text>
+<text x="18.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">import</text>
+<text x="72.6" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">{</text>
+<text x="88.2" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4a574" xml:space="preserve">readFile</text>
+<text x="158.4" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">}</text>
+<text x="174.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">from</text>
+<text x="213.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8fae7a" xml:space="preserve">"fs/promises"</text>
+<text x="18.0" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">const</text>
+<text x="64.8" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c99976" xml:space="preserve">MAX_RETRIES</text>
+<text x="158.4" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">=</text>
+<text x="174.0" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c99976" xml:space="preserve">3</text>
+<text x="18.0" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">let</text>
+<text x="49.2" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">palette</text>
+<text x="103.8" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<text x="119.4" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">Palette</text>
+<text x="181.8" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">=</text>
+<text x="197.4" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c99976" xml:space="preserve">null</text>
+<text x="18.0" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">interface</text>
+<text x="96.0" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">Theme</text>
+<text x="142.8" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">{</text>
+<text x="33.6" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">name</text>
+<text x="64.8" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<text x="80.4" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">string</text>
+<text x="33.6" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">contrast</text>
+<text x="96.0" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<text x="111.6" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">number</text>
+<text x="18.0" y="248" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">}</text>
+<text x="18.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">function</text>
+<text x="88.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4a574" xml:space="preserve">loadTheme</text>
+<text x="158.4" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<text x="166.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">path</text>
+<text x="197.4" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<text x="213.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">string</text>
+<text x="259.8" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<text x="267.6" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<text x="283.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">Theme</text>
+<text x="330.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">{</text>
+<text x="33.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">const</text>
+<text x="80.4" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">raw</text>
+<text x="111.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">=</text>
+<text x="127.2" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4a574" xml:space="preserve">readFile</text>
+<text x="189.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<text x="197.4" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">path</text>
+<text x="228.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<text x="33.6" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">if</text>
+<text x="57.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<text x="64.8" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">raw</text>
+<text x="96.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">===</text>
+<text x="127.2" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c99976" xml:space="preserve">null</text>
+<text x="158.4" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<text x="174.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">{</text>
+<text x="49.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#bc816b" xml:space="preserve">throw</text>
+<text x="96.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">new</text>
+<text x="127.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">Error</text>
+<text x="166.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<text x="174.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8fae7a" xml:space="preserve">"missing theme"</text>
+<text x="291.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<text x="33.6" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">}</text>
+<text x="33.6" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#bc816b" xml:space="preserve">return</text>
+<text x="88.2" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4a574" xml:space="preserve">parse</text>
+<text x="127.2" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<text x="135.0" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">raw</text>
+<text x="158.4" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<text x="18.0" y="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">}</text>
+</g>
+<g transform="translate(518,536)">
+<rect x="0" y="0" width="470" height="422" rx="10" fill="#1e1d1a" stroke="#e6e3dd"/>
+<text x="18" y="26" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#d4cfc4" opacity="0.75">Night (Clarity)</text>
+<text x="18.0" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#968e7f" font-style="italic" xml:space="preserve">// Serene theme syntax highlighting sample</text>
+<rect x="18.0" y="83" width="46.8" height="18" fill="#26261e"/>
+<text x="18.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">import</text>
+<text x="72.6" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">{</text>
+<rect x="88.2" y="83" width="62.4" height="18" fill="#2a251e"/>
+<text x="88.2" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4a574" xml:space="preserve">readFile</text>
+<text x="158.4" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">}</text>
+<rect x="174.0" y="83" width="31.2" height="18" fill="#26261e"/>
+<text x="174.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">from</text>
+<rect x="213.0" y="83" width="101.4" height="18" fill="#242520"/>
+<text x="213.0" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8fae7a" xml:space="preserve">"fs/promises"</text>
+<rect x="18.0" y="121" width="39.0" height="18" fill="#26261e"/>
+<text x="18.0" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">const</text>
+<rect x="64.8" y="121" width="85.8" height="18" fill="#2a251e"/>
+<text x="64.8" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c99976" xml:space="preserve">MAX_RETRIES</text>
+<text x="158.4" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">=</text>
+<rect x="174.0" y="121" width="7.8" height="18" fill="#2a251e"/>
+<text x="174.0" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c99976" xml:space="preserve">3</text>
+<rect x="18.0" y="140" width="23.4" height="18" fill="#26261e"/>
+<text x="18.0" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">let</text>
+<text x="49.2" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">palette</text>
+<text x="103.8" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<rect x="119.4" y="140" width="54.6" height="18" fill="#26241f"/>
+<text x="119.4" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">Palette</text>
+<text x="181.8" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">=</text>
+<rect x="197.4" y="140" width="31.2" height="18" fill="#2a251e"/>
+<text x="197.4" y="153" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c99976" xml:space="preserve">null</text>
+<rect x="18.0" y="178" width="70.2" height="18" fill="#26261e"/>
+<text x="18.0" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">interface</text>
+<rect x="96.0" y="178" width="39.0" height="18" fill="#26241f"/>
+<text x="96.0" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">Theme</text>
+<text x="142.8" y="191" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">{</text>
+<text x="33.6" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">name</text>
+<text x="64.8" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<rect x="80.4" y="197" width="46.8" height="18" fill="#26241f"/>
+<text x="80.4" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">string</text>
+<text x="33.6" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">contrast</text>
+<text x="96.0" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<rect x="111.6" y="216" width="46.8" height="18" fill="#26241f"/>
+<text x="111.6" y="229" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">number</text>
+<text x="18.0" y="248" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">}</text>
+<rect x="18.0" y="273" width="62.4" height="18" fill="#26261e"/>
+<text x="18.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">function</text>
+<rect x="88.2" y="273" width="70.2" height="18" fill="#2a251e"/>
+<text x="88.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4a574" xml:space="preserve">loadTheme</text>
+<text x="158.4" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<text x="166.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">path</text>
+<text x="197.4" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<rect x="213.0" y="273" width="46.8" height="18" fill="#26241f"/>
+<text x="213.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">string</text>
+<text x="259.8" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<text x="267.6" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">:</text>
+<rect x="283.2" y="273" width="39.0" height="18" fill="#26241f"/>
+<text x="283.2" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">Theme</text>
+<text x="330.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">{</text>
+<rect x="33.6" y="292" width="39.0" height="18" fill="#26261e"/>
+<text x="33.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">const</text>
+<text x="80.4" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">raw</text>
+<text x="111.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">=</text>
+<rect x="127.2" y="292" width="62.4" height="18" fill="#2a251e"/>
+<text x="127.2" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4a574" xml:space="preserve">readFile</text>
+<text x="189.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<text x="197.4" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">path</text>
+<text x="228.6" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<rect x="33.6" y="311" width="15.6" height="18" fill="#26261e"/>
+<text x="33.6" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">if</text>
+<text x="57.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<text x="64.8" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">raw</text>
+<text x="96.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b5a899" xml:space="preserve">===</text>
+<rect x="127.2" y="311" width="31.2" height="18" fill="#2a251e"/>
+<text x="127.2" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c99976" xml:space="preserve">null</text>
+<text x="158.4" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<text x="174.0" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">{</text>
+<rect x="49.2" y="330" width="39.0" height="18" fill="#2a231e"/>
+<text x="49.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#bc816b" xml:space="preserve">throw</text>
+<rect x="96.0" y="330" width="23.4" height="18" fill="#26261e"/>
+<text x="96.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#a8a378" xml:space="preserve">new</text>
+<rect x="127.2" y="330" width="39.0" height="18" fill="#26241f"/>
+<text x="127.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#b8956d" xml:space="preserve">Error</text>
+<text x="166.2" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<rect x="174.0" y="330" width="117.0" height="18" fill="#242520"/>
+<text x="174.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8fae7a" xml:space="preserve">"missing theme"</text>
+<text x="291.0" y="343" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<text x="33.6" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">}</text>
+<rect x="33.6" y="368" width="46.8" height="18" fill="#2a231e"/>
+<text x="33.6" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#bc816b" xml:space="preserve">return</text>
+<rect x="88.2" y="368" width="39.0" height="18" fill="#2a251e"/>
+<text x="88.2" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4a574" xml:space="preserve">parse</text>
+<text x="127.2" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">(</text>
+<text x="135.0" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#c8baa8" xml:space="preserve">raw</text>
+<text x="158.4" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">)</text>
+<text x="18.0" y="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9a8f81" xml:space="preserve">}</text>
+</g>
+<text x="24" y="992" font-size="11.5" fill="#8a826f">Regular = foreground colors only · Clarity = subtle tint behind strings, keywords, functions, types, numbers, constants and flow-control.</text>
+</svg>
