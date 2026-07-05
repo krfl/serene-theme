@@ -1,5 +1,8 @@
 .IGNORE/
 .claude/
-themes/install.sh
+.DS_Store
 __pycache__/
 *.pyc
+
+# Wallpapers are kept local only; the theme ships without them.
+wallpapers/
