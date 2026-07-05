@@ -69,7 +69,7 @@ Used only in clarity variants (VSCode, Helix). These are subtle tints that match
 
 ## ANSI Terminal Colors
 
-Used in terminal emulators (Wezterm, Ghostty, VSCode terminal, Zed terminal).
+Used in terminal emulators (Wezterm, Ghostty, Alacritty, Kitty, VSCode terminal, Zed terminal).
 
 ### Day
 
@@ -127,6 +127,8 @@ Fish and FZF use the same syntax palette as above. The comment color is `#6e665a
 | OpenCode | yes | yes | no | no |
 | Wezterm | yes | yes | no | no |
 | Ghostty | yes | yes | no | no |
+| Alacritty | yes | yes | no | no |
+| Kitty | yes | yes | no | no |
 | Fish | yes | yes | no | no |
 | FZF | yes | yes | no | no |
 | Obsidian | yes | yes | yes | yes |
@@ -136,5 +138,5 @@ Clarity variants are only created for editors that support background colors on 
 ## Notes
 
 - Comment uses separate day (`#6e665a`) and night (`#968e7f`) values. Each clears WCAG AA 4.5:1 on every background it renders on, including the active line. One shared value cannot meet AA on both day and night.
-- ANSI terminal colors are identical across all terminal-capable editors (Wezterm, Ghostty, VSCode, Zed).
+- ANSI terminal colors are identical across all terminal-capable editors (Wezterm, Ghostty, Alacritty, Kitty, VSCode, Zed).
 - Regular and clarity variants always use the same foreground colors. Clarity only adds backgrounds.

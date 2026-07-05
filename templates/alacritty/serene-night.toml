@@ -1,0 +1,35 @@
+# Serene Night - Eye-friendly dark theme for Alacritty
+# Reduces blue light and eye strain with warm earth tones
+# Based on optometry research for computer vision syndrome
+
+[colors.primary]
+background = "{{night.deep-earth}}"
+foreground = "{{night.parchment}}"
+
+[colors.cursor]
+text = "{{night.deep-earth}}"
+cursor = "{{night.parchment}}"
+
+[colors.selection]
+text = "{{night.parchment}}"
+background = "{{night.warm-umber}}"
+
+[colors.normal]
+black = "{{night.moss-stone}}"
+red = "{{night.sunset-clay}}"
+green = "{{night.meadow-sage}}"
+yellow = "{{night.honey}}"
+blue = "{{night.spring-sage}}"
+magenta = "{{night.warm-tan}}"
+cyan = "{{night.sandstone}}"
+white = "{{night.pale-hide}}"
+
+[colors.bright]
+black = "{{night.lichen}}"
+red = "{{night.sunset-clay}}"
+green = "{{night.sage-grass}}"
+yellow = "{{night.honey}}"
+blue = "{{night.spring-sage}}"
+magenta = "{{night.buckskin}}"
+cyan = "{{night.sandstone}}"
+white = "{{night.parchment}}"

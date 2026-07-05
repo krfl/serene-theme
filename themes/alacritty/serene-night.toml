@@ -1,0 +1,35 @@
+# Serene Night - Eye-friendly dark theme for Alacritty
+# Reduces blue light and eye strain with warm earth tones
+# Based on optometry research for computer vision syndrome
+
+[colors.primary]
+background = "#1e1d1a"
+foreground = "#d4cfc4"
+
+[colors.cursor]
+text = "#1e1d1a"
+cursor = "#d4cfc4"
+
+[colors.selection]
+text = "#d4cfc4"
+background = "#3d3420"
+
+[colors.normal]
+black = "#585a50"
+red = "#bc816b"
+green = "#8fae7a"
+yellow = "#d4a574"
+blue = "#9aaa82"
+magenta = "#b8956d"
+cyan = "#a89984"
+white = "#c8baa8"
+
+[colors.bright]
+black = "#7a7c6e"
+red = "#bc816b"
+green = "#9fa883"
+yellow = "#d4a574"
+blue = "#9aaa82"
+magenta = "#ba9c7e"
+cyan = "#a89984"
+white = "#d4cfc4"

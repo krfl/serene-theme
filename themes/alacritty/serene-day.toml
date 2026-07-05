@@ -1,0 +1,35 @@
+# Serene Day - Eye-friendly light theme for Alacritty
+# Reduces glare and eye strain with warm earth tones
+# Based on optometry research for computer vision syndrome
+
+[colors.primary]
+background = "#f5f2ed"
+foreground = "#3d3a33"
+
+[colors.cursor]
+text = "#f5f2ed"
+cursor = "#3d3a33"
+
+[colors.selection]
+text = "#3d3a33"
+background = "#e3d5b8"
+
+[colors.normal]
+black = "#4a4538"
+red = "#8b4a38"
+green = "#536f44"
+yellow = "#875f33"
+blue = "#5c7554"
+magenta = "#7c6340"
+cyan = "#6d6555"
+white = "#7b7568"
+
+[colors.bright]
+black = "#35322a"
+red = "#8b4a38"
+green = "#606b44"
+yellow = "#875f33"
+blue = "#5c7554"
+magenta = "#8b6340"
+cyan = "#a89984"
+white = "#f5f2ed"
