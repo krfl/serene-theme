@@ -1,0 +1,27 @@
+# Serene Day - Eye-friendly light theme for Ghostty
+# Reduces glare and eye strain with warm earth tones
+# Based on optometry research for computer vision syndrome
+
+background = f5f2ed
+foreground = 3d3a33
+cursor-color = 3d3a33
+cursor-text = f5f2ed
+selection-background = e3d5b8
+selection-foreground = 3d3a33
+
+palette = 0=#4a4538
+palette = 1=#8b4a38
+palette = 2=#536f44
+palette = 3=#875f33
+palette = 4=#5c7554
+palette = 5=#7c6340
+palette = 6=#6d6555
+palette = 7=#7b7568
+palette = 8=#35322a
+palette = 9=#8b4a38
+palette = 10=#606b44
+palette = 11=#875f33
+palette = 12=#5c7554
+palette = 13=#8b6340
+palette = 14=#a89984
+palette = 15=#f5f2ed

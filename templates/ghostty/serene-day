@@ -1,0 +1,27 @@
+# Serene Day - Eye-friendly light theme for Ghostty
+# Reduces glare and eye strain with warm earth tones
+# Based on optometry research for computer vision syndrome
+
+background = {{day.aged-paper|nohash}}
+foreground = {{day.warm-ink|nohash}}
+cursor-color = {{day.warm-ink|nohash}}
+cursor-text = {{day.aged-paper|nohash}}
+selection-background = {{day.golden-sand|nohash}}
+selection-foreground = {{day.warm-ink|nohash}}
+
+palette = 0={{day.soot}}
+palette = 1={{day.terracotta}}
+palette = 2={{day.forest}}
+palette = 3={{day.bronze}}
+palette = 4={{day.fern}}
+palette = 5={{day.caramel}}
+palette = 6={{day.pebble}}
+palette = 7={{day.warm-gray}}
+palette = 8={{day.deep-soot}}
+palette = 9={{day.terracotta}}
+palette = 10={{day.olive}}
+palette = 11={{day.bronze}}
+palette = 12={{day.fern}}
+palette = 13={{day.toffee}}
+palette = 14={{day.sandstone}}
+palette = 15={{day.aged-paper}}

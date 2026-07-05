@@ -1,0 +1,27 @@
+# Serene Night - Eye-friendly dark theme for Ghostty
+# Reduces blue light and eye strain with warm earth tones
+# Based on optometry research for computer vision syndrome
+
+background = {{night.deep-earth|nohash}}
+foreground = {{night.parchment|nohash}}
+cursor-color = {{night.parchment|nohash}}
+cursor-text = {{night.deep-earth|nohash}}
+selection-background = {{night.warm-umber|nohash}}
+selection-foreground = {{night.parchment|nohash}}
+
+palette = 0={{night.moss-stone}}
+palette = 1={{night.sunset-clay}}
+palette = 2={{night.meadow-sage}}
+palette = 3={{night.honey}}
+palette = 4={{night.spring-sage}}
+palette = 5={{night.warm-tan}}
+palette = 6={{night.sandstone}}
+palette = 7={{night.pale-hide}}
+palette = 8={{night.lichen}}
+palette = 9={{night.sunset-clay}}
+palette = 10={{night.sage-grass}}
+palette = 11={{night.honey}}
+palette = 12={{night.spring-sage}}
+palette = 13={{night.buckskin}}
+palette = 14={{night.sandstone}}
+palette = 15={{night.parchment}}
