@@ -14,7 +14,7 @@
   <rect width="1200" height="630" fill="#1e1d1a"/>
 
   <text x="80" y="100" class="sans title" fill="#d4cfc4">SERENE NIGHT</text>
-  <text x="80" y="135" class="sans subtitle" fill="#968e7f">Eye-friendly dark theme with warm earth tones</text>
+  <text x="80" y="135" class="sans subtitle" fill="#968e7f">A warm dark theme</text>
 
   <g transform="translate(80, 200)">
     <rect x="0" y="0" width="90" height="90" rx="8" fill="#1e1d1a" stroke="#968e7f" stroke-width="1.5"/>
@@ -53,17 +53,15 @@
   </g>
 
   <g transform="translate(820, 200)">
-    <text y="30" class="sans label" fill="#968e7f">KEY FEATURES</text>
+    <text y="30" class="sans label" fill="#968e7f">NOTES</text>
 
     <text y="70" class="sans" fill="#d4cfc4" font-size="16" font-weight="400">
-      <tspan x="0" dy="0">✓ Low blue-light palette</tspan>
-      <tspan x="0" dy="35">✓ Meets WCAG AA</tspan>
-      <tspan x="0" dy="35">✓ ~10:1 body-text contrast</tspan>
-      <tspan x="0" dy="35">✓ Reduces eye strain</tspan>
-      <tspan x="0" dy="35">✓ Warm earth tones</tspan>
-      <tspan x="0" dy="35">✓ Perfect for evening</tspan>
+      <tspan x="0" dy="0">Warm, muted colors</tspan>
+      <tspan x="0" dy="35">No pure white or black</tspan>
+      <tspan x="0" dy="35">Body text around 10:1</tspan>
+      <tspan x="0" dy="35">Syntax above 4.5:1 (WCAG AA)</tspan>
     </text>
   </g>
 
-  <text x="80" y="600" class="sans" fill="#968e7f" font-size="14" opacity="0.7">Available for Wezterm, Helix, VS Code, and Zed</text>
+  <text x="80" y="600" class="sans" fill="#968e7f" font-size="14" opacity="0.7">Themes for many terminals, editors and tools</text>
 </svg>

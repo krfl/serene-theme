@@ -32,22 +32,21 @@ THEMES = [
         "section": "day",
         "swatch_key": 1,                 # index into the (day, night) key pair
         "title": "SERENE DAY",
-        "subtitle": "Eye-friendly light theme with warm earth tones",
-        "features": ["Reduces glare", "Meets WCAG AA", "~10:1 body-text contrast",
-                     "Reduces eye strain", "Warm earth tones", "Perfect for daytime"],
+        "subtitle": "A warm light theme",
     },
     {
         "out": "preview-dark.svg",
         "section": "night",
         "swatch_key": 2,
         "title": "SERENE NIGHT",
-        "subtitle": "Eye-friendly dark theme with warm earth tones",
-        "features": ["Low blue-light palette", "Meets WCAG AA", "~10:1 body-text contrast",
-                     "Reduces eye strain", "Warm earth tones", "Perfect for evening"],
+        "subtitle": "A warm dark theme",
     },
 ]
 
-FOOTER = "Available for Wezterm, Helix, VS Code, and Zed"
+NOTES = ["Warm, muted colors", "No pure white or black",
+         "Body text around 10:1", "Syntax above 4.5:1 (WCAG AA)"]
+
+FOOTER = "Themes for many terminals, editors and tools"
 
 
 def build_svg(theme, palette):
@@ -94,12 +93,12 @@ def build_svg(theme, palette):
     out.append('  </g>')
     out.append('')
     out.append('  <g transform="translate(820, 200)">')
-    out.append(f'    <text y="30" class="sans label" fill="{muted}">KEY FEATURES</text>')
+    out.append(f'    <text y="30" class="sans label" fill="{muted}">NOTES</text>')
     out.append('')
     out.append(f'    <text y="70" class="sans" fill="{fg}" font-size="16" font-weight="400">')
-    for j, feat in enumerate(theme["features"]):
+    for j, note in enumerate(NOTES):
         dy = 0 if j == 0 else 35
-        out.append(f'      <tspan x="0" dy="{dy}">✓ {feat}</tspan>')
+        out.append(f'      <tspan x="0" dy="{dy}">{note}</tspan>')
     out.append('    </text>')
     out.append('  </g>')
     out.append('')
