@@ -4,8 +4,8 @@ Two warm, earthy color schemes for [fzf](https://github.com/junegunn/fzf) (fuzzy
 
 ## Available Themes
 
-- **serene-day.sh** - Light theme with warm earth tones, perfect for daytime use
-- **serene-night.sh** - Dark theme with muted, comfortable colors for nighttime use
+- **serene-fallow-day.sh** - Light theme with warm earth tones, perfect for daytime use
+- **serene-fallow-night.sh** - Dark theme with muted, comfortable colors for nighttime use
 
 ## Installation
 
@@ -14,11 +14,11 @@ Two warm, earthy color schemes for [fzf](https://github.com/junegunn/fzf) (fuzzy
 Add one of these lines to your shell configuration file (`.bashrc`, `.zshrc`, etc.):
 
 ```bash
-# For serene-day
-source /path/to/serene-theme/themes/fzf/serene-day.sh
+# For serene-fallow-day
+source /path/to/serene-theme/themes/fzf/serene-fallow-day.sh
 
-# For serene-night
-source /path/to/serene-theme/themes/fzf/serene-night.sh
+# For serene-fallow-night
+source /path/to/serene-theme/themes/fzf/serene-fallow-night.sh
 ```
 
 ### Option 2: Copy the color settings directly
@@ -29,7 +29,7 @@ Copy the `export FZF_DEFAULT_OPTS` line from the theme file directly into your s
 
 You can also set the colors directly in your configuration:
 
-**Serene Day:**
+**Serene Fallow Day:**
 ```bash
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --color=fg:{{day.warm-ink}},bg:{{day.aged-paper}},hl:{{day.forest}} \
@@ -40,7 +40,7 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --color=preview-fg:{{day.warm-ink}},preview-bg:{{day.pale-wheat}}"
 ```
 
-**Serene Night:**
+**Serene Fallow Night:**
 ```bash
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
   --color=fg:{{night.parchment}},bg:{{night.deep-earth}},hl:{{night.meadow-sage}} \
@@ -53,14 +53,14 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
 
 ## Color Palette
 
-### Serene Day
+### Serene Fallow Day
 - Background: `{{day.aged-paper}}` (warm light beige)
 - Foreground: `{{day.warm-ink}}` (dark brown)
 - Selection: `{{day.golden-sand}}` (soft tan)
 - Highlights: `{{day.forest}}` / `{{day.olive}}` (muted greens)
 - Accent: `{{day.bronze}}` (warm amber)
 
-### Serene Night
+### Serene Fallow Night
 - Background: `{{night.deep-earth}}` (deep warm black)
 - Foreground: `{{night.parchment}}` (soft beige)
 - Selection: `{{night.warm-umber}}` (dark olive)
@@ -73,11 +73,11 @@ To easily switch between day and night themes, you can create shell functions:
 
 ```bash
 fzf-day() {
-  source /path/to/serene-theme/themes/fzf/serene-day.sh
+  source /path/to/serene-theme/themes/fzf/serene-fallow-day.sh
 }
 
 fzf-night() {
-  source /path/to/serene-theme/themes/fzf/serene-night.sh
+  source /path/to/serene-theme/themes/fzf/serene-fallow-night.sh
 }
 ```
 
