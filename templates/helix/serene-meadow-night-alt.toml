@@ -190,7 +190,7 @@ spruce = "{{night.spruce}}"
 rosewood = "{{night.rosewood}}"
 
 # Special colors (expert-refined)
-error = "{{night.sunset-clay}}"
+error = "{{night.poppy}}"
 warning = "{{night.golden}}"
-info = "{{night.sage-teal}}"
+info = "{{night.lagoon}}"
 hint = "{{night.dusk-stone}}"

@@ -7,7 +7,7 @@ ansi = [
   '#585a50',  # Black - warm olive-gray
   '#c9948d',  # Red
   '#8aa983',  # Green
-  '#b1a072',  # Yellow
+  '#ada172',  # Yellow
   '#80a4c7',  # Blue
   '#bf94b2',  # Magenta
   '#79aaa7',  # Cyan
@@ -17,7 +17,7 @@ brights = [
   '#7a7c6e',  # Bright black - warm olive-gray
   '#d9a39c',  # Bright red
   '#99b992',  # Bright green
-  '#c0af81',  # Bright yellow
+  '#bdb081',  # Bright yellow
   '#8fb3d7',  # Bright blue
   '#cfa3c1',  # Bright magenta
   '#88bab7',  # Bright cyan

@@ -17,9 +17,9 @@
     "beige": "{{night.pale-hide}}",
     "muted_punctuation": "{{night.dry-clay}}",
     "terracotta": "{{night.copper}}",
-    "error": "{{night.sunset-clay}}",
+    "error": "{{night.poppy}}",
     "warning": "{{night.honey}}",
-    "info": "{{night.spring-sage}}",
+    "info": "{{night.lagoon}}",
     "hint": "{{night.sandstone}}"
   },
   "theme": {

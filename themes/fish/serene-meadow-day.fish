@@ -22,7 +22,7 @@ set -g fish_color_autosuggestion 6e665a          # Autosuggestions - medium gray
 set -g fish_color_cwd 496842                     # Cwd - leaf
 set -g fish_color_user 3f6386                    # User - slate blue
 set -g fish_color_host 3f6386                    # Host - slate blue
-set -g fish_color_host_remote 705f2f             # Host remote - ochre
+set -g fish_color_host_remote 6d602f             # Host remote - ochre
 set -g fish_color_cancel 86534c                  # Cancel - rosewood
 set -g fish_color_search_match --background=e3d5b8 # Search match - warm beige
 

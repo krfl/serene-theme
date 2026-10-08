@@ -15,9 +15,9 @@
   --background-modifier-form-field-highlighted: {{day.golden-sand}};
   --background-modifier-box-shadow: rgba(61, 58, 51, 0.1);
   --background-modifier-success: {{day.forest}};
-  --background-modifier-error: {{day.terracotta}};
-  --background-modifier-error-rgb: 139, 74, 56;
-  --background-modifier-error-hover: {{day.terracotta}};
+  --background-modifier-error: {{day.poppy}};
+  --background-modifier-error-rgb: 170, 79, 79;
+  --background-modifier-error-hover: {{day.poppy}};
   --background-modifier-cover: rgba(61, 58, 51, 0.5);
 
   /* Text Colors */
@@ -25,7 +25,7 @@
   --text-muted: {{day.weathered-stone}};
   --text-faint: {{day.driftwood}};
   --text-on-accent: {{day.aged-paper}};
-  --text-error: {{day.terracotta}};
+  --text-error: {{day.poppy}};
   --text-accent: {{day.plum}};
   --text-accent-hover: {{day.spruce}};
   --text-selection: {{day.golden-sand}};
@@ -99,9 +99,9 @@
   --background-modifier-form-field-highlighted: {{night.warm-umber}};
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-success: {{night.meadow-sage}};
-  --background-modifier-error: {{night.sunset-clay}};
-  --background-modifier-error-rgb: 184, 120, 96;
-  --background-modifier-error-hover: {{night.copper}};
+  --background-modifier-error: {{night.poppy}};
+  --background-modifier-error-rgb: 215, 120, 118;
+  --background-modifier-error-hover: {{night.poppy}};
   --background-modifier-cover: rgba(0, 0, 0, 0.5);
 
   /* Text Colors */
@@ -109,7 +109,7 @@
   --text-muted: {{night.weathered-stone}};
   --text-faint: {{night.dark-slate}};
   --text-on-accent: {{night.deep-earth}};
-  --text-error: {{night.sunset-clay}};
+  --text-error: {{night.poppy}};
   --text-accent: {{night.plum}};
   --text-accent-hover: {{night.spruce}};
   --text-selection: {{night.warm-umber}};

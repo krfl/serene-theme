@@ -32,12 +32,12 @@
     <rect x="480" y="0" width="90" height="90" rx="8" fill="#3f6386"/>
     <text x="525" y="115" class="sans label" fill="#6e665a" text-anchor="middle">Function</text>
     <text x="525" y="135" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#3f6386</text>
-    <rect x="600" y="0" width="90" height="90" rx="8" fill="#705f2f"/>
+    <rect x="600" y="0" width="90" height="90" rx="8" fill="#6d602f"/>
     <text x="645" y="115" class="sans label" fill="#6e665a" text-anchor="middle">Type</text>
-    <text x="645" y="135" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#705f2f</text>
-    <rect x="0" y="180" width="90" height="90" rx="8" fill="#805838"/>
+    <text x="645" y="135" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#6d602f</text>
+    <rect x="0" y="180" width="90" height="90" rx="8" fill="#845540"/>
     <text x="45" y="295" class="sans label" fill="#6e665a" text-anchor="middle">Number</text>
-    <text x="45" y="315" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#805838</text>
+    <text x="45" y="315" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#845540</text>
     <rect x="120" y="180" width="90" height="90" rx="8" fill="#356967"/>
     <text x="165" y="295" class="sans label" fill="#6e665a" text-anchor="middle">Namespace</text>
     <text x="165" y="315" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#356967</text>
@@ -47,9 +47,9 @@
     <rect x="360" y="180" width="90" height="90" rx="8" fill="#6e665a"/>
     <text x="405" y="295" class="sans label" fill="#6e665a" text-anchor="middle">Comment</text>
     <text x="405" y="315" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#6e665a</text>
-    <rect x="480" y="180" width="90" height="90" rx="8" fill="#86534c"/>
+    <rect x="480" y="180" width="90" height="90" rx="8" fill="#aa4f4f"/>
     <text x="525" y="295" class="sans label" fill="#6e665a" text-anchor="middle">Error</text>
-    <text x="525" y="315" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#86534c</text>
+    <text x="525" y="315" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#aa4f4f</text>
     <rect x="600" y="180" width="90" height="90" rx="8" fill="#e3d5b8"/>
     <text x="645" y="295" class="sans label" fill="#6e665a" text-anchor="middle">Selection</text>
     <text x="645" y="315" class="hex" fill="#6e665a" text-anchor="middle" opacity="0.7">#e3d5b8</text>

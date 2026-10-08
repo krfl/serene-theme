@@ -54,20 +54,27 @@ Comment, operator, punctuation, variable and markup list are the same as in Fall
 | Semantic Role | Name | Day Hex | Night Hex |
 |---|---|---|---|
 | String | leaf | `#496842` | `#8aa983` |
-| Number / Constant | cinnamon | `#805838` | `#c2997a` |
+| Number / Constant | cinnamon | `#845540` | `#c69681` |
 | Enum constant | spruce | `#356967` | `#79aaa7` |
 | Keyword / Storage | plum | `#7d5371` | `#bf94b2` |
 | Flow control | spruce | `#356967` | `#79aaa7` |
 | Function | slate blue | `#3f6386` | `#80a4c7` |
 | Constructor | slate blue | `#3f6386` | `#80a4c7` |
-| Class / Type | ochre | `#705f2f` | `#b1a072` |
+| Class / Type | ochre | `#6d602f` | `#ada172` |
 | Namespace / Annotation | spruce | `#356967` | `#79aaa7` |
 | Tag / Markup link | plum | `#7d5371` | `#bf94b2` |
 | Tag attribute | slate blue | `#3f6386` | `#80a4c7` |
 | Markup heading | slate blue | `#3f6386` | `#80a4c7` |
-| Markup bold/italic | ochre | `#705f2f` | `#b1a072` |
+| Markup bold/italic | ochre | `#6d602f` | `#ada172` |
 | Markup code | leaf | `#496842` | `#8aa983` |
 | Diff deleted / Invalid | rosewood | `#86534c` | `#c9948d` |
+
+Meadow also has its own error and info colors, so they don't get mixed up with numbers and namespaces. Warning is the same as in Fallow.
+
+| Diagnostic | Name | Day Hex | Night Hex |
+|---|---|---|---|
+| Error | poppy | `#aa4f4f` | `#d77876` |
+| Info | lagoon | `#007785` | `#42a0af` |
 
 ## Tints
 
@@ -97,13 +104,13 @@ Used in the default versions of VSCode, Helix and Obsidian. These are subtle tin
 
 | Color Family | Day | Night |
 |---|---|---|
-| Green (string, code) | `#e2ede0` | `#1c221b` |
-| Plum (keyword, storage, tag, link) | `#f4e4ef` | `#261e23` |
-| Blue (function, heading, tag attr) | `#deebf8` | `#1b2128` |
-| Orange (number, constant) | `#f5e6dc` | `#261f19` |
-| Ochre (type, CSS class) | `#efe9d9` | `#232018` |
-| Teal (enum, flow, annotation, namespace) | `#daefed` | `#182322` |
-| Red (diff deleted) | `#f8e4e1` | `#281e1c` |
+| Green (string, code) | `#e2ede0` | `#20271f` |
+| Plum (keyword, storage, tag, link) | `#f4e4ef` | `#2a2227` |
+| Blue (function, heading, tag attr) | `#deebf8` | `#1e252c` |
+| Orange (number, constant) | `#f7e5dd` | `#2b221e` |
+| Ochre (type, CSS class) | `#eee9d9` | `#27251c` |
+| Teal (enum, flow, annotation, namespace) | `#daefed` | `#1c2726` |
+| Red (diff deleted) | `#f8e4e1` | `#2c2220` |
 
 ## ANSI Terminal Colors
 
@@ -159,13 +166,13 @@ Black, white, bright black and bright white are the same as in Fallow. The brigh
 |---|---|---|---|
 | Red | rosewood | `#86534c` | `#c9948d` |
 | Green | leaf | `#496842` | `#8aa983` |
-| Yellow | ochre | `#705f2f` | `#b1a072` |
+| Yellow | ochre | `#6d602f` | `#ada172` |
 | Blue | slate blue | `#3f6386` | `#80a4c7` |
 | Magenta | plum | `#7d5371` | `#bf94b2` |
 | Cyan | spruce | `#356967` | `#79aaa7` |
 | Bright Red | rosewood | `#77453e` | `#d9a39c` |
 | Bright Green | leaf | `#3b5a34` | `#99b992` |
-| Bright Yellow | ochre | `#625120` | `#c0af81` |
+| Bright Yellow | ochre | `#5e5220` | `#bdb081` |
 | Bright Blue | slate blue | `#315577` | `#8fb3d7` |
 | Bright Magenta | plum | `#6e4562` | `#cfa3c1` |
 | Bright Cyan | spruce | `#265a58` | `#88bab7` |
@@ -197,4 +204,5 @@ Editors that can't put backgrounds behind syntax get a single version per palett
 - Comment uses separate day (`#6e665a`) and night (`#968e7f`) values. Each clears WCAG AA 4.5:1 on every background it renders on, including the active line. One shared value cannot meet AA on both day and night.
 - Within a palette, ANSI terminal colors are identical across all terminal-capable editors (Wezterm, Ghostty, Alacritty, Kitty, VSCode, Zed).
 - A theme and its Alt version always use the same foreground colors. The tints only add backgrounds.
-- In VSCode and Zed, Meadow keeps Fallow's UI and diagnostic colors. Only syntax and terminal colors change.
+- In VSCode and Zed, Meadow keeps Fallow's UI colors. Syntax, terminal, error and info colors change.
+- All six Meadow syntax hues share the same lightness. That keeps any one of them from standing out, but it also means lightness can't help tell them apart, which matters for colorblind users (see the FAQ in the README).

@@ -17,9 +17,9 @@
     "beige": "#c8baa8",
     "muted_punctuation": "#9a8f81",
     "terracotta": "#c99976",
-    "error": "#bc816b",
+    "error": "#d77876",
     "warning": "#d4a574",
-    "info": "#9aaa82",
+    "info": "#42a0af",
     "hint": "#a89984"
   },
   "theme": {

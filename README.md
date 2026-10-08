@@ -24,7 +24,9 @@ The same snippet in Day and Night, with and without tints:
 
 ## Eye Health
 
-Serene avoids pure white and pure black, which cause your pupils to constantly adjust. Colors are muted to reduce glare during long sessions. Fallow also keeps blue out of the palette, which helps a little in the evening, though screen brightness matters more than color for sleep.
+Serene avoids pure white and pure black, which cause your pupils to constantly adjust. Colors are muted to reduce glare during long sessions. Meadow isn't more saturated than Fallow. It just uses more hues at the same softness.
+
+Fallow keeps blue out of the palette, which helps a little in the evening. Meadow brings some blue back. By a rough estimate, Meadow Night gives off about 15% more blue light across the whole screen than Fallow Night. During the day the difference is close to zero, because the light background drowns it out. Screen brightness matters far more than this, so turning the brightness down a notch makes up for it.
 
 Serene keeps contrast fairly low, but not too low. Body text sits around 10:1. Syntax colors sit a bit lower so they don't shout at you, but every one of them stays above 4.5:1, the usual accessibility minimum (WCAG AA). That holds on the highlighted current line and behind the tints too. Errors and warnings are the exception, since they also get squiggles and icons.
 
@@ -36,7 +38,7 @@ VSCode, Helix, Zed, OpenCode, Obsidian, WezTerm, Ghostty, Alacritty, Kitty, Fish
 
 ### Which palette should I pick?
 
-Fallow if you want everything warm and calm. Meadow if you rely on tools that use color to tell things apart, like `ls`, `git diff` or compiler errors. In Fallow, blue, magenta and cyan are muted greens, browns and grays, so those tools lose some of their meaning.
+Fallow is the gentler of the two and the one to pick if comfort comes first. Pick Meadow if you rely on tools that use color to tell things apart, like `ls`, `git diff` or compiler errors. In Fallow, blue, magenta and cyan are muted greens, browns and grays, so those tools lose some of their meaning.
 
 ### Why do only some editors have an Alt version?
 
@@ -48,7 +50,11 @@ Muted colors are easier on the eyes over long sessions. That's on purpose.
 
 ### Is this suitable for colorblind users?
 
-That depends. Contrast is fine, so you can read everything without relying on color. Fallow mostly tells strings, keywords, functions and numbers apart by warm hue, and with red-green color blindness, the most common kind, those greens, olives and browns can blend together. Meadow should work better, since it also uses blue and yellow, which most colorblind people can still tell apart.
+That depends. Contrast is fine, so you can read everything without relying on color. Telling the colors apart is harder.
+
+Fallow mostly tells strings, keywords, functions and numbers apart by warm hue. With red-green color blindness, the most common kind, those greens, olives and browns blend together. Meadow does better here, since keywords, functions and namespaces move to plum, blue and teal. Strings, types and numbers can still look alike, because all Meadow syntax colors have the same lightness.
+
+With blue-yellow color blindness, which is rare, Meadow is a little worse than Fallow, since functions (blue) and namespaces (teal) look alike.
 
 ## Contributing
 

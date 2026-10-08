@@ -205,7 +205,7 @@ spruce_bg = "{{day-clarity.spruce-mist}}"
 rose_bg = "{{day-clarity.rose-mist}}"
 
 # Special colors (expert-refined)
-error = "{{day.terracotta}}"
+error = "{{day.poppy}}"
 warning = "{{day.amber}}"
-info = "{{day.deep-teal}}"
+info = "{{day.lagoon}}"
 hint = "{{day.flint}}"

@@ -206,7 +206,7 @@ spruce_bg = "{{night-clarity.spruce-shadow}}"
 rose_bg = "{{night-clarity.rose-shadow}}"
 
 # Special colors (expert-refined)
-error = "{{night.sunset-clay}}"
+error = "{{night.poppy}}"
 warning = "{{night.golden}}"
-info = "{{night.sage-teal}}"
+info = "{{night.lagoon}}"
 hint = "{{night.dusk-stone}}"

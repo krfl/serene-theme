@@ -37,7 +37,7 @@ SWATCHES = {
         ("Namespace",  "spruce",          "spruce"),
         ("Operator",   "charcoal",        "worn-leather"),
         ("Comment",    "weathered-stone", "weathered-stone"),
-        ("Error",      "rosewood",        "rosewood"),
+        ("Error",      "poppy",           "poppy"),
         ("Selection",  "golden-sand",     "warm-umber"),
     ],
 }

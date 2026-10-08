@@ -180,11 +180,11 @@ comment = "#6e665a"
 leaf = "#496842"
 plum = "#7d5371"
 slate_blue = "#3f6386"
-ochre = "#705f2f"
+ochre = "#6d602f"
 charcoal = "#5a5240"
 taupe = "#6a6350"
 chocolate = "#8b6340"
-cinnamon = "#805838"
+cinnamon = "#845540"
 spruce = "#356967"
 rosewood = "#86534c"
 
@@ -193,8 +193,8 @@ string_bg = "#e2ede0"
 keyword_bg = "#f4e4ef"
 comment_bg = "#ebe8e0"       # Warm gray for comments
 slate_bg = "#deebf8"
-cinnamon_bg = "#f5e6dc"
-ochre_bg = "#efe9d9"
+cinnamon_bg = "#f7e5dd"
+ochre_bg = "#eee9d9"
 namespace_bg = "#e4e8ed"     # Light blue-gray for namespaces
 param_bg = "#ebe6db"         # Very subtle beige for parameters
 error_bg = "#f7ebe6"         # Warm peachy-beige for error diagnostics
@@ -205,7 +205,7 @@ spruce_bg = "#daefed"
 rose_bg = "#f8e4e1"
 
 # Special colors (expert-refined)
-error = "#8b4a38"
+error = "#aa4f4f"
 warning = "#c68a2e"
-info = "#4a7a68"
+info = "#007785"
 hint = "#8a826f"

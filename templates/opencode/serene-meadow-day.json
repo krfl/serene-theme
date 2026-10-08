@@ -18,9 +18,9 @@
     "muted_punctuation": "{{day.taupe}}",
     "chocolate": "{{day.toffee}}",
     "cinnamon": "{{day.cinnamon}}",
-    "error": "{{day.terracotta}}",
+    "error": "{{day.poppy}}",
     "warning": "{{day.bronze}}",
-    "info": "{{day.fern}}",
+    "info": "{{day.lagoon}}",
     "hint": "{{day.pebble}}"
   },
   "theme": {
