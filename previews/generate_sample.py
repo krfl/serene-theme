@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Render a syntax-highlighted code sample as SVG for each variant, using the
-real editor backgrounds and (for clarity variants) the tint backgrounds behind
-colored tokens.
+"""Render a syntax-highlighted code sample as SVG for each palette, using the
+real editor backgrounds and the tints behind colored tokens, with the palette
+shown as swatches underneath.
 
 Run:  python3 previews/generate_sample.py
 Out:  previews/syntax-sample-fallow.svg, previews/syntax-sample-meadow.svg
@@ -69,6 +69,37 @@ def colors(name):
     return day, night, day_tint, night_tint
 
 
+# --- Palette legend ----------------------------------------------------------
+# (label, day_key, night_key) from palette.toml, shown under the code panels.
+_BASE_TOP = [("Background", "aged-paper", "deep-earth"),
+             ("Text", "warm-ink", "parchment"),
+             ("Selection", "golden-sand", "warm-umber"),
+             ("Comment", "weathered-stone", "weathered-stone")]
+_BASE_END = [("Operator", "charcoal", "worn-leather"),
+             ("Punctuation", "taupe", "dry-clay"),
+             ("Variable, property", "taupe", "pale-hide")]
+LEGEND = {
+    "fallow": _BASE_TOP + [
+        ("String", "forest", "meadow-sage"),
+        ("Keyword", "olive", "golden-moss"),
+        ("Function", "bronze", "honey"),
+        ("Type", "caramel", "warm-tan"),
+        ("Number, constant", "clay", "copper"),
+        ("Flow, namespace, error", "terracotta", "sunset-clay"),
+    ] + _BASE_END,
+    "meadow": _BASE_TOP + [
+        ("String", "leaf", "leaf"),
+        ("Keyword", "plum", "plum"),
+        ("Function", "slate-blue", "slate-blue"),
+        ("Type", "ochre", "ochre"),
+        ("Number, constant", "cinnamon", "cinnamon"),
+        ("Flow, namespace", "spruce", "spruce"),
+        ("Error", "poppy", "poppy"),
+    ] + _BASE_END,
+}
+LEGEND_ROW = 54
+
+
 # --- Layout ----------------------------------------------------------------
 W = 1012
 PANEL_W, PANEL_H = 470, 422
@@ -122,12 +153,35 @@ def panel(px, py, title, base_bg, fg, clarity_bg, is_night):
     return "\n".join(out)
 
 
+def legend(px, py, title, items, section, bg, palette):
+    """Swatches for one mode: the color as a small square on a larger square of the background."""
+    sec = palette[section]
+    out = [f'<g transform="translate({px},{py})">',
+           f'<text x="0" y="0" font-size="13" font-weight="600" fill="{INK}">{esc(title)}</text>']
+    rows = (len(items) + 1) // 2
+    for i, (label, day_key, night_key) in enumerate(items):
+        color = sec[day_key if section == "day" else night_key]
+        x = (i // rows) * (PANEL_W // 2)
+        y = 18 + (i % rows) * LEGEND_ROW
+        out.append(f'<rect x="{x}" y="{y}" width="44" height="44" rx="12" fill="{bg}" stroke="{CARD_STROKE}"/>')
+        edge = f' stroke="{MUTED}" stroke-opacity="0.5"' if color == bg else ""
+        out.append(f'<rect x="{x + 11}" y="{y + 11}" width="22" height="22" rx="7" fill="{color}"{edge}/>')
+        out.append(f'<text x="{x + 56}" y="{y + 19}" font-size="13" font-weight="500" fill="{INK}">{esc(label)}</text>')
+        out.append(f'<text x="{x + 56}" y="{y + 37}" font-family="{MONO}" font-size="12" fill="{MUTED}">{color}</text>')
+    out.append("</g>")
+    return "\n".join(out), 18 + rows * LEGEND_ROW
+
+
 def build_svg(name, heading, subtitle):
     day_fg, night_fg, day_tint, night_tint = colors(name)
     title = name.capitalize()
+    palette = serene_palette.load_palette()
     py0 = HEADER
     py1 = HEADER + PANEL_H + 28
-    height = py1 + PANEL_H + 56
+    c0, c1 = 24, 24 + PANEL_W + GAP
+    day_legend, legend_h = legend(c0, py1 + PANEL_H + 48, f"{title} Day colors", LEGEND[name], "day", DAY_BG, palette)
+    night_legend, _ = legend(c1, py1 + PANEL_H + 48, f"{title} Night colors", LEGEND[name], "night", NIGHT_BG, palette)
+    height = py1 + PANEL_H + 48 + legend_h + 48
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" '
         f'viewBox="0 0 {W} {height}" font-family="{SANS}">',
@@ -135,11 +189,12 @@ def build_svg(name, heading, subtitle):
         f'<text x="24" y="36" font-size="20" font-weight="700" fill="{INK}">{esc(heading)}</text>',
         f'<text x="24" y="60" font-size="13" fill="{MUTED}">{esc(subtitle)}</text>',
     ]
-    c0, c1 = 24, 24 + PANEL_W + GAP
     parts.append(panel(c0, py0, f"{title} Day", DAY_BG, day_fg, day_tint, False))
     parts.append(panel(c1, py0, f"{title} Day Alt", DAY_BG, day_fg, None, False))
     parts.append(panel(c0, py1, f"{title} Night", NIGHT_BG, night_fg, night_tint, True))
     parts.append(panel(c1, py1, f"{title} Night Alt", NIGHT_BG, night_fg, None, True))
+    parts.append(day_legend)
+    parts.append(night_legend)
     parts.append(f'<text x="24" y="{height - 22}" font-size="11.5" fill="{MUTED}">'
                  f'The default puts a soft tint behind strings, keywords, functions, types, '
                  f'numbers, constants and flow control. Alt leaves it out.</text>')
@@ -154,7 +209,7 @@ def main():
     for name in serene_palette.ROLE_KEYS:
         path = os.path.join(here, f"syntax-sample-{name}.svg")
         with open(path, "w", encoding="utf-8") as f:
-            f.write(build_svg(name, f"Serene {name.capitalize()} syntax sample", subtitle))
+            f.write(build_svg(name, f"Serene {name.capitalize()}", subtitle))
         print(f"Wrote {os.path.relpath(path)}")
 
 
