@@ -70,31 +70,33 @@ def colors(name):
 
 
 # --- Palette legend ----------------------------------------------------------
-# (label, day_key, night_key) from palette.toml, shown under the code panels.
-_BASE_TOP = [("Background", "aged-paper", "deep-earth"),
-             ("Text", "warm-ink", "parchment"),
-             ("Selection", "golden-sand", "warm-umber"),
-             ("Comment", "weathered-stone", "weathered-stone")]
-_BASE_END = [("Operator", "charcoal", "worn-leather"),
-             ("Punctuation", "taupe", "dry-clay"),
-             ("Variable, property", "taupe", "pale-hide")]
+# Shown under the code panels. A string is a role from serene_palette.ROLE_KEYS,
+# drawn on its tint if it has one. A (day_key, night_key) pair is a plain
+# palette color, drawn on the editor background.
+_BASE_TOP = [("Background", ("aged-paper", "deep-earth")),
+             ("Text", ("warm-ink", "parchment")),
+             ("Selection", ("golden-sand", "warm-umber")),
+             ("Comment", "comment")]
+_BASE_END = [("Operator", "operator"),
+             ("Punctuation", "punctuation"),
+             ("Variable, property", "variable")]
 LEGEND = {
     "fallow": _BASE_TOP + [
-        ("String", "forest", "meadow-sage"),
-        ("Keyword", "olive", "golden-moss"),
-        ("Function", "bronze", "honey"),
-        ("Type", "caramel", "warm-tan"),
-        ("Number, constant", "clay", "copper"),
-        ("Flow, namespace, error", "terracotta", "sunset-clay"),
+        ("String", "string"),
+        ("Keyword", "keyword"),
+        ("Function", "function"),
+        ("Type", "type"),
+        ("Number, constant", "number"),
+        ("Flow, namespace, error", "flow"),
     ] + _BASE_END,
     "meadow": _BASE_TOP + [
-        ("String", "leaf", "leaf"),
-        ("Keyword", "plum", "plum"),
-        ("Function", "slate-blue", "slate-blue"),
-        ("Type", "ochre", "ochre"),
-        ("Number, constant", "cinnamon", "cinnamon"),
-        ("Flow, namespace", "spruce", "spruce"),
-        ("Error", "poppy", "poppy"),
+        ("String", "string"),
+        ("Keyword", "keyword"),
+        ("Function", "function"),
+        ("Type", "type"),
+        ("Number, constant", "number"),
+        ("Flow, namespace", "flow"),
+        ("Error", ("poppy", "poppy")),
     ] + _BASE_END,
 }
 LEGEND_ROW = 54
@@ -153,21 +155,29 @@ def panel(px, py, title, base_bg, fg, clarity_bg, is_night):
     return "\n".join(out)
 
 
-def legend(px, py, title, items, section, bg, palette):
-    """Swatches for one mode: the color as a small square on a larger square of the background."""
-    sec = palette[section]
+def legend(px, py, title, name, section, bg, palette):
+    """One swatch per color: the color as a small square on its tint, or on the
+    editor background when it has no tint."""
+    roles = serene_palette.resolve(name, palette)
+    items = LEGEND[name]
     out = [f'<g transform="translate({px},{py})">',
            f'<text x="0" y="0" font-size="13" font-weight="600" fill="{INK}">{esc(title)}</text>']
     rows = (len(items) + 1) // 2
-    for i, (label, day_key, night_key) in enumerate(items):
-        color = sec[day_key if section == "day" else night_key]
+    for i, (label, ref) in enumerate(items):
+        if isinstance(ref, str):
+            color = roles[ref][section]
+            back = roles[ref][f"{section}_clarity"] or bg
+        else:
+            color = palette[section][ref[0] if section == "day" else ref[1]]
+            back = bg
         x = (i // rows) * (PANEL_W // 2)
         y = 18 + (i % rows) * LEGEND_ROW
-        out.append(f'<rect x="{x}" y="{y}" width="44" height="44" rx="12" fill="{bg}" stroke="{CARD_STROKE}"/>')
-        edge = f' stroke="{MUTED}" stroke-opacity="0.5"' if color == bg else ""
+        out.append(f'<rect x="{x}" y="{y}" width="44" height="44" rx="12" fill="{back}" stroke="{CARD_STROKE}"/>')
+        edge = f' stroke="{MUTED}" stroke-opacity="0.5"' if color == back else ""
         out.append(f'<rect x="{x + 11}" y="{y + 11}" width="22" height="22" rx="7" fill="{color}"{edge}/>')
         out.append(f'<text x="{x + 56}" y="{y + 19}" font-size="13" font-weight="500" fill="{INK}">{esc(label)}</text>')
-        out.append(f'<text x="{x + 56}" y="{y + 37}" font-family="{MONO}" font-size="12" fill="{MUTED}">{color}</text>')
+        hexes = color if back == bg else f"{color} on {back}"
+        out.append(f'<text x="{x + 56}" y="{y + 37}" font-family="{MONO}" font-size="12" fill="{MUTED}">{hexes}</text>')
     out.append("</g>")
     return "\n".join(out), 18 + rows * LEGEND_ROW
 
@@ -179,8 +189,8 @@ def build_svg(name, heading, subtitle):
     py0 = HEADER
     py1 = HEADER + PANEL_H + 28
     c0, c1 = 24, 24 + PANEL_W + GAP
-    day_legend, legend_h = legend(c0, py1 + PANEL_H + 48, f"{title} Day colors", LEGEND[name], "day", DAY_BG, palette)
-    night_legend, _ = legend(c1, py1 + PANEL_H + 48, f"{title} Night colors", LEGEND[name], "night", NIGHT_BG, palette)
+    day_legend, legend_h = legend(c0, py1 + PANEL_H + 48, f"{title} Day colors", name, "day", DAY_BG, palette)
+    night_legend, _ = legend(c1, py1 + PANEL_H + 48, f"{title} Night colors", name, "night", NIGHT_BG, palette)
     height = py1 + PANEL_H + 48 + legend_h + 48
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" '

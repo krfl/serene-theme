@@ -348,30 +348,30 @@
 <rect x="11" y="191" width="22" height="22" rx="7" fill="#6e665a"/>
 <text x="56" y="199" font-size="13" font-weight="500" fill="#3d3a33">Comment</text>
 <text x="56" y="217" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#6e665a</text>
-<rect x="0" y="234" width="44" height="44" rx="12" fill="#f5f2ed" stroke="#e6e3dd"/>
+<rect x="0" y="234" width="44" height="44" rx="12" fill="#e8ede0" stroke="#e6e3dd"/>
 <rect x="11" y="245" width="22" height="22" rx="7" fill="#536f44"/>
 <text x="56" y="253" font-size="13" font-weight="500" fill="#3d3a33">String</text>
-<text x="56" y="271" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#536f44</text>
-<rect x="0" y="288" width="44" height="44" rx="12" fill="#f5f2ed" stroke="#e6e3dd"/>
+<text x="56" y="271" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#536f44 on #e8ede0</text>
+<rect x="0" y="288" width="44" height="44" rx="12" fill="#edecd4" stroke="#e6e3dd"/>
 <rect x="11" y="299" width="22" height="22" rx="7" fill="#606b44"/>
 <text x="56" y="307" font-size="13" font-weight="500" fill="#3d3a33">Keyword</text>
-<text x="56" y="325" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#606b44</text>
-<rect x="0" y="342" width="44" height="44" rx="12" fill="#f5f2ed" stroke="#e6e3dd"/>
+<text x="56" y="325" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#606b44 on #edecd4</text>
+<rect x="0" y="342" width="44" height="44" rx="12" fill="#f7ead8" stroke="#e6e3dd"/>
 <rect x="11" y="353" width="22" height="22" rx="7" fill="#875f33"/>
 <text x="56" y="361" font-size="13" font-weight="500" fill="#3d3a33">Function</text>
-<text x="56" y="379" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#875f33</text>
-<rect x="235" y="18" width="44" height="44" rx="12" fill="#f5f2ed" stroke="#e6e3dd"/>
+<text x="56" y="379" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#875f33 on #f7ead8</text>
+<rect x="235" y="18" width="44" height="44" rx="12" fill="#f2ebe0" stroke="#e6e3dd"/>
 <rect x="246" y="29" width="22" height="22" rx="7" fill="#7c6340"/>
 <text x="291" y="37" font-size="13" font-weight="500" fill="#3d3a33">Type</text>
-<text x="291" y="55" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#7c6340</text>
-<rect x="235" y="72" width="44" height="44" rx="12" fill="#f5f2ed" stroke="#e6e3dd"/>
+<text x="291" y="55" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#7c6340 on #f2ebe0</text>
+<rect x="235" y="72" width="44" height="44" rx="12" fill="#f7ead8" stroke="#e6e3dd"/>
 <rect x="246" y="83" width="22" height="22" rx="7" fill="#9e523c"/>
 <text x="291" y="91" font-size="13" font-weight="500" fill="#3d3a33">Number, constant</text>
-<text x="291" y="109" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#9e523c</text>
-<rect x="235" y="126" width="44" height="44" rx="12" fill="#f5f2ed" stroke="#e6e3dd"/>
+<text x="291" y="109" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#9e523c on #f7ead8</text>
+<rect x="235" y="126" width="44" height="44" rx="12" fill="#f5e8de" stroke="#e6e3dd"/>
 <rect x="246" y="137" width="22" height="22" rx="7" fill="#8b4a38"/>
 <text x="291" y="145" font-size="13" font-weight="500" fill="#3d3a33">Flow, namespace, error</text>
-<text x="291" y="163" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#8b4a38</text>
+<text x="291" y="163" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#8b4a38 on #f5e8de</text>
 <rect x="235" y="180" width="44" height="44" rx="12" fill="#f5f2ed" stroke="#e6e3dd"/>
 <rect x="246" y="191" width="22" height="22" rx="7" fill="#5a5240"/>
 <text x="291" y="199" font-size="13" font-weight="500" fill="#3d3a33">Operator</text>
@@ -403,30 +403,30 @@
 <rect x="11" y="191" width="22" height="22" rx="7" fill="#968e7f"/>
 <text x="56" y="199" font-size="13" font-weight="500" fill="#3d3a33">Comment</text>
 <text x="56" y="217" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#968e7f</text>
-<rect x="0" y="234" width="44" height="44" rx="12" fill="#1e1d1a" stroke="#e6e3dd"/>
+<rect x="0" y="234" width="44" height="44" rx="12" fill="#242520" stroke="#e6e3dd"/>
 <rect x="11" y="245" width="22" height="22" rx="7" fill="#8fae7a"/>
 <text x="56" y="253" font-size="13" font-weight="500" fill="#3d3a33">String</text>
-<text x="56" y="271" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#8fae7a</text>
-<rect x="0" y="288" width="44" height="44" rx="12" fill="#1e1d1a" stroke="#e6e3dd"/>
+<text x="56" y="271" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#8fae7a on #242520</text>
+<rect x="0" y="288" width="44" height="44" rx="12" fill="#26261e" stroke="#e6e3dd"/>
 <rect x="11" y="299" width="22" height="22" rx="7" fill="#a8a378"/>
 <text x="56" y="307" font-size="13" font-weight="500" fill="#3d3a33">Keyword</text>
-<text x="56" y="325" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#a8a378</text>
-<rect x="0" y="342" width="44" height="44" rx="12" fill="#1e1d1a" stroke="#e6e3dd"/>
+<text x="56" y="325" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#a8a378 on #26261e</text>
+<rect x="0" y="342" width="44" height="44" rx="12" fill="#2a251e" stroke="#e6e3dd"/>
 <rect x="11" y="353" width="22" height="22" rx="7" fill="#d4a574"/>
 <text x="56" y="361" font-size="13" font-weight="500" fill="#3d3a33">Function</text>
-<text x="56" y="379" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#d4a574</text>
-<rect x="235" y="18" width="44" height="44" rx="12" fill="#1e1d1a" stroke="#e6e3dd"/>
+<text x="56" y="379" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#d4a574 on #2a251e</text>
+<rect x="235" y="18" width="44" height="44" rx="12" fill="#26241f" stroke="#e6e3dd"/>
 <rect x="246" y="29" width="22" height="22" rx="7" fill="#b8956d"/>
 <text x="291" y="37" font-size="13" font-weight="500" fill="#3d3a33">Type</text>
-<text x="291" y="55" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#b8956d</text>
-<rect x="235" y="72" width="44" height="44" rx="12" fill="#1e1d1a" stroke="#e6e3dd"/>
+<text x="291" y="55" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#b8956d on #26241f</text>
+<rect x="235" y="72" width="44" height="44" rx="12" fill="#2a251e" stroke="#e6e3dd"/>
 <rect x="246" y="83" width="22" height="22" rx="7" fill="#c99976"/>
 <text x="291" y="91" font-size="13" font-weight="500" fill="#3d3a33">Number, constant</text>
-<text x="291" y="109" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#c99976</text>
-<rect x="235" y="126" width="44" height="44" rx="12" fill="#1e1d1a" stroke="#e6e3dd"/>
+<text x="291" y="109" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#c99976 on #2a251e</text>
+<rect x="235" y="126" width="44" height="44" rx="12" fill="#2a231e" stroke="#e6e3dd"/>
 <rect x="246" y="137" width="22" height="22" rx="7" fill="#bc816b"/>
 <text x="291" y="145" font-size="13" font-weight="500" fill="#3d3a33">Flow, namespace, error</text>
-<text x="291" y="163" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#bc816b</text>
+<text x="291" y="163" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#bc816b on #2a231e</text>
 <rect x="235" y="180" width="44" height="44" rx="12" fill="#1e1d1a" stroke="#e6e3dd"/>
 <rect x="246" y="191" width="22" height="22" rx="7" fill="#b5a899"/>
 <text x="291" y="199" font-size="13" font-weight="500" fill="#3d3a33">Operator</text>
