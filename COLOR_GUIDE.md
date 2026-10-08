@@ -4,7 +4,7 @@ Reference of all colors used across the Serene theme family. There are two palet
 
 The default version of each theme puts subtle background tints behind syntax elements. The Alt versions leave the tints out. Tints never change the foreground, so a theme and its Alt version always use the same text colors.
 
-Every syntax token meets **WCAG AA (4.5:1)** against every background it renders on: base, active-line highlight and tints. Body text targets ~10:1. Syntax colors stay in a 4.5 to 7:1 band, low enough to separate tokens without glare but never below the AA floor. Diagnostic accents (error, warning, info, hint) are tuned for salience and carry non-color cues, so they are not held to the AA text floor.
+Every syntax token meets **WCAG AA (4.5:1)** against every background it renders on: base, active-line highlight and tints. Body text targets ~10:1. Syntax colors stay in a 4.5 to 7:1 band, low enough to separate tokens without glare but never below the AA floor. Variables and properties at night are the exception on the high side (about 8.9:1), since they sit close to body text. Diagnostic accents (error, warning, info, hint) are tuned for salience and carry non-color cues, so they are not held to the AA text floor.
 
 ## Base Colors
 
