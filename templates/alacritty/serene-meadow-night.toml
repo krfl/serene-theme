@@ -1,0 +1,35 @@
+# Serene Meadow Night - Eye-friendly dark theme for Alacritty
+# Reduces blue light and eye strain with muted colors
+# Based on optometry research for computer vision syndrome
+
+[colors.primary]
+background = "{{night.deep-earth}}"
+foreground = "{{night.parchment}}"
+
+[colors.cursor]
+text = "{{night.deep-earth}}"
+cursor = "{{night.parchment}}"
+
+[colors.selection]
+text = "{{night.parchment}}"
+background = "{{night.warm-umber}}"
+
+[colors.normal]
+black = "{{night.moss-stone}}"
+red = "{{night.rosewood}}"
+green = "{{night.leaf}}"
+yellow = "{{night.ochre}}"
+blue = "{{night.slate-blue}}"
+magenta = "{{night.plum}}"
+cyan = "{{night.spruce}}"
+white = "{{night.pale-hide}}"
+
+[colors.bright]
+black = "{{night.lichen}}"
+red = "{{night.pale-rosewood}}"
+green = "{{night.pale-leaf}}"
+yellow = "{{night.pale-ochre}}"
+blue = "{{night.pale-slate-blue}}"
+magenta = "{{night.pale-plum}}"
+cyan = "{{night.pale-spruce}}"
+white = "{{night.parchment}}"

@@ -1,0 +1,27 @@
+# Serene Meadow Day - Eye-friendly light theme for Ghostty
+# Reduces glare and eye strain with muted colors
+# Based on optometry research for computer vision syndrome
+
+background = {{day.aged-paper|nohash}}
+foreground = {{day.warm-ink|nohash}}
+cursor-color = {{day.warm-ink|nohash}}
+cursor-text = {{day.aged-paper|nohash}}
+selection-background = {{day.golden-sand|nohash}}
+selection-foreground = {{day.warm-ink|nohash}}
+
+palette = 0={{day.soot}}
+palette = 1={{day.rosewood}}
+palette = 2={{day.leaf}}
+palette = 3={{day.ochre}}
+palette = 4={{day.slate-blue}}
+palette = 5={{day.plum}}
+palette = 6={{day.spruce}}
+palette = 7={{day.warm-gray}}
+palette = 8={{day.deep-soot}}
+palette = 9={{day.deep-rosewood}}
+palette = 10={{day.deep-leaf}}
+palette = 11={{day.deep-ochre}}
+palette = 12={{day.deep-slate-blue}}
+palette = 13={{day.deep-plum}}
+palette = 14={{day.deep-spruce}}
+palette = 15={{day.aged-paper}}

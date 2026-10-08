@@ -1,0 +1,27 @@
+# Serene Meadow Night - Eye-friendly dark theme for Ghostty
+# Reduces blue light and eye strain with muted colors
+# Based on optometry research for computer vision syndrome
+
+background = {{night.deep-earth|nohash}}
+foreground = {{night.parchment|nohash}}
+cursor-color = {{night.parchment|nohash}}
+cursor-text = {{night.deep-earth|nohash}}
+selection-background = {{night.warm-umber|nohash}}
+selection-foreground = {{night.parchment|nohash}}
+
+palette = 0={{night.moss-stone}}
+palette = 1={{night.rosewood}}
+palette = 2={{night.leaf}}
+palette = 3={{night.ochre}}
+palette = 4={{night.slate-blue}}
+palette = 5={{night.plum}}
+palette = 6={{night.spruce}}
+palette = 7={{night.pale-hide}}
+palette = 8={{night.lichen}}
+palette = 9={{night.pale-rosewood}}
+palette = 10={{night.pale-leaf}}
+palette = 11={{night.pale-ochre}}
+palette = 12={{night.pale-slate-blue}}
+palette = 13={{night.pale-plum}}
+palette = 14={{night.pale-spruce}}
+palette = 15={{night.parchment}}

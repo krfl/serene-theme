@@ -1,0 +1,38 @@
+# Serene Meadow Night - Eye-friendly dark theme for Wezterm
+# Reduces blue light and eye strain with muted colors
+# Based on optometry research for computer vision syndrome
+
+[colors]
+ansi = [
+  '{{night.moss-stone}}',  # Black - warm olive-gray
+  '{{night.rosewood}}',  # Red
+  '{{night.leaf}}',  # Green
+  '{{night.ochre}}',  # Yellow
+  '{{night.slate-blue}}',  # Blue
+  '{{night.plum}}',  # Magenta
+  '{{night.spruce}}',  # Cyan
+  '{{night.pale-hide}}',  # White - light beige
+]
+brights = [
+  '{{night.lichen}}',  # Bright black - warm olive-gray
+  '{{night.pale-rosewood}}',  # Bright red
+  '{{night.pale-leaf}}',  # Bright green
+  '{{night.pale-ochre}}',  # Bright yellow
+  '{{night.pale-slate-blue}}',  # Bright blue
+  '{{night.pale-plum}}',  # Bright magenta
+  '{{night.pale-spruce}}',  # Bright cyan
+  '{{night.parchment}}',  # Bright white - soft cream
+]
+background = '{{night.deep-earth}}'
+foreground = '{{night.parchment}}'
+cursor_bg = '{{night.parchment}}'
+cursor_fg = '{{night.deep-earth}}'
+cursor_border = '{{night.parchment}}'
+selection_fg = '{{night.parchment}}'
+selection_bg = '{{night.warm-umber}}'
+split = '{{night.warm-ink}}'
+
+[colors.indexed]
+
+[metadata]
+name = 'serene-meadow-night'

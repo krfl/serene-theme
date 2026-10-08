@@ -1,0 +1,35 @@
+# Serene Meadow Day - Eye-friendly light theme for Alacritty
+# Reduces glare and eye strain with muted colors
+# Based on optometry research for computer vision syndrome
+
+[colors.primary]
+background = "{{day.aged-paper}}"
+foreground = "{{day.warm-ink}}"
+
+[colors.cursor]
+text = "{{day.aged-paper}}"
+cursor = "{{day.warm-ink}}"
+
+[colors.selection]
+text = "{{day.warm-ink}}"
+background = "{{day.golden-sand}}"
+
+[colors.normal]
+black = "{{day.soot}}"
+red = "{{day.rosewood}}"
+green = "{{day.leaf}}"
+yellow = "{{day.ochre}}"
+blue = "{{day.slate-blue}}"
+magenta = "{{day.plum}}"
+cyan = "{{day.spruce}}"
+white = "{{day.warm-gray}}"
+
+[colors.bright]
+black = "{{day.deep-soot}}"
+red = "{{day.deep-rosewood}}"
+green = "{{day.deep-leaf}}"
+yellow = "{{day.deep-ochre}}"
+blue = "{{day.deep-slate-blue}}"
+magenta = "{{day.deep-plum}}"
+cyan = "{{day.deep-spruce}}"
+white = "{{day.aged-paper}}"

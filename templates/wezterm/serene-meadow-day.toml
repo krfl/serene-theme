@@ -1,0 +1,38 @@
+# Serene Meadow Day - Eye-friendly light theme for Wezterm
+# Reduces glare and eye strain with muted colors
+# Based on optometry research for computer vision syndrome
+
+[colors]
+ansi = [
+  '{{day.soot}}',  # Black - dark taupe
+  '{{day.rosewood}}',  # Red
+  '{{day.leaf}}',  # Green
+  '{{day.ochre}}',  # Yellow
+  '{{day.slate-blue}}',  # Blue
+  '{{day.plum}}',  # Magenta
+  '{{day.spruce}}',  # Cyan
+  '{{day.warm-gray}}',  # White - warm mid-gray
+]
+brights = [
+  '{{day.deep-soot}}',  # Bright black - deep warm brown
+  '{{day.deep-rosewood}}',  # Bright red
+  '{{day.deep-leaf}}',  # Bright green
+  '{{day.deep-ochre}}',  # Bright yellow
+  '{{day.deep-slate-blue}}',  # Bright blue
+  '{{day.deep-plum}}',  # Bright magenta
+  '{{day.deep-spruce}}',  # Bright cyan
+  '{{day.aged-paper}}',  # Bright white - warm off-white
+]
+background = '{{day.aged-paper}}'
+foreground = '{{day.warm-ink}}'
+cursor_bg = '{{day.warm-ink}}'
+cursor_fg = '{{day.aged-paper}}'
+cursor_border = '{{day.warm-ink}}'
+selection_fg = '{{day.warm-ink}}'
+selection_bg = '{{day.golden-sand}}'
+split = '{{day.light-taupe}}'
+
+[colors.indexed]
+
+[metadata]
+name = 'serene-meadow-day'

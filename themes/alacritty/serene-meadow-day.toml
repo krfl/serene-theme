@@ -1,0 +1,35 @@
+# Serene Meadow Day - Eye-friendly light theme for Alacritty
+# Reduces glare and eye strain with muted colors
+# Based on optometry research for computer vision syndrome
+
+[colors.primary]
+background = "#f5f2ed"
+foreground = "#3d3a33"
+
+[colors.cursor]
+text = "#f5f2ed"
+cursor = "#3d3a33"
+
+[colors.selection]
+text = "#3d3a33"
+background = "#e3d5b8"
+
+[colors.normal]
+black = "#4a4538"
+red = "#86534c"
+green = "#496842"
+yellow = "#705f2f"
+blue = "#3f6386"
+magenta = "#7d5371"
+cyan = "#356967"
+white = "#7b7568"
+
+[colors.bright]
+black = "#35322a"
+red = "#77453e"
+green = "#3b5a34"
+yellow = "#625120"
+blue = "#315577"
+magenta = "#6e4562"
+cyan = "#265a58"
+white = "#f5f2ed"

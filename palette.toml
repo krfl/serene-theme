@@ -42,6 +42,21 @@ toffee          = "#8b6340"
 clay            = "#9e523c"
 terracotta      = "#8b4a38"
 
+# Meadow hues (full hue wheel, muted to the same lightness)
+rosewood        = "#86534c"
+deep-rosewood   = "#77453e"
+cinnamon        = "#805838"
+ochre           = "#705f2f"
+deep-ochre      = "#625120"
+leaf            = "#496842"
+deep-leaf       = "#3b5a34"
+spruce          = "#356967"
+deep-spruce     = "#265a58"
+slate-blue      = "#3f6386"
+deep-slate-blue = "#315577"
+plum            = "#7d5371"
+deep-plum       = "#6e4562"
+
 
 [night]
 # Dark neutrals
@@ -81,6 +96,21 @@ buckskin        = "#ba9c7e"
 warm-tan        = "#b8956d"
 sunset-clay     = "#bc816b"
 
+# Meadow hues (full hue wheel, muted to the same lightness)
+rosewood        = "#c9948d"
+pale-rosewood   = "#d9a39c"
+cinnamon        = "#c2997a"
+ochre           = "#b1a072"
+pale-ochre      = "#c0af81"
+leaf            = "#8aa983"
+pale-leaf       = "#99b992"
+spruce          = "#79aaa7"
+pale-spruce     = "#88bab7"
+slate-blue      = "#80a4c7"
+pale-slate-blue = "#8fb3d7"
+plum            = "#bf94b2"
+pale-plum       = "#cfa3c1"
+
 
 [day-clarity]
 # Subtle light tints for syntax backgrounds
@@ -95,6 +125,13 @@ blush-mist      = "#f7ebe6"
 sand-mist       = "#f5ead8"
 teal-mist       = "#e6ede3"
 flint-mist      = "#ede9e0"
+rose-mist       = "#f8e4e1"
+cinnamon-mist   = "#f5e6dc"
+ochre-mist      = "#efe9d9"
+leaf-mist       = "#e2ede0"
+spruce-mist     = "#daefed"
+slate-mist      = "#deebf8"
+plum-mist       = "#f4e4ef"
 
 
 [night-clarity]
@@ -109,3 +146,10 @@ cool-shadow     = "#23242a"
 rust-shadow     = "#2a211e"
 fern-shadow     = "#22251f"
 umber-shadow    = "#2a231e"
+rose-shadow     = "#281e1c"
+cinnamon-shadow = "#261f19"
+ochre-shadow    = "#232018"
+leaf-shadow     = "#1c221b"
+spruce-shadow   = "#182322"
+slate-shadow    = "#1b2128"
+plum-shadow     = "#261e23"
