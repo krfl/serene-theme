@@ -8,7 +8,7 @@ In editors that can do it, Serene puts a soft tint behind strings, keywords, fun
 
 ## Screenshots
 
-The same snippet in Day and Night, with and without tints. Each image ends with the colors that palette uses.
+The same snippet in Day and Night, with the colors each one uses next to it.
 
 ![Serene Fallow](previews/syntax-sample-fallow.svg)
 

@@ -189,9 +189,9 @@ def build_svg(name, heading, subtitle):
     py0 = HEADER
     py1 = HEADER + PANEL_H + 28
     c0, c1 = 24, 24 + PANEL_W + GAP
-    day_legend, legend_h = legend(c0, py1 + PANEL_H + 48, f"{title} Day colors", name, "day", DAY_BG, palette)
-    night_legend, _ = legend(c1, py1 + PANEL_H + 48, f"{title} Night colors", name, "night", NIGHT_BG, palette)
-    height = py1 + PANEL_H + 48 + legend_h + 48
+    height = py1 + PANEL_H + 56
+    day_legend, _ = legend(c1 + 8, py0 + 26, f"{title} Day colors", name, "day", DAY_BG, palette)
+    night_legend, _ = legend(c1 + 8, py1 + 26, f"{title} Night colors", name, "night", NIGHT_BG, palette)
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" '
         f'viewBox="0 0 {W} {height}" font-family="{SANS}">',
@@ -200,22 +200,20 @@ def build_svg(name, heading, subtitle):
         f'<text x="24" y="60" font-size="13" fill="{MUTED}">{esc(subtitle)}</text>',
     ]
     parts.append(panel(c0, py0, f"{title} Day", DAY_BG, day_fg, day_tint, False))
-    parts.append(panel(c1, py0, f"{title} Day Alt", DAY_BG, day_fg, None, False))
-    parts.append(panel(c0, py1, f"{title} Night", NIGHT_BG, night_fg, night_tint, True))
-    parts.append(panel(c1, py1, f"{title} Night Alt", NIGHT_BG, night_fg, None, True))
     parts.append(day_legend)
+    parts.append(panel(c0, py1, f"{title} Night", NIGHT_BG, night_fg, night_tint, True))
     parts.append(night_legend)
     parts.append(f'<text x="24" y="{height - 22}" font-size="11.5" fill="{MUTED}">'
                  f'The default puts a soft tint behind strings, keywords, functions, types, '
-                 f'numbers, constants and flow control. Alt leaves it out.</text>')
+                 f'numbers, constants and flow control. The Alt versions leave it out.</text>')
     parts.append("</svg>")
     return "\n".join(parts) + "\n"
 
 
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
-    subtitle = ("Same snippet in Day and Night, with and without tints, on the real editor "
-                "backgrounds. Every key token meets WCAG AA (4.5:1).")
+    subtitle = ("The same snippet in Day and Night on the real editor backgrounds, next to the "
+                "colors it uses. Every key token meets WCAG AA (4.5:1).")
     for name in serene_palette.ROLE_KEYS:
         path = os.path.join(here, f"syntax-sample-{name}.svg")
         with open(path, "w", encoding="utf-8") as f:
