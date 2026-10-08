@@ -27,7 +27,7 @@ Some things that might trip you up:
 
 There are two palettes. Fallow uses only warm earth tones. Meadow uses the whole color wheel, muted to the same lightness, and shares backgrounds, body text, comments, operators, punctuation and variables with Fallow. Within a palette, a string should be the same hex in every editor, and that goes for every other role too. Day and night get their own colors, each tuned for its own background, so don't copy one into the other.
 
-The default versions put soft tints behind some tokens. The Alt versions leave the tints out and are otherwise identical, so if you change a color in one, change it in the other. Alt only exists for editors that can color the background behind syntax. Right now that's VSCode, Helix and Obsidian. Everything else gets one version per palette and mode, without tints.
+The Helix, Obsidian and VSCode themes put soft tints behind some tokens, and there's no version without them. Helix and Obsidian show the tints. The VSCode themes include them too, even though VSCode ignores them today. Everything else gets the same colors without tints.
 
 Keep it easy on the eyes. Low saturation, no pure white or black, and no bright or saturated blues and purples. Fallow stays warm all the way through. Body text sits around 10:1 contrast. Syntax colors sit between 4.5:1 and 7:1 and never go below 4.5:1, and that includes the active line and the tints. Variables and properties can go a bit higher at night (about 8.9:1) because they sit close to body text. Diagnostic colors (error, warning, info and hint) don't have to reach 4.5:1, since they also get squiggles and icons.
 
@@ -41,4 +41,4 @@ Keep it easy on the eyes. Low saturation, no pure white or black, and no bright 
 
 ## Adding a new editor
 
-Make a folder in `templates/` with `serene-fallow-day`, `serene-fallow-night`, `serene-meadow-day` and `serene-meadow-night` files, using placeholders instead of hex codes. Copy the role mapping from an existing theme. Helix is a good one to start from. Run the build, check what ends up in `themes/` and add the editor to the support table in [COLOR_GUIDE.md](COLOR_GUIDE.md). If the editor can put backgrounds behind syntax, the main files get tints and you add `-alt` files without them.
+Make a folder in `templates/` with `serene-fallow-day`, `serene-fallow-night`, `serene-meadow-day` and `serene-meadow-night` files, using placeholders instead of hex codes. Copy the role mapping from an existing theme. Helix is a good one to start from. Run the build, check what ends up in `themes/` and add the editor to the support table in [COLOR_GUIDE.md](COLOR_GUIDE.md). If the editor can put backgrounds behind syntax, add the tints.

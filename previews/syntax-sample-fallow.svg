@@ -304,5 +304,5 @@
 <text x="291" y="307" font-size="13" font-weight="500" fill="#3d3a33">Variable, property</text>
 <text x="291" y="325" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8a826f">#c8baa8</text>
 </g>
-<text x="24" y="992" font-size="11.5" fill="#8a826f">The default puts a soft tint behind strings, keywords, functions, types, numbers, constants and flow control. The Alt versions leave it out.</text>
+<text x="24" y="992" font-size="11.5" fill="#8a826f">The tints behind strings, keywords, functions, types, numbers, constants and flow control show in Helix and Obsidian.</text>
 </svg>

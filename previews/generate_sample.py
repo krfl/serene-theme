@@ -204,8 +204,8 @@ def build_svg(name, heading, subtitle):
     parts.append(panel(c0, py1, f"{title} Night", NIGHT_BG, night_fg, night_tint, True))
     parts.append(night_legend)
     parts.append(f'<text x="24" y="{height - 22}" font-size="11.5" fill="{MUTED}">'
-                 f'The default puts a soft tint behind strings, keywords, functions, types, '
-                 f'numbers, constants and flow control. The Alt versions leave it out.</text>')
+                 f'The tints behind strings, keywords, functions, types, numbers, constants and '
+                 f'flow control show in Helix and Obsidian.</text>')
     parts.append("</svg>")
     return "\n".join(parts) + "\n"
 

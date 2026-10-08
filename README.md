@@ -4,7 +4,7 @@ A color scheme that's easy on the eyes when you're coding all day. Serene keeps 
 
 It comes in two palettes. Fallow is the original and sticks to warm browns, olives and greens. Meadow uses muted colors from the whole color wheel, so red, green, yellow, blue, magenta and cyan in your terminal actually look like what they are. Both have a light version (Day) and a dark one (Night).
 
-In editors that can do it, Serene puts a soft tint behind strings, keywords, functions and the like so they're easier to scan. If you'd rather not have the tints, pick the Alt version, for example Serene Fallow Day Alt.
+Serene also puts a soft tint behind strings, keywords, functions and the like so they're easier to scan. The tints are part of the theme, so there's no version without them. You'll see them in Helix and Obsidian. Other editors and terminals can't draw backgrounds behind syntax, so they get the same colors without the tints.
 
 ## Screenshots
 
@@ -20,7 +20,7 @@ Serene avoids pure white and pure black, which cause your pupils to constantly a
 
 Fallow keeps blue out of the palette, which helps a little in the evening. Meadow brings some blue back. By a rough estimate, Meadow Night gives off about 15% more blue light across the whole screen than Fallow Night. During the day the difference is close to zero, because the light background drowns it out. Screen brightness matters far more than this, so turning the brightness down a notch makes up for it.
 
-Serene keeps contrast fairly low, but not too low. Body text sits around 10:1. Syntax colors sit a bit lower so they don't shout at you, but every one of them stays above 4.5:1, the usual accessibility minimum (WCAG AA). That holds on the highlighted current line and behind the tints too. Errors and warnings are the exception, since they also get squiggles and icons.
+Serene keeps contrast fairly low, but not too low. Body text sits around 10:1. Syntax colors sit a bit lower so they don't shout at you, but every one of them stays above 4.5:1, the usual accessibility minimum (WCAG AA). That holds on the highlighted current line and behind the tints too. Error, warning and info colors are the exception, since they also get squiggles and icons.
 
 ## Supported Editors
 
@@ -32,9 +32,13 @@ VSCode, Helix, Zed, OpenCode, Obsidian, WezTerm, Ghostty, Alacritty, Kitty, Fish
 
 Fallow is the gentler of the two and the one to pick if comfort comes first. Pick Meadow if you rely on tools that use color to tell things apart, like `ls`, `git diff` or compiler errors. In Fallow, blue, magenta and cyan are muted greens, browns and grays, so those tools lose some of their meaning.
 
-### Why do only some editors have an Alt version?
+### Why don't I see the tints in VSCode?
 
-The tints need an editor that can put a background color behind syntax. Right now that's VSCode, Helix and Obsidian. Terminals, Zed, OpenCode, Fish and FZF can't, so they only come in one version. The text colors are the same with or without tints.
+VSCode ignores background colors on syntax tokens, so it can't draw the tints. The VSCode themes include them anyway, in case that changes. The text colors are the same in every editor.
+
+### Can I turn the tints off?
+
+Not with a separate theme. In Helix you can make a small theme that inherits from Serene and drops the backgrounds, and in Obsidian a CSS snippet can do the same.
 
 ### Why aren't the colors more vibrant?
 

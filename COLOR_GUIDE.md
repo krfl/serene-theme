@@ -2,7 +2,7 @@
 
 Reference of all colors used across the Serene theme family. There are two palettes. Fallow uses warm earth tones only. Meadow uses muted colors from the whole color wheel. Both share the base colors below.
 
-The default version of each theme puts subtle background tints behind syntax elements. The Alt versions leave the tints out. Tints never change the foreground, so a theme and its Alt version always use the same text colors.
+In editors that can show them, Serene puts subtle background tints behind syntax elements. Tints never change the foreground.
 
 Every syntax token meets **WCAG AA (4.5:1)** against every background it renders on: base, active-line highlight and tints. Body text targets ~10:1. Syntax colors stay in a 4.5 to 7:1 band, low enough to separate tokens without glare but never below the AA floor. Variables and properties at night are the exception on the high side (about 8.9:1), since they sit close to body text. Diagnostic accents (error, warning, info, hint) are tuned for salience and carry non-color cues, so they are not held to the AA text floor.
 
@@ -22,7 +22,7 @@ Shared by Fallow and Meadow.
 
 ## Fallow Syntax Colors
 
-These colors are identical across all editors (VSCode, Helix, Zed, OpenCode), with or without tints.
+These colors are identical across all editors (VSCode, Helix, Zed, OpenCode).
 
 | Semantic Role | Day Name | Day Hex | Night Name | Night Hex |
 |---|---|---|---|---|
@@ -78,7 +78,7 @@ Meadow also has its own error and info colors, so they don't get mixed up with n
 
 ## Tints
 
-Used in the default versions of VSCode, Helix and Obsidian. These are subtle tints that match each color family.
+Shown in Helix and Obsidian. The VSCode themes include them too, but VSCode doesn't draw background colors behind syntax. These are subtle tints that match each color family.
 
 ### Fallow Day
 
@@ -183,9 +183,9 @@ Fish and FZF use the same syntax colors as the other editors, for each palette. 
 
 ## Editor Support Matrix
 
-| Editor | Fallow | Meadow | Tints and Alt |
+| Editor | Fallow | Meadow | Tints |
 |---|---|---|---|
-| VSCode | yes | yes | yes |
+| VSCode | yes | yes | included, not shown |
 | Helix | yes | yes | yes |
 | Obsidian | yes | yes | yes |
 | Zed | yes | yes | no |
@@ -197,12 +197,12 @@ Fish and FZF use the same syntax colors as the other editors, for each palette. 
 | Fish | yes | yes | no |
 | FZF | yes | yes | no |
 
-Editors that can't put backgrounds behind syntax get a single version per palette and mode, named without Alt.
+Editors that can't put backgrounds behind syntax get the same theme without the tints.
 
 ## Notes
 
 - Comment uses separate day (`#6e665a`) and night (`#968e7f`) values. Each clears WCAG AA 4.5:1 on every background it renders on, including the active line. One shared value cannot meet AA on both day and night.
 - Within a palette, ANSI terminal colors are identical across all terminal-capable editors (Wezterm, Ghostty, Alacritty, Kitty, VSCode, Zed).
-- A theme and its Alt version always use the same foreground colors. The tints only add backgrounds.
+- The tints only add backgrounds. Text colors are the same in every editor, with or without tints.
 - In VSCode and Zed, Meadow keeps Fallow's UI colors. Syntax, terminal, error and info colors change.
 - All six Meadow syntax hues share the same lightness. That keeps any one of them from standing out, but it also means lightness can't help tell them apart, which matters for colorblind users (see the FAQ in the README).
