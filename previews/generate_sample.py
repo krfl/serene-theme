@@ -4,7 +4,7 @@ real editor backgrounds and (for clarity variants) the tint backgrounds behind
 colored tokens.
 
 Run:  python3 previews/generate_sample.py
-Out:  previews/syntax-sample.svg
+Out:  previews/syntax-sample-fallow.svg, previews/syntax-sample-meadow.svg
 """
 
 import os
@@ -16,7 +16,7 @@ import serene_palette
 #        st string, nu number, cn constant, op operator, pu punctuation,
 #        va variable, pr property, ws whitespace.
 LINES = [
-    [("cm", "// Serene theme syntax highlighting sample")],
+    [("cm", "// Serene syntax highlighting sample")],
     [],
     [("kw", "import"), ("ws", " "), ("pu", "{"), ("ws", " "), ("fn", "readFile"),
      ("ws", " "), ("pu", "}"), ("ws", " "), ("kw", "from"), ("ws", " "), ("st", '"fs/promises"')],
@@ -46,7 +46,6 @@ LINES = [
 
 # --- Color tables ----------------------------------------------------------
 # Built from palette.toml via serene_palette; no hex is hardcoded here.
-_R = serene_palette.resolve()
 DAY_BG, NIGHT_BG = serene_palette.backgrounds()
 
 # short token code -> serene_palette role (pr/property shares variable, fg is body)
@@ -56,13 +55,19 @@ _CODE_ROLE = {
     "op": "operator", "pu": "punctuation", "va": "variable", "pr": "variable",
     "fg": "body",
 }
-DAY = {code: _R[role]["day"] for code, role in _CODE_ROLE.items()}
-NIGHT = {code: _R[role]["night"] for code, role in _CODE_ROLE.items()}
+# tints exist only for these token codes
+_TINT_CODES = ("st", "kw", "fn", "ty", "nu", "cn", "fl")
 
-# clarity tints exist only for these token codes
-_CLARITY_CODES = ("st", "kw", "fn", "ty", "nu", "cn", "fl")
-CLAR_DAY = {c: _R[_CODE_ROLE[c]]["day_clarity"] for c in _CLARITY_CODES}
-CLAR_NIGHT = {c: _R[_CODE_ROLE[c]]["night_clarity"] for c in _CLARITY_CODES}
+
+def colors(name):
+    """(day_fg, night_fg, day_tint, night_tint) maps for one palette."""
+    r = serene_palette.resolve(name)
+    day = {code: r[role]["day"] for code, role in _CODE_ROLE.items()}
+    night = {code: r[role]["night"] for code, role in _CODE_ROLE.items()}
+    day_tint = {c: r[_CODE_ROLE[c]]["day_clarity"] for c in _TINT_CODES}
+    night_tint = {c: r[_CODE_ROLE[c]]["night_clarity"] for c in _TINT_CODES}
+    return day, night, day_tint, night_tint
+
 
 # --- Layout ----------------------------------------------------------------
 W = 1012
@@ -117,7 +122,9 @@ def panel(px, py, title, base_bg, fg, clarity_bg, is_night):
     return "\n".join(out)
 
 
-def build_svg(day_fg, night_fg, heading, subtitle):
+def build_svg(name, heading, subtitle):
+    day_fg, night_fg, day_tint, night_tint = colors(name)
+    title = name.capitalize()
     py0 = HEADER
     py1 = HEADER + PANEL_H + 28
     height = py1 + PANEL_H + 56
@@ -129,26 +136,26 @@ def build_svg(day_fg, night_fg, heading, subtitle):
         f'<text x="24" y="60" font-size="13" fill="{MUTED}">{esc(subtitle)}</text>',
     ]
     c0, c1 = 24, 24 + PANEL_W + GAP
-    parts.append(panel(c0, py0, "Day (Regular)", DAY_BG, day_fg, None, False))
-    parts.append(panel(c1, py0, "Day (Clarity)", DAY_BG, day_fg, CLAR_DAY, False))
-    parts.append(panel(c0, py1, "Night (Regular)", NIGHT_BG, night_fg, None, True))
-    parts.append(panel(c1, py1, "Night (Clarity)", NIGHT_BG, night_fg, CLAR_NIGHT, True))
+    parts.append(panel(c0, py0, f"{title} Day", DAY_BG, day_fg, day_tint, False))
+    parts.append(panel(c1, py0, f"{title} Day Alt", DAY_BG, day_fg, None, False))
+    parts.append(panel(c0, py1, f"{title} Night", NIGHT_BG, night_fg, night_tint, True))
+    parts.append(panel(c1, py1, f"{title} Night Alt", NIGHT_BG, night_fg, None, True))
     parts.append(f'<text x="24" y="{height - 22}" font-size="11.5" fill="{MUTED}">'
-                 f'Regular = foreground colors only · Clarity = subtle tint behind '
-                 f'strings, keywords, functions, types, numbers, constants and flow-control.</text>')
+                 f'The default puts a soft tint behind strings, keywords, functions, types, '
+                 f'numbers, constants and flow control. Alt leaves it out.</text>')
     parts.append("</svg>")
     return "\n".join(parts) + "\n"
 
 
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(here, "syntax-sample.svg")
-    heading = "Serene syntax sample"
-    subtitle = ("Same snippet across all four variants, on the real editor "
+    subtitle = ("Same snippet in Day and Night, with and without tints, on the real editor "
                 "backgrounds. Every key token meets WCAG AA (4.5:1).")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(build_svg(DAY, NIGHT, heading, subtitle))
-    print(f"Wrote {os.path.relpath(path)}")
+    for name in serene_palette.ROLE_KEYS:
+        path = os.path.join(here, f"syntax-sample-{name}.svg")
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(build_svg(name, f"Serene {name.capitalize()} syntax sample", subtitle))
+        print(f"Wrote {os.path.relpath(path)}")
 
 
 if __name__ == "__main__":

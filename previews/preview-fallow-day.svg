@@ -13,8 +13,8 @@
 
   <rect width="1200" height="630" fill="#f5f2ed"/>
 
-  <text x="80" y="100" class="sans title" fill="#3d3a33">SERENE DAY</text>
-  <text x="80" y="135" class="sans subtitle" fill="#6e665a">A warm light theme</text>
+  <text x="80" y="100" class="sans title" fill="#3d3a33">SERENE FALLOW DAY</text>
+  <text x="80" y="135" class="sans subtitle" fill="#6e665a">A warm light theme in earth tones</text>
 
   <g transform="translate(80, 200)">
     <rect x="0" y="0" width="90" height="90" rx="8" fill="#f5f2ed" stroke="#6e665a" stroke-width="1.5"/>

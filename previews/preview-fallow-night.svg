@@ -13,8 +13,8 @@
 
   <rect width="1200" height="630" fill="#1e1d1a"/>
 
-  <text x="80" y="100" class="sans title" fill="#d4cfc4">SERENE NIGHT</text>
-  <text x="80" y="135" class="sans subtitle" fill="#968e7f">A warm dark theme</text>
+  <text x="80" y="100" class="sans title" fill="#d4cfc4">SERENE FALLOW NIGHT</text>
+  <text x="80" y="135" class="sans subtitle" fill="#968e7f">A warm dark theme in earth tones</text>
 
   <g transform="translate(80, 200)">
     <rect x="0" y="0" width="90" height="90" rx="8" fill="#1e1d1a" stroke="#968e7f" stroke-width="1.5"/>

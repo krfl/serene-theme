@@ -1,11 +1,13 @@
 # Serene fzf Themes
 
-Two warm, earthy color schemes for [fzf](https://github.com/junegunn/fzf) (fuzzy finder).
+Color schemes for [fzf](https://github.com/junegunn/fzf) (fuzzy finder). Fallow uses warm earth tones and Meadow uses muted colors from the whole color wheel.
 
 ## Available Themes
 
-- **serene-fallow-day.sh** - Light theme with warm earth tones, perfect for daytime use
-- **serene-fallow-night.sh** - Dark theme with muted, comfortable colors for nighttime use
+- **serene-fallow-day.sh** - Light theme with warm earth tones
+- **serene-fallow-night.sh** - Dark theme with warm earth tones
+- **serene-meadow-day.sh** - Light theme with muted colors from the whole color wheel
+- **serene-meadow-night.sh** - Dark theme with muted colors from the whole color wheel
 
 ## Installation
 
@@ -19,6 +21,9 @@ source /path/to/serene-theme/themes/fzf/serene-fallow-day.sh
 
 # For serene-fallow-night
 source /path/to/serene-theme/themes/fzf/serene-fallow-night.sh
+
+# Meadow works the same way
+source /path/to/serene-theme/themes/fzf/serene-meadow-day.sh
 ```
 
 ### Option 2: Copy the color settings directly

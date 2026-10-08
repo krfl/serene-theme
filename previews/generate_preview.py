@@ -3,7 +3,7 @@
 from palette.toml, so swatches never drift from the source of truth.
 
 Run:  python3 previews/generate_preview.py
-Out:  previews/preview-day.svg, previews/preview-dark.svg
+Out:  previews/preview-{fallow,meadow}-{day,night}.svg
 """
 
 import os
@@ -12,35 +12,47 @@ import serene_palette
 
 # Each swatch maps a label to a palette (section, key). Order fills a 6-wide
 # grid, row by row. Keys are the canonical roles documented in COLOR_GUIDE.md.
-SWATCHES = [
-    ("Background", "aged-paper",      "deep-earth"),
-    ("Foreground", "warm-ink",        "parchment"),
-    ("String",     "forest",          "meadow-sage"),
-    ("Keyword",    "olive",           "golden-moss"),
-    ("Function",   "bronze",          "honey"),
-    ("Type",       "caramel",         "warm-tan"),
-    ("Number",     "clay",            "copper"),
-    ("Operator",   "charcoal",        "worn-leather"),
-    ("Comment",    "weathered-stone", "weathered-stone"),
-    ("Error",      "terracotta",      "sunset-clay"),
-    ("Selection",  "golden-sand",     "warm-umber"),
-]
+SWATCHES = {
+    "fallow": [
+        ("Background", "aged-paper",      "deep-earth"),
+        ("Foreground", "warm-ink",        "parchment"),
+        ("String",     "forest",          "meadow-sage"),
+        ("Keyword",    "olive",           "golden-moss"),
+        ("Function",   "bronze",          "honey"),
+        ("Type",       "caramel",         "warm-tan"),
+        ("Number",     "clay",            "copper"),
+        ("Operator",   "charcoal",        "worn-leather"),
+        ("Comment",    "weathered-stone", "weathered-stone"),
+        ("Error",      "terracotta",      "sunset-clay"),
+        ("Selection",  "golden-sand",     "warm-umber"),
+    ],
+    "meadow": [
+        ("Background", "aged-paper",      "deep-earth"),
+        ("Foreground", "warm-ink",        "parchment"),
+        ("String",     "leaf",            "leaf"),
+        ("Keyword",    "plum",            "plum"),
+        ("Function",   "slate-blue",      "slate-blue"),
+        ("Type",       "ochre",           "ochre"),
+        ("Number",     "cinnamon",        "cinnamon"),
+        ("Namespace",  "spruce",          "spruce"),
+        ("Operator",   "charcoal",        "worn-leather"),
+        ("Comment",    "weathered-stone", "weathered-stone"),
+        ("Error",      "rosewood",        "rosewood"),
+        ("Selection",  "golden-sand",     "warm-umber"),
+    ],
+}
+
+SUBTITLES = {
+    "fallow": {"day": "A warm light theme in earth tones", "night": "A warm dark theme in earth tones"},
+    "meadow": {"day": "A light theme with muted colors from the whole color wheel",
+               "night": "A dark theme with muted colors from the whole color wheel"},
+}
 
 THEMES = [
-    {
-        "out": "preview-day.svg",
-        "section": "day",
-        "swatch_key": 1,                 # index into the (day, night) key pair
-        "title": "SERENE DAY",
-        "subtitle": "A warm light theme",
-    },
-    {
-        "out": "preview-dark.svg",
-        "section": "night",
-        "swatch_key": 2,
-        "title": "SERENE NIGHT",
-        "subtitle": "A warm dark theme",
-    },
+    {"name": name, "section": section, "swatch_key": 1 if section == "day" else 2,
+     "out": f"preview-{name}-{section}.svg", "title": f"SERENE {name.upper()} {section.upper()}",
+     "subtitle": SUBTITLES[name][section]}
+    for name in SWATCHES for section in ("day", "night")
 ]
 
 NOTES = ["Warm, muted colors", "No pure white or black",
@@ -78,7 +90,7 @@ def build_svg(theme, palette):
         '  <g transform="translate(80, 200)">',
     ]
 
-    for i, (label, day_key, night_key) in enumerate(SWATCHES):
+    for i, (label, day_key, night_key) in enumerate(SWATCHES[theme["name"]]):
         key = (day_key, night_key)[ki - 1]
         color = sec[key]
         col, row = i % 6, i // 6
