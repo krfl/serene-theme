@@ -219,7 +219,7 @@
 .theme-light .token.constant,
 .theme-light .token.symbol,
 .theme-light .token.deleted {
-  color: {{day.plum}};
+  color: {{day.rosewood}};
 }
 
 .theme-light .token.number {
@@ -291,7 +291,7 @@
 .theme-dark .token.constant,
 .theme-dark .token.symbol,
 .theme-dark .token.deleted {
-  color: {{night.plum}};
+  color: {{night.rosewood}};
 }
 
 .theme-dark .token.number {

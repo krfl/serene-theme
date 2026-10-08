@@ -18,6 +18,7 @@
 "string" = "leaf"
 "string.regexp" = "charcoal"
 "string.special" = "charcoal"
+"string.special.symbol" = "cinnamon"
 "comment" = { fg = "comment", modifiers = ["italic"] }
 "comment.line" = { fg = "comment", modifiers = ["italic"] }
 "comment.block" = { fg = "comment", modifiers = ["italic"] }
@@ -71,7 +72,7 @@
 "markup.link.url" = { fg = "plum", modifiers = ["underlined"] }
 "markup.link.label" = "charcoal"
 "markup.link.text" = "plum"
-"markup.quote" = "comment"
+"markup.quote" = { fg = "comment", modifiers = ["italic"] }
 "markup.raw" = "leaf"
 "markup.raw.inline" = "leaf"
 "markup.raw.block" = "leaf"
@@ -108,6 +109,8 @@
 "ui.statusline.insert" = { fg = "background", bg = "leaf" }
 "ui.statusline.select" = { fg = "background", bg = "plum" }
 "ui.statusline.separator" = "border"
+"ui.bufferline" = { fg = "comment", bg = "status_bg" }
+"ui.bufferline.active" = { fg = "foreground", bg = "background", modifiers = ["bold"] }
 "ui.popup" = { fg = "foreground", bg = "border" }
 "ui.popup.info" = { fg = "foreground", bg = "border" }
 "ui.window" = { fg = "border", bg = "background" }

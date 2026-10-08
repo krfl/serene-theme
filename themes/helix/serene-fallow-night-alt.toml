@@ -12,12 +12,13 @@
 "constant" = "terracotta"
 "constant.builtin" = "terracotta"
 "constant.builtin.boolean" = "terracotta"
-"constant.character" = "terracotta"
+"constant.character" = "sage"
 "constant.character.escape" = "stone"
 "constant.numeric" = "terracotta"
 "string" = "sage"
 "string.regexp" = "stone"
 "string.special" = "stone"
+"string.special.symbol" = "terracotta"
 "comment" = { fg = "comment", modifiers = ["italic"] }
 "comment.line" = { fg = "comment", modifiers = ["italic"] }
 "comment.block" = { fg = "comment", modifiers = ["italic"] }
@@ -71,7 +72,7 @@
 "markup.link.url" = { fg = "olive", modifiers = ["underlined"] }
 "markup.link.label" = "stone"
 "markup.link.text" = "olive"
-"markup.quote" = "comment"
+"markup.quote" = { fg = "comment", modifiers = ["italic"] }
 "markup.raw" = "sage"
 "markup.raw.inline" = "sage"
 "markup.raw.block" = "sage"
@@ -108,6 +109,8 @@
 "ui.statusline.insert" = { fg = "background", bg = "sage" }
 "ui.statusline.select" = { fg = "background", bg = "olive" }
 "ui.statusline.separator" = "border"
+"ui.bufferline" = { fg = "comment", bg = "status_bg" }
+"ui.bufferline.active" = { fg = "foreground", bg = "background", modifiers = ["bold"] }
 "ui.popup" = { fg = "foreground", bg = "border" }
 "ui.popup.info" = { fg = "foreground", bg = "border" }
 "ui.window" = { fg = "border", bg = "background" }

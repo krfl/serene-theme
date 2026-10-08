@@ -241,6 +241,18 @@
           "punctuation.special": {
             "color": "{{night.sandstone}}"
           },
+          "punctuation.list_marker": {
+            "color": "{{night.sandstone}}"
+          },
+          "text.literal": {
+            "color": "{{night.leaf}}"
+          },
+          "string.special.symbol": {
+            "color": "{{night.cinnamon}}"
+          },
+          "embedded": {
+            "color": "{{night.parchment}}"
+          },
           "emphasis": {
             "color": "{{night.ochre}}",
             "font_style": "italic"
@@ -518,6 +530,18 @@
           },
           "punctuation.special": {
             "color": "{{day.pebble}}"
+          },
+          "punctuation.list_marker": {
+            "color": "{{day.charcoal}}"
+          },
+          "text.literal": {
+            "color": "{{day.leaf}}"
+          },
+          "string.special.symbol": {
+            "color": "{{day.cinnamon}}"
+          },
+          "embedded": {
+            "color": "{{day.warm-ink}}"
           },
           "emphasis": {
             "color": "{{day.ochre}}",

@@ -219,7 +219,7 @@
 .theme-light .token.constant,
 .theme-light .token.symbol,
 .theme-light .token.deleted {
-  color: #7d5371;
+  color: #86534c;
 }
 
 .theme-light .token.number {
@@ -291,7 +291,7 @@
 .theme-dark .token.constant,
 .theme-dark .token.symbol,
 .theme-dark .token.deleted {
-  color: #bf94b2;
+  color: #c9948d;
 }
 
 .theme-dark .token.number {

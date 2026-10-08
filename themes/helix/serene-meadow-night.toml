@@ -18,6 +18,7 @@
 "string" = { fg = "leaf", bg = "string_bg" }
 "string.regexp" = "stone"
 "string.special" = "stone"
+"string.special.symbol" = { fg = "cinnamon", bg = "cinnamon_bg" }
 "comment" = { fg = "comment", modifiers = ["italic"] }
 "comment.line" = { fg = "comment", modifiers = ["italic"] }
 "comment.block" = { fg = "comment", modifiers = ["italic"] }
@@ -108,6 +109,8 @@
 "ui.statusline.insert" = { fg = "background", bg = "leaf" }
 "ui.statusline.select" = { fg = "background", bg = "plum" }
 "ui.statusline.separator" = "border"
+"ui.bufferline" = { fg = "comment", bg = "status_bg" }
+"ui.bufferline.active" = { fg = "foreground", bg = "background", modifiers = ["bold"] }
 "ui.popup" = { fg = "foreground", bg = "border" }
 "ui.popup.info" = { fg = "foreground", bg = "border" }
 "ui.window" = { fg = "border", bg = "background" }

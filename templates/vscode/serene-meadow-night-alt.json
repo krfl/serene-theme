@@ -208,7 +208,7 @@
     },
     {
       "name": "Namespace",
-      "scope": ["entity.name.namespace"],
+      "scope": ["entity.name.namespace", "entity.name.module"],
       "settings": {
         "foreground": "{{night.spruce}}"
       }
